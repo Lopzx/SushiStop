@@ -1,11 +1,13 @@
 <script setup lang="ts">
-  import Nav from './components/NavBar.vue'
+  import Nav from './components/NavBar.vue';
+  import Foot from './components/FootBar.vue'; 
+  import Main from './components/pages/Main.vue';
+import { RouterView } from 'vue-router';
+  
 </script>
 
 <template>
-  <main class="font-main">
-    <Nav />
-  </main>
-
+  <Nav />
+    <RouterView/>
+  <Foot />
 </template>
-
