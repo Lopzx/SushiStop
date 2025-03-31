@@ -5,7 +5,11 @@ import Carousel from 'primevue/carousel';
 
 onMounted(() => {
     banner.value = [
-      '/carouselimage/image13.png'
+      '/carouselimage/image13.png',
+      '/carouselimage/image13.png',
+      '/carouselimage/image13.png',
+      '/carouselimage/image13.png',
+      '/carouselimage/image13.png',
     ]
 })
 
