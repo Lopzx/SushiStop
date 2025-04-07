@@ -98,7 +98,9 @@ const responsiveOptions = ref([
               <div class="flex items-center mb-8 lg:mb-0">
                 <div class="flex flex-col items-center relative">
                 <span class="text-lg text-red-main-1 font-bold absolute -left-15 -translate-y-1/2 top-1/2 lg:left-1/2 transform lg:-translate-x-1/2 lg:-top-10">2020</span>
-                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">1</div>
+                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">
+                  <img src="/image/icons/mascots/mascot1.png" alt="Icon 1" class="w-8">
+                </div>
                 <span class="text-xs text-red-main-1 font-semibold mt-2 absolute left-10/8 -translate-y-1/2 lg:left-auto lg:top-auto  left-1/2 top-1/2   lg:-bottom-10">Start</span>
                 </div>
               </div>
@@ -106,7 +108,9 @@ const responsiveOptions = ref([
               <div class="flex items-center mb-8 lg:mb-0">
                 <div class="flex flex-col items-center relative">
                 <span class="text-lg text-red-main-1 font-bold absolute -left-15 -translate-y-1/2 top-1/2 lg:left-1/2 transform lg:-translate-x-1/2 lg:-top-10">2021</span>
-                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">2</div>
+                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">
+                  <img src="/image/icons/mascots/mascot2.png" alt="Icon 1" class="h-8">
+                </div>
                 <span class="text-xs text-red-main-1 font-semibold mt-2 absolute left-10/8 -translate-y-1/2 lg:left-auto lg:top-auto  left-1/2 top-1/2   lg:-bottom-10">Growth</span>
                 </div>
               </div>
@@ -114,7 +118,9 @@ const responsiveOptions = ref([
               <div class="flex items-center mb-8 lg:mb-0">
                 <div class="flex flex-col items-center relative">
                 <span class="text-lg text-red-main-1 font-bold absolute -left-15 -translate-y-1/2 top-1/2 lg:left-1/2 transform lg:-translate-x-1/2 lg:-top-10">2022</span>
-                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">3</div>
+                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">
+                  <img src="/image/icons/mascots/mascot3.png" alt="Icon 1" class="h-8">
+                </div>
                 <span class="text-xs text-red-main-1 font-semibold mt-2 absolute left-10/8 -translate-y-1/2 lg:left-auto lg:top-auto  left-1/2 top-1/2   lg:-bottom-10">Expansion</span>
                 </div>
               </div>
@@ -122,7 +128,9 @@ const responsiveOptions = ref([
               <div class="flex items-center mb-8 lg:mb-0">
                 <div class="flex flex-col items-center relative">
                 <span class="text-lg text-red-main-1 font-bold absolute -left-15 -translate-y-1/2 top-1/2 lg:left-1/2 transform lg:-translate-x-1/2 lg:-top-10">2023</span>
-                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">4</div>
+                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">
+                  <img src="/image/icons/mascots/mascot4.png" alt="Icon 1" class="h-8">
+                </div>
                 <span class="text-xs text-red-main-1 font-semibold mt-2 absolute left-10/8 -translate-y-1/2 lg:left-auto lg:top-auto  left-1/2 top-1/2   lg:-bottom-10">Innovation</span>
                 </div>
               </div>
@@ -130,7 +138,9 @@ const responsiveOptions = ref([
               <div class="flex items-center mb-8 lg:mb-0">
                 <div class="flex flex-col items-center relative">
                 <span class="text-lg text-red-main-1 font-bold absolute -left-15 -translate-y-1/2 top-1/2 lg:left-1/2 transform lg:-translate-x-1/2 lg:-top-10">2024</span>
-                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">5</div>
+                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">
+                  <img src="/image/icons/mascots/mascot5.png" alt="Icon 1" class="h-8">
+                </div>
                 <span class="text-xs text-red-main-1 font-semibold mt-2 absolute left-10/8 -translate-y-1/2 lg:left-auto lg:top-auto  left-1/2 top-1/2   lg:-bottom-10">Milestone</span>
                 </div>
               </div>
@@ -138,7 +148,9 @@ const responsiveOptions = ref([
               <div class="flex items-center mb-8 lg:mb-0">
                 <div class="flex flex-col items-center relative">
                 <span class="text-lg text-red-main-1 font-bold absolute -left-15 -translate-y-1/2 top-1/2 lg:left-1/2 transform lg:-translate-x-1/2 lg:-top-10">2025</span>
-                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">6</div>
+                <div class="w-16 h-16 bg-red-main-1 rounded-full flex items-center justify-center text-white font-bold py-2">
+                  <img src="/image/icons/mascots/mascot6.png" alt="Icon 1" class="h-8">
+                </div>
                 <span class="text-xs text-red-main-1 font-semibold mt-2 absolute left-10/8 -translate-y-1/2 lg:left-auto lg:top-auto  left-1/2 top-1/2   lg:-bottom-10">Future</span>
                 </div>
               </div>
