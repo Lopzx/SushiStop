@@ -25,7 +25,7 @@
               <RouterLink to="/" class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 font-bold" aria-current="page">Home</RouterLink>
               </li>
               <li class="px-4 py-2 rounded-sm hover:bg-yellow-main-2">
-              <RouterLink to="/about" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Menu</RouterLink>
+              <RouterLink to="/menu" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Menu</RouterLink>
               </li>
               <li class="px-4 py-2 rounded-sm hover:bg-yellow-main-2">
               <RouterLink to="/mitra" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Kemitraan</RouterLink>  
