@@ -22,7 +22,7 @@
       </div>
     </div>
     <div class="flex justify-center items-end self-end">
-      <img class="h-92" src="/image/staff.png" alt="Sushi" />
+      
     </div>
   </div>
 </template>

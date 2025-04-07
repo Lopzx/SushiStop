@@ -1,35 +1,63 @@
+<script setup lang="ts">
+  import { ref } from 'vue'
+
+  const openNavbar = ref(false)
+  
+</script>
+
 
 
 <template>
   <nav class="w-full bg-yellow-main-1">
-    <div class="gap-20 flex flex-wrap items-center justify-center mx-auto py-2 w-full">
-      <a href="https://flowbite.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/icons/LogoNavbar.png" class="h-16" alt="Flowbite Logo" />
+    <div class="xl:gap-20 flex flex-wrap items-center justify-between px-10 xl:px-40 mx-auto py-6 w-full">
+      <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="/image/icons/Logo.png" class="h-16" alt="Flowbite Logo" />
       </a>
-      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex gap-4 items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2" aria-controls="navbar-default" aria-expanded="false">
+      <button @click="openNavbar = !openNavbar" data-collapse-toggle="navbar-default" type="button" class="inline-flex gap-4 items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2" aria-controls="navbar-default" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
           </svg>
       </button>
-      <div class="hidden w-full md:block md:w-auto text-white" id="navbar-default">
-           <ul class="gap-4  flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 font-bold">
+      <div class="hidden w-full md:block md:w-auto text-black-main-1" id="navbar-default">
+           <ul class="gap-4  flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 font-medium">
               <li class="bg-yellow-main-2 px-4 py-2 rounded-sm">
-              <RouterLink to="/" class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 " aria-current="page">Home</RouterLink>
+              <RouterLink to="/" class="block py-2 px-3 rounded-sm md:bg-transparent md:p-0 font-bold" aria-current="page">Home</RouterLink>
               </li>
               <li class="px-4 py-2 rounded-sm hover:bg-yellow-main-2">
-              <RouterLink to="/about" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">About</RouterLink>
+              <RouterLink to="/about" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Menu</RouterLink>
               </li>
               <li class="px-4 py-2 rounded-sm hover:bg-yellow-main-2">
-              <RouterLink to="/mitra" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Mitra</RouterLink>  
+              <RouterLink to="/mitra" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Kemitraan</RouterLink>  
               </li>
               <li class="px-4 py-2 rounded-sm hover:bg-yellow-main-2">
-              <RouterLink to="/pricing" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Pricing</RouterLink>
+              <RouterLink to="/contact" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Cari Kami</RouterLink>
               </li>
-              <li class="px-4 py-2 rounded-sm hover:bg-yellow-main-2">
-              <RouterLink to="/contact" class="block py-2 px-3 rounded-sm md:hover:bg-transparent md:border-0 md:p-0">Contact</RouterLink>
+            </ul>  
+          </div>
+        </div>
+        <div v-if="openNavbar" class="fixed animate__animated animate__fadeInRight inset-0 bg-yellow-main-1 z-40 flex items-center justify-center">
+          <div class="bg-yellow-main-1 w-full h-full flex flex-col items-center justify-center relative">
+            <button @click="openNavbar = false" class="absolute top-4 right-4 text-gray-500 hover:text-black-main-1 focus:outline-none">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <ul class="space-y-4 text-center text-lg font-medium">
+              <li>
+          <RouterLink to="/" @click="openNavbar = false" class="text-black-main-1 hover:text-white">Home</RouterLink>
               </li>
-            </ul>  </div>
+              <li>
+          <RouterLink to="/about" @click="openNavbar = false" class="text-black-main-1 hover:text-white">Menu</RouterLink>
+              </li>
+              <li>
+          <RouterLink to="/mitra" @click="openNavbar = false" class="text-black-main-1 hover:text-white">Kemitraan</RouterLink>
+              </li>
+              <li>
+          <RouterLink to="/contact" @click="openNavbar = false" class="text-black-main-1 hover:text-white">Cari Kami</RouterLink>
+              </li>
+            </ul>
+          </div>
         </div>
   </nav>
 </template>

@@ -3,50 +3,33 @@
 import { ref, onMounted } from "vue";
 import Carousel from 'primevue/carousel';
 
+
 onMounted(() => {
     banner.value = [
       {
-        image: '/icons/profile1.png',
-        title: 'Alexandra Tan',
-        description: 'Pelayanan di sini sangat ramah dan cepat. Sushi-nya juga segar dan lezat!',
-        badge: 'Cabang Central Park',
-        tag: 'Food Blogger'
+        title: 'Aurel Hermansyah (Public Figure)',
+        description: 'Sushinya enaakk! Enak-enak semua banyak variant jadi pengen coba-coba yang lain.'
       },
       {
-        image: '/icons/profile2.png',
-        title: 'Michael Wijaya',
-        description: 'Tempat yang nyaman untuk makan bersama keluarga. Menu sushi-nya sangat variatif.',
-        badge: 'Cabang Kelapa Gading',
-        tag: 'Chef'
+        title: 'Tyas Mirasih (Public Figure)',
+        description: 'Aku ambil yang paketan jadi udah termasuk minumannya, Rasanya enak banget!!! Crunchy didalam! Menunya juga banyak banget!'
       },
       {
-        image: '/icons/profile3.png',
-        title: 'Stephanie Lim',
-        description: 'Sushi terbaik yang pernah saya coba! Sangat puas dengan kualitas dan rasanya.',
-        badge: 'Cabang Senayan',
-        tag: 'Traveler'
+        title: 'Vinny Laurencia (Food Vlogger)',
+        description: 'Banyak banget variannya! Rasa sushinya enak semua! Harganya juga terjangkau, worth it banget!'
       },
       {
-        image: '/icons/profile3.png',
-        title: 'Jonathan Pratama',
-        description: 'Harga terjangkau dengan kualitas yang luar biasa. Pasti akan kembali lagi!',
-        badge: 'Cabang BSD',
-        tag: 'Entrepreneur'
+        title: 'Aurel Hermansyah (Public Figure)',
+        description: 'Sushinya enaakk! Enak-enak semua banyak variant jadi pengen coba-coba yang lain.'
       },
       {
-        image: '/icons/profile2.png',
-        title: 'Catherine Wong',
-        description: 'Sushi di sini benar-benar memanjakan lidah. Sangat direkomendasikan!',
-        badge: 'Cabang PIK',
-        tag: 'Food Enthusiast'
+        title: 'Tyas Mirasih (Public Figure)',
+        description: 'Aku ambil yang paketan jadi udah termasuk minumannya, Rasanya enak banget!!! Crunchy didalam! Menunya juga banyak banget!'
       },
       {
-        image: '/icons/profile1.png',
-        title: 'David Santoso',
-        description: 'Tempat favorit saya untuk menikmati sushi. Selalu puas dengan pelayanannya.',
-        badge: 'Cabang Thamrin',
-        tag: 'Photographer'
-      },
+        title: 'Vinny Laurencia (Food Vlogger)',
+        description: 'Banyak banget variannya! Rasa sushinya enak semua! Harganya juga terjangkau, worth it banget!'
+      }
     ]
 })
 
@@ -56,12 +39,12 @@ const banner = ref();
 const responsiveOptions = ref([
     {
         breakpoint: '1400px',
-        numVisible: 1,
+        numVisible: 3,
         numScroll: 1
     },
     {
         breakpoint: '1199px',
-        numVisible: 1,
+        numVisible: 3,
         numScroll: 1
     },
     {
@@ -79,46 +62,55 @@ const responsiveOptions = ref([
 </script>
 
 <template>
-  <h1 class="text-red-main-1 text-center text-5xl font-bold pb-10">What people say about us?</h1>
-  <div class="card pb-20">
+  <div>
+    <div class="text-center pt-20">
+    <h1 class="text-red-main-1 text-2xl lg:text-5xl font-bold inline-block align-top">KATA MANTAN KAMI</h1>
+    <span class="text-red-main-1 text-sm lg:text-xl font-semibold align-top">* Pelanggan</span>
+  </div>
+  <div class="card py-20">
       <Carousel
         ref="carouselRef" 
         :value="banner" 
         :numVisible="3" 
-        :numScroll="3" 
+        :numScroll="1" 
         :responsiveOptions="responsiveOptions" 
         circular 
         :autoplayInterval="5000" 
+        pt:indicatorList:class="pt-20"
         :showNavigators="false">
           <template #item="slotProps">
-            <div class="flex justify-center items-center">
-              <div class="card bg-red-main-1  shadow-sm resizer w-92">
-                <figure class="pt-5">
+            <div class="w-full flex justify-center items-center">
+              <div class="card bg-yellow-main-2 w-5/6  shadow-sm resizer">
+                <div class="pl-5 justify-start pl pt-5 flex gap-1">
                   <img
-                    :src="slotProps.data.image"
-                    class="w-40"
-                    alt="Shoes" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title text-white-main-1">
+                    src="/image/icons/Star.png" class="w-5" alt="Shoes" />
+                    <img
+                    src="/image/icons/Star.png" class="w-5" alt="Shoes" />
+                    <img
+                    src="/image/icons/Star.png" class="w-5" alt="Shoes" />
+                    <img
+                    src="/image/icons/Star.png" class="w-5" alt="Shoes" />
+                    <img
+                    src="/image/icons/Star.png" class="w-5" alt="Shoes" />
+                </div>
+                <div class="p-5 pt-2 text-black-main-1">
+                  <h2 class="card-title">
                     {{slotProps.data.title}}
-                    <div class="badge badge-secondary bg-red-main-2 border-none">{{slotProps.data.tag}}</div>
                   </h2>
-                  <p>{{slotProps.data.description}}</p>
-                  <div class="card-actions justify-end">
-                    <div class="badge badge-outline border-red-main-2">{{slotProps.data.badge}}</div>
-                  </div>
+                  <p class="pt-2">{{slotProps.data.description}}</p>
                 </div>
               </div>
             </div>
         </template>
       </Carousel>    
   </div>
+  </div>
 </template>
 
 <style scoped>
 ::v-deep(.p-carousel-indicator-list) {
   display: flex;
+  padding-top: 50px;
   /* transform: translateX(-50%);
   position: absolute;
   bottom: 0;
@@ -126,13 +118,6 @@ const responsiveOptions = ref([
 
 }
 
-::v-deep(.changeicon) {
-  background: url('/icons/CarouselIcon.png') no-repeat !important;
-  background-color: transparent !important;
-  background-size: contain !important;
-  background-position: center !important;
-  
-}
 
 .bg-gray-300 {
   background-color:rgb(173, 173, 173);

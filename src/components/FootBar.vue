@@ -3,28 +3,34 @@
 </script>
 
 <template>
-  <footer class="footer flex justify-between items-center p-4 px-20 bg-yellow-500 text-white text-xl mt-20">
-    <div class="left flex items-center gap-16 space-y-4">
-      <img src="/icons/SushiStop.png" alt="SushiStop Logo" class="logo h-30" />
-      <nav class="sitemap">
-        <ul class="flex flex-col space-y-4">
-            <li class="flex flex-col">
-              <span class="font-bold text-lg">Email</span>
-              <span class="text-lg">emailmarketing@gmail.com</span>
-            </li>
-            <li class="flex flex-col pt-4">
-              <span class="font-bold text-lg">Lokasi</span>
-                <span class="text-lg w-64 break-words mt-2" title="JL LoremIpsum, Dolor sit amet  Jl Pegangsaan No 14 RT01 / RW02 Jakarta, DKI Jakarta 114050">
-                JL LoremIpsum, Dolor sit amet  Jl Pegangsaan No 14 RT01 / RW02 Jakarta, DKI Jakarta 114050
-                </span>
-            </li>
-        </ul>
-      </nav>
+  <div class="bg-yellow-main-1  text-black-main-1 footbar px-5 lg:px-20">
+    <div class="h-5 bg-red-main-1 "></div>
+    <div class="content font-bold text-[8px] flex justify-between py-8 items-center">
+      <div class="social-media flex items-center gap-1">
+        <p>Social Media</p>
+        <div class="icons flex gap-1">
+            <i class="fab fa-facebook">
+              <a href="https://www.facebook.com/sushistop.id/" class="block rounded-sm md:bg-transparent md:p-0 font-bold" aria-current="page" target="_blank" rel="noopener noreferrer">
+              <img src="/image/icons/Facebook.png" alt="Facebook Icon" class="w-4">
+              </a>
+            </i>
+            <i class="fab fa-instagram">
+              <a href="https://www.instagram.com/sushistop.id/?hl=en" class="block rounded-sm md:bg-transparent md:p-0 font-bold" aria-current="page" target="_blank" rel="noopener noreferrer">
+              <img src="/image/icons/Instagram.png" alt="Instagram Icon" class="w-4">
+              </a>
+            </i>
+            <i class="fab fa-tiktok">
+              <a href="https://www.tiktok.com/@sushistop.id?lang=en/" class="block rounded-sm md:bg-transparent md:p-0 font-bold" aria-current="page" target="_blank" rel="noopener noreferrer">
+              <img src="/image/icons/Tiktok.png" alt="TikTok Icon" class="w-4">
+              </a>
+            </i>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2025 • Sushi Stop</p>
+      </div>
     </div>
-    <div class="right self-end">
-      © 2023 SushiStop
-    </div>
-  </footer>
+  </div>
 </template>
 
 <style scoped>

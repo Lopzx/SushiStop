@@ -4,7 +4,6 @@
 
 
 
-
 /* latin-ext */
 @font-face {
   font-family: 'Poppins';
@@ -332,16 +331,14 @@
 
 
 
-
 @theme {
   --font-main: "Poppins";
-  --color-yellow-main-1: #D4A502;
-  --color-yellow-main-2: #BB9205;
-  --color-red-main-1: #A81B0C;
-  --color-red-main-2: #8C1407;
-  --color-white-main-1: #FFFFFF;
-  --color-black-main-1: #2C2C2C;
-  --color-page-bg-main: #F1E9D2;
+  --color-yellow-main-1: #F7C700;
+  --color-yellow-main-2: #FFEA94;
+  --color-red-main-1: #A81A0C;
+  /* --color-red-main-2: #8C1407; */
+  --color-white-main-1: #FFFFFF;      
+  --color-black-main-1: #371D27;
 }
 
 body {
