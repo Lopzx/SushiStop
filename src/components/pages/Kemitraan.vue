@@ -367,7 +367,7 @@ Sushi Stop memiliki
           <div class="h-40">
             <img class="h-40" src="/image/kemitraan/money.png" alt="">
           </div>
-          <p class="px-30 font-semibold text-xl lg:px-10 text-center">Peluang bisnis
+          <p class="px-5 font-semibold text-xl lg:px-10 text-center">Peluang bisnis
             yang menguntungkan
             dan investasi berkelanjutan
             cocok untuk Anda yang ingin
@@ -379,7 +379,7 @@ Sushi Stop memiliki
 
             <img class=" h-40" src="/image/kemitraan/gate.png" alt="">
           </div>
-          <p class="px-30 font-semibold text-xl lg:px-10 text-center">Menjalakan usaha
+          <p class="px-5 font-semibold text-xl lg:px-10 text-center">Menjalakan usaha
 dengan brand
 yang sudah dikenal luas</p>
         </div>
@@ -389,7 +389,7 @@ yang sudah dikenal luas</p>
 
             <img class="h-40 w-50" src="/image/kemitraan/mascot1.png" alt="">
           </div>
-          <p class="px-30 font-semibold text-xl lg:px-10 text-center">Punya bisnis kuliner hits
+          <p class="px-5 font-semibold text-xl lg:px-10 text-center">Punya bisnis kuliner hits
 tanpa harus memulai dari O
 dan memanfaatkan tren
 makanan Jepang yang terus
