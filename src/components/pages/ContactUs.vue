@@ -260,7 +260,7 @@ function sendMail() {
   <section
     class="bg-yellow-main-1 lg:p-10 text-black-main-1 flex flex-col items-center justify-center w-full"
   >
-    <h2 class="text-8xl text-red-main-1 font-bold pb-10">HUBUNGI KAMI</h2>
+    <h2 class="text-4xl lg:text-8xl text-red-main-1 font-bold pb-5 lg:pb-10">HUBUNGI KAMI</h2>
     <div>
       <div class="container bg-yellow-main-2 rounded p-5 lg:p-12 mx-auto">
         <div class="lg:flex lg:flex-row flex-col items-start gap-5 lg:h-150 lg:justify-between">
