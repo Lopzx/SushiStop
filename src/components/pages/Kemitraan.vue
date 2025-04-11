@@ -390,7 +390,7 @@ yang sudah dikenal luas</p>
             <img class="h-40 w-50" src="/image/kemitraan/mascot1.png" alt="">
           </div>
           <p class="px-5 font-semibold text-xl lg:px-10 text-center">Punya bisnis kuliner hits
-tanpa harus memulai dari O
+tanpa harus memulai dari 0
 dan memanfaatkan tren
 makanan Jepang yang terus
 berkembang</p>
