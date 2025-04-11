@@ -22,7 +22,6 @@ const routes = [
   { path: '/home', component: Main },
   { path: '/menu', component: Menu },
   { path: '/mitra', component: Kemitraan },
-  { path: '/pricing', component: Main },
   { path: '/contact', component: ContactUs },
 ]
 
