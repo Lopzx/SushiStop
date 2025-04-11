@@ -112,7 +112,7 @@ const openNavbar = ref(false)
           </li>
           <li>
             <RouterLink
-              to="/about"
+              to="/menu"
               @click="openNavbar = false"
               class="text-black-main-1 hover:text-white"
               >Menu</RouterLink
