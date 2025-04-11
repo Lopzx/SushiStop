@@ -2,6 +2,8 @@
 import Accordion from 'primevue/accordion'
 import AccordionTab from 'primevue/accordiontab'
 import { ref, useTemplateRef } from 'vue'
+import emailjs from '@emailjs/browser'
+import { Notivue, Notification, push, NotificationProgress } from 'notivue'
 
 const tabs = ref([
   {
@@ -206,226 +208,278 @@ const Maps = useTemplateRef('Maps')
 //   observer.observe(viewMap.value.href)
 //   console.log(viewMap.value)
 // })
+
+const firstName = ref('')
+const lastName = ref('')
+const whatsapp = ref('')
+const email1 = ref('')
+const subject = ref('')
+const pesan = ref('')
+
+emailjs.init({ publicKey: 'nMbT1rYxofp1KmPdN' })
+
+function sendMail() {
+  const templateParams = {
+    nama: firstName.value + ' ' + lastName.value,
+    nowa: whatsapp.value,
+    email: email1.value,
+    subject: subject.value,
+    message: pesan.value,
+  }
+
+  if (
+    firstName.value == '' ||
+    lastName.value == '' ||
+    whatsapp.value == '' ||
+    email1.value == '' ||
+    subject.value == '' ||
+    pesan.value == ''
+  ) {
+    console.log(templateParams)
+    push.error('Mohon isi semua data sebelum menekan kirim')
+    return
+  }
+
+  emailjs.send('service_kqv7d61', 'template_585ldz3', templateParams).then(
+    () => {
+      push.success('Email berhasil dikirim')
+    },
+    () => {
+      push.error('Email gagal dikirim')
+    },
+  )
+}
 </script>
 
 <template>
+  <Notivue v-slot="item">
+    <Notification :item="item">
+      <NotificationProgress :item="item" />
+    </Notification>
+  </Notivue>
   <section
-    class="bg-yellow-main-1 lg:p-20 text-black-main-1 flex items-center justify-center w-full"
+    class="bg-yellow-main-1 lg:p-10 text-black-main-1 flex flex-col items-center justify-center w-full"
   >
-    <div class="container bg-yellow-main-2 rounded p-5 lg:p-12 mx-auto">
-      <div class="lg:flex lg:flex-row flex-col items-start gap-5 lg:h-150 lg:justify-between">
-        <div
-          class="border-red-main-1 border-solid border-2 rounded-xl w-full h-full p-4 lg:p-10 flex flex-col gap-5 justify-between"
-        >
-          <div>
-            <h1 class="text-2xl text-red-main-1 capitalize font-bold lg:text-3xl">
-              Contact Information
-            </h1>
-            <p class="text-xl">Ada pertanyaan? hubungi kami</p>
-          </div>
+    <h2 class="text-8xl text-red-main-1 font-bold pb-10">HUBUNGI KAMI</h2>
+    <div>
+      <div class="container bg-yellow-main-2 rounded p-5 lg:p-12 mx-auto">
+        <div class="lg:flex lg:flex-row flex-col items-start gap-5 lg:h-150 lg:justify-between">
+          <div
+            class="border-red-main-1 border-solid border-2 rounded-xl w-full h-full p-4 lg:p-10 flex flex-col gap-5 justify-between"
+          >
+            <div>
+              <h1 class="text-2xl text-red-main-1 capitalize font-bold lg:text-3xl">
+                Contact Information
+              </h1>
+              <p class="text-xl">Ada pertanyaan? hubungi kami</p>
+            </div>
 
-          <div class="mt-6 flex flex-col flex-col lg:gap-8 gap-4">
-            <p class="flex items-center gap-4">
-              <svg
-                class="w-7 no-shrink"
-                viewBox="0 0 19 19"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M17.0002 8.999H19.0002C19.0002 3.869 15.1272 0 9.99023 0V2C14.0522 2 17.0002 4.943 17.0002 8.999Z"
-                  fill="#A81A0C"
-                />
-                <path
-                  d="M9.99979 6.00024C12.1028 6.00024 12.9998 6.89724 12.9998 9.00024H14.9998C14.9998 5.77524 13.2248 4.00024 9.99979 4.00024V6.00024ZM13.4218 11.4432C13.2296 11.2686 12.9771 11.1754 12.7176 11.1835C12.4581 11.1915 12.2118 11.3001 12.0308 11.4862L9.63779 13.9472C9.06179 13.8372 7.90379 13.4762 6.71179 12.2872C5.51979 11.0942 5.15879 9.93324 5.05179 9.36124L7.51079 6.96724C7.69721 6.78637 7.80593 6.54006 7.81396 6.28045C7.82198 6.02083 7.72868 5.76828 7.55379 5.57624L3.85879 1.51324C3.68384 1.3206 3.44067 1.20374 3.18095 1.1875C2.92122 1.17125 2.66539 1.2569 2.46779 1.42624L0.297794 3.28724C0.124905 3.46075 0.0217132 3.69169 0.00779368 3.93624C-0.00720632 4.18624 -0.293206 10.1082 4.29879 14.7022C8.30479 18.7072 13.3228 19.0002 14.7048 19.0002C14.9068 19.0002 15.0308 18.9942 15.0638 18.9922C15.3083 18.9786 15.5391 18.8749 15.7118 18.7012L17.5718 16.5302C17.7413 16.3328 17.8271 16.077 17.811 15.8173C17.795 15.5576 17.6783 15.3143 17.4858 15.1392L13.4218 11.4432Z"
-                  fill="#A81A0C"
-                />
-              </svg>
-
-              <span class="mx-2 text-[10px] lg:text-sm text-black-main-1"> 081210001396 </span>
-            </p>
-
-            <p class="flex items-center gap-4">
-              <svg class="w-7" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M20 0H0V16H20V0ZM18 4L10 9L2 4V2L10 7L18 2V4Z" fill="#A81A0C" />
-              </svg>
-
-              <span class="mx-2 text-[10px] lg:text-sm text-black-main-1"
-                >marketing.sushistop@gmail.com
-              </span>
-            </p>
-
-            <p class="flex items-center gap-4">
-              <svg
-                class="w-7 shrink-0"
-                viewBox="0 0 18 22"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9962 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5V0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54534 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75V11.75Z"
-                  fill="#A81A0C"
-                />
-              </svg>
-
-              <span class="text-black-main-1 text-[10px] lg:text-sm"
-                >Jl. Ratu Kemuning Blok BL No.8 RT/RW 08/14, Duri Kepa, Kecamatan Kebon Jeruk, Kota
-                Jakarta Barat, DKI Jakarta 11510</span
-              >
-            </p>
-          </div>
-
-          <div class="mt-6 md:mt-8">
-            <div class="flex gap-4">
-              <a
-                class="mx-1.5 text-black-main-1 transition-colors duration-300 transform hover:text-blue-500"
-                href="#"
-              >
+            <div class="mt-6 flex flex-col flex-col lg:gap-8 gap-4">
+              <p class="flex items-center gap-4">
                 <svg
-                  width="30"
-                  height="30"
-                  viewBox="0 0 30 30"
+                  class="w-7 no-shrink"
+                  viewBox="0 0 19 19"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="15" cy="15" r="15" fill="#A81A0C" />
                   <path
-                    d="M15.8102 21.75H9.7037C9.31494 21.75 9 21.4349 9 21.0463V9.7037C9 9.31499 9.31499 9 9.7037 9H21.0463C21.435 9 21.75 9.31499 21.75 9.7037V21.0463C21.75 21.4349 21.4349 21.75 21.0463 21.75H17.7973V16.8125H19.4546L19.7028 14.8883H17.7973V13.6598C17.7973 13.1027 17.952 12.723 18.7509 12.723L19.7698 12.7226V11.0015C19.5936 10.9781 18.9888 10.9257 18.2851 10.9257C16.816 10.9257 15.8102 11.8224 15.8102 13.4692V14.8883H14.1486V16.8125H15.8102V21.75Z"
-                    fill="#FFEA94"
+                    d="M17.0002 8.999H19.0002C19.0002 3.869 15.1272 0 9.99023 0V2C14.0522 2 17.0002 4.943 17.0002 8.999Z"
+                    fill="#A81A0C"
+                  />
+                  <path
+                    d="M9.99979 6.00024C12.1028 6.00024 12.9998 6.89724 12.9998 9.00024H14.9998C14.9998 5.77524 13.2248 4.00024 9.99979 4.00024V6.00024ZM13.4218 11.4432C13.2296 11.2686 12.9771 11.1754 12.7176 11.1835C12.4581 11.1915 12.2118 11.3001 12.0308 11.4862L9.63779 13.9472C9.06179 13.8372 7.90379 13.4762 6.71179 12.2872C5.51979 11.0942 5.15879 9.93324 5.05179 9.36124L7.51079 6.96724C7.69721 6.78637 7.80593 6.54006 7.81396 6.28045C7.82198 6.02083 7.72868 5.76828 7.55379 5.57624L3.85879 1.51324C3.68384 1.3206 3.44067 1.20374 3.18095 1.1875C2.92122 1.17125 2.66539 1.2569 2.46779 1.42624L0.297794 3.28724C0.124905 3.46075 0.0217132 3.69169 0.00779368 3.93624C-0.00720632 4.18624 -0.293206 10.1082 4.29879 14.7022C8.30479 18.7072 13.3228 19.0002 14.7048 19.0002C14.9068 19.0002 15.0308 18.9942 15.0638 18.9922C15.3083 18.9786 15.5391 18.8749 15.7118 18.7012L17.5718 16.5302C17.7413 16.3328 17.8271 16.077 17.811 15.8173C17.795 15.5576 17.6783 15.3143 17.4858 15.1392L13.4218 11.4432Z"
+                    fill="#A81A0C"
                   />
                 </svg>
-              </a>
 
-              <a
-                class="mx-1.5 text-black-main-1 transition-colors duration-300 transform hover:text-blue-500"
-                href="#"
-              >
+                <span class="mx-2 text-[10px] lg:text-sm text-black-main-1"> 081210001396 </span>
+              </p>
+
+              <p class="flex items-center gap-4">
+                <svg class="w-7" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M20 0H0V16H20V0ZM18 4L10 9L2 4V2L10 7L18 2V4Z" fill="#A81A0C" />
+                </svg>
+
+                <span class="mx-2 text-[10px] lg:text-sm text-black-main-1"
+                  >marketing.sushistop@gmail.com
+                </span>
+              </p>
+
+              <p class="flex items-center gap-4">
                 <svg
-                  width="30"
-                  height="30"
-                  viewBox="0 0 30 30"
+                  class="w-7 shrink-0"
+                  viewBox="0 0 18 22"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <circle cx="15" cy="15" r="15" fill="#A81A0C" />
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M11.408 7.045C12.2077 7.00818 12.4627 7 14.5 7C16.5373 7 16.7923 7.00886 17.5914 7.045C18.3905 7.08114 18.9359 7.20864 19.4132 7.39341C19.913 7.58227 20.3664 7.8775 20.7414 8.25932C21.1232 8.63364 21.4177 9.08636 21.6059 9.58682C21.7914 10.0641 21.9182 10.6095 21.955 11.4073C21.9918 12.2084 22 12.4634 22 14.5C22 16.5373 21.9911 16.7923 21.955 17.592C21.9189 18.3898 21.7914 18.9352 21.6059 19.4125C21.4177 19.913 21.1227 20.3665 20.7414 20.7414C20.3664 21.1232 19.913 21.4177 19.4132 21.6059C18.9359 21.7914 18.3905 21.9182 17.5927 21.955C16.7923 21.9918 16.5373 22 14.5 22C12.4627 22 12.2077 21.9911 11.408 21.955C10.6102 21.9189 10.0648 21.7914 9.5875 21.6059C9.08699 21.4177 8.63351 21.1227 8.25864 20.7414C7.87708 20.3668 7.58181 19.9136 7.39341 19.4132C7.20864 18.9359 7.08182 18.3905 7.045 17.5927C7.00818 16.7916 7 16.5366 7 14.5C7 12.4627 7.00886 12.2077 7.045 11.4086C7.08114 10.6095 7.20864 10.0641 7.39341 9.58682C7.58208 9.08642 7.87758 8.63317 8.25932 8.25864C8.63366 7.87716 9.08669 7.58189 9.58682 7.39341C10.0641 7.20864 10.6102 7.08182 11.408 7.045ZM17.5307 8.395C16.7398 8.35886 16.5025 8.35136 14.5 8.35136C12.4975 8.35136 12.2602 8.35886 11.4693 8.395C10.7377 8.42841 10.3409 8.55045 10.0764 8.65341C9.72659 8.78977 9.47636 8.95136 9.21386 9.21386C8.96503 9.45594 8.77353 9.75065 8.65341 10.0764C8.55045 10.3409 8.42841 10.7377 8.395 11.4693C8.35886 12.2602 8.35136 12.4975 8.35136 14.5C8.35136 16.5025 8.35886 16.7398 8.395 17.5307C8.42841 18.2623 8.55045 18.6591 8.65341 18.9236C8.77341 19.2489 8.965 19.5441 9.21386 19.7861C9.45591 20.035 9.75114 20.2266 10.0764 20.3466C10.3409 20.4495 10.7377 20.5716 11.4693 20.605C12.2602 20.6411 12.4968 20.6486 14.5 20.6486C16.5032 20.6486 16.7398 20.6411 17.5307 20.605C18.2623 20.5716 18.6591 20.4495 18.9236 20.3466C19.2734 20.2102 19.5236 20.0486 19.7861 19.7861C20.035 19.5441 20.2266 19.2489 20.3466 18.9236C20.4495 18.6591 20.5716 18.2623 20.605 17.5307C20.6411 16.7398 20.6486 16.5025 20.6486 14.5C20.6486 12.4975 20.6411 12.2602 20.605 11.4693C20.5716 10.7377 20.4495 10.3409 20.3466 10.0764C20.2102 9.72659 20.0486 9.47636 19.7861 9.21386C19.544 8.96505 19.2493 8.77355 18.9236 8.65341C18.6591 8.55045 18.2623 8.42841 17.5307 8.395ZM13.542 16.812C14.077 17.0347 14.6728 17.0648 15.2275 16.8971C15.7821 16.7294 16.2614 16.3743 16.5834 15.8924C16.9053 15.4106 17.05 14.832 16.9928 14.2553C16.9355 13.6786 16.6798 13.1398 16.2693 12.7307C16.0077 12.4692 15.6913 12.269 15.343 12.1444C14.9946 12.0199 14.623 11.9741 14.2549 12.0104C13.8867 12.0467 13.5312 12.1642 13.214 12.3544C12.8967 12.5446 12.6255 12.8028 12.42 13.1104C12.2145 13.4179 12.0797 13.7672 12.0254 14.1332C11.971 14.4991 11.9985 14.8725 12.1058 15.2265C12.2131 15.5805 12.3976 15.9063 12.6459 16.1805C12.8943 16.4547 13.2003 16.6704 13.542 16.812ZM11.7741 11.7741C12.1321 11.4161 12.557 11.1322 13.0247 10.9384C13.4925 10.7447 13.9938 10.645 14.5 10.645C15.0062 10.645 15.5075 10.7447 15.9753 10.9384C16.443 11.1322 16.8679 11.4161 17.2259 11.7741C17.5839 12.1321 17.8678 12.557 18.0616 13.0247C18.2553 13.4925 18.355 13.9938 18.355 14.5C18.355 15.0062 18.2553 15.5075 18.0616 15.9753C17.8678 16.443 17.5839 16.8679 17.2259 17.2259C16.503 17.9489 15.5224 18.355 14.5 18.355C13.4776 18.355 12.497 17.9489 11.7741 17.2259C11.0511 16.503 10.645 15.5224 10.645 14.5C10.645 13.4776 11.0511 12.497 11.7741 11.7741ZM19.21 11.2191C19.2987 11.1354 19.3697 11.0348 19.4188 10.9232C19.468 10.8115 19.4942 10.6912 19.496 10.5693C19.4977 10.4473 19.475 10.3263 19.4292 10.2133C19.3833 10.1003 19.3153 9.99762 19.2291 9.91139C19.1428 9.82516 19.0402 9.75711 18.9272 9.71126C18.8142 9.66542 18.6931 9.64271 18.5712 9.64449C18.4492 9.64627 18.3289 9.67249 18.2173 9.72161C18.1057 9.77073 18.005 9.84175 17.9214 9.93045C17.7586 10.103 17.6695 10.3321 17.673 10.5693C17.6764 10.8064 17.7722 11.0329 17.9399 11.2006C18.1076 11.3683 18.334 11.464 18.5712 11.4675C18.8083 11.4709 19.0375 11.3818 19.21 11.2191Z"
-                    fill="#FFEA94"
+                    d="M9.00001 0.5C6.81276 0.50258 4.71584 1.3726 3.16923 2.91922C1.62261 4.46584 0.752589 6.56276 0.750009 8.75C0.747389 10.5374 1.33124 12.2763 2.41201 13.7C2.41201 13.7 2.63701 13.9962 2.67376 14.039L9.00001 21.5L15.3293 14.0353C15.3623 13.9955 15.588 13.7 15.588 13.7L15.5888 13.6978C16.669 12.2747 17.2526 10.5366 17.25 8.75C17.2474 6.56276 16.3774 4.46584 14.8308 2.91922C13.2842 1.3726 11.1873 0.50258 9.00001 0.5V0.5ZM9.00001 11.75C8.40666 11.75 7.82665 11.5741 7.3333 11.2444C6.83995 10.9148 6.45543 10.4462 6.22837 9.89805C6.00131 9.34987 5.9419 8.74667 6.05765 8.16473C6.17341 7.58279 6.45913 7.04824 6.87869 6.62868C7.29825 6.20912 7.83279 5.9234 8.41474 5.80764C8.99668 5.69189 9.59988 5.7513 10.1481 5.97836C10.6962 6.20542 11.1648 6.58994 11.4944 7.08329C11.8241 7.57664 12 8.15666 12 8.75C11.999 9.54534 11.6826 10.3078 11.1202 10.8702C10.5578 11.4326 9.79535 11.749 9.00001 11.75V11.75Z"
+                    fill="#A81A0C"
                   />
                 </svg>
-              </a>
 
-              <a
-                class="mx-1.5 text-black-main-1 transition-colors duration-300 transform hover:text-blue-500"
-                href="#"
-              >
-                <svg
-                  width="30"
-                  height="30"
-                  viewBox="0 0 30 30"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+                <span class="text-black-main-1 text-[10px] lg:text-sm"
+                  >Jl. Ratu Kemuning Blok BL No.8 RT/RW 08/14, Duri Kepa, Kecamatan Kebon Jeruk,
+                  Kota Jakarta Barat, DKI Jakarta 11510</span
                 >
-                  <circle cx="15" cy="15" r="15" fill="#A81A0C" />
-                  <path
-                    d="M19.1071 9.50667C18.4969 8.81291 18.1606 7.92213 18.1607 7H15.4018V18.0222C15.3809 18.6188 15.1281 19.1841 14.6967 19.5987C14.2653 20.0133 13.6889 20.2448 13.0893 20.2444C11.8214 20.2444 10.7679 19.2133 10.7679 17.9333C10.7679 16.4044 12.25 15.2578 13.7768 15.7289V12.92C10.6964 12.5111 8 14.8933 8 17.9333C8 20.8933 10.4643 23 13.0804 23C15.8839 23 18.1607 20.7333 18.1607 17.9333V12.3422C19.2795 13.1421 20.6226 13.5712 22 13.5689V10.8222C22 10.8222 20.3214 10.9022 19.1071 9.50667Z"
-                    fill="#FFEA94"
-                  />
-                </svg>
-              </a>
+              </p>
+            </div>
+
+            <div class="mt-6 md:mt-8">
+              <div class="flex gap-4">
+                <a
+                  class="mx-1.5 text-black-main-1 transition-colors duration-300 transform hover:text-blue-500"
+                  href="https://www.facebook.com/sushistop.id/"
+                >
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="15" cy="15" r="15" fill="#A81A0C" />
+                    <path
+                      d="M15.8102 21.75H9.7037C9.31494 21.75 9 21.4349 9 21.0463V9.7037C9 9.31499 9.31499 9 9.7037 9H21.0463C21.435 9 21.75 9.31499 21.75 9.7037V21.0463C21.75 21.4349 21.4349 21.75 21.0463 21.75H17.7973V16.8125H19.4546L19.7028 14.8883H17.7973V13.6598C17.7973 13.1027 17.952 12.723 18.7509 12.723L19.7698 12.7226V11.0015C19.5936 10.9781 18.9888 10.9257 18.2851 10.9257C16.816 10.9257 15.8102 11.8224 15.8102 13.4692V14.8883H14.1486V16.8125H15.8102V21.75Z"
+                      fill="#FFEA94"
+                    />
+                  </svg>
+                </a>
+
+                <a
+                  class="mx-1.5 text-black-main-1 transition-colors duration-300 transform hover:text-blue-500"
+                  href="https://www.instagram.com/sushistop.id/?hl=en"
+                >
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="15" cy="15" r="15" fill="#A81A0C" />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M11.408 7.045C12.2077 7.00818 12.4627 7 14.5 7C16.5373 7 16.7923 7.00886 17.5914 7.045C18.3905 7.08114 18.9359 7.20864 19.4132 7.39341C19.913 7.58227 20.3664 7.8775 20.7414 8.25932C21.1232 8.63364 21.4177 9.08636 21.6059 9.58682C21.7914 10.0641 21.9182 10.6095 21.955 11.4073C21.9918 12.2084 22 12.4634 22 14.5C22 16.5373 21.9911 16.7923 21.955 17.592C21.9189 18.3898 21.7914 18.9352 21.6059 19.4125C21.4177 19.913 21.1227 20.3665 20.7414 20.7414C20.3664 21.1232 19.913 21.4177 19.4132 21.6059C18.9359 21.7914 18.3905 21.9182 17.5927 21.955C16.7923 21.9918 16.5373 22 14.5 22C12.4627 22 12.2077 21.9911 11.408 21.955C10.6102 21.9189 10.0648 21.7914 9.5875 21.6059C9.08699 21.4177 8.63351 21.1227 8.25864 20.7414C7.87708 20.3668 7.58181 19.9136 7.39341 19.4132C7.20864 18.9359 7.08182 18.3905 7.045 17.5927C7.00818 16.7916 7 16.5366 7 14.5C7 12.4627 7.00886 12.2077 7.045 11.4086C7.08114 10.6095 7.20864 10.0641 7.39341 9.58682C7.58208 9.08642 7.87758 8.63317 8.25932 8.25864C8.63366 7.87716 9.08669 7.58189 9.58682 7.39341C10.0641 7.20864 10.6102 7.08182 11.408 7.045ZM17.5307 8.395C16.7398 8.35886 16.5025 8.35136 14.5 8.35136C12.4975 8.35136 12.2602 8.35886 11.4693 8.395C10.7377 8.42841 10.3409 8.55045 10.0764 8.65341C9.72659 8.78977 9.47636 8.95136 9.21386 9.21386C8.96503 9.45594 8.77353 9.75065 8.65341 10.0764C8.55045 10.3409 8.42841 10.7377 8.395 11.4693C8.35886 12.2602 8.35136 12.4975 8.35136 14.5C8.35136 16.5025 8.35886 16.7398 8.395 17.5307C8.42841 18.2623 8.55045 18.6591 8.65341 18.9236C8.77341 19.2489 8.965 19.5441 9.21386 19.7861C9.45591 20.035 9.75114 20.2266 10.0764 20.3466C10.3409 20.4495 10.7377 20.5716 11.4693 20.605C12.2602 20.6411 12.4968 20.6486 14.5 20.6486C16.5032 20.6486 16.7398 20.6411 17.5307 20.605C18.2623 20.5716 18.6591 20.4495 18.9236 20.3466C19.2734 20.2102 19.5236 20.0486 19.7861 19.7861C20.035 19.5441 20.2266 19.2489 20.3466 18.9236C20.4495 18.6591 20.5716 18.2623 20.605 17.5307C20.6411 16.7398 20.6486 16.5025 20.6486 14.5C20.6486 12.4975 20.6411 12.2602 20.605 11.4693C20.5716 10.7377 20.4495 10.3409 20.3466 10.0764C20.2102 9.72659 20.0486 9.47636 19.7861 9.21386C19.544 8.96505 19.2493 8.77355 18.9236 8.65341C18.6591 8.55045 18.2623 8.42841 17.5307 8.395ZM13.542 16.812C14.077 17.0347 14.6728 17.0648 15.2275 16.8971C15.7821 16.7294 16.2614 16.3743 16.5834 15.8924C16.9053 15.4106 17.05 14.832 16.9928 14.2553C16.9355 13.6786 16.6798 13.1398 16.2693 12.7307C16.0077 12.4692 15.6913 12.269 15.343 12.1444C14.9946 12.0199 14.623 11.9741 14.2549 12.0104C13.8867 12.0467 13.5312 12.1642 13.214 12.3544C12.8967 12.5446 12.6255 12.8028 12.42 13.1104C12.2145 13.4179 12.0797 13.7672 12.0254 14.1332C11.971 14.4991 11.9985 14.8725 12.1058 15.2265C12.2131 15.5805 12.3976 15.9063 12.6459 16.1805C12.8943 16.4547 13.2003 16.6704 13.542 16.812ZM11.7741 11.7741C12.1321 11.4161 12.557 11.1322 13.0247 10.9384C13.4925 10.7447 13.9938 10.645 14.5 10.645C15.0062 10.645 15.5075 10.7447 15.9753 10.9384C16.443 11.1322 16.8679 11.4161 17.2259 11.7741C17.5839 12.1321 17.8678 12.557 18.0616 13.0247C18.2553 13.4925 18.355 13.9938 18.355 14.5C18.355 15.0062 18.2553 15.5075 18.0616 15.9753C17.8678 16.443 17.5839 16.8679 17.2259 17.2259C16.503 17.9489 15.5224 18.355 14.5 18.355C13.4776 18.355 12.497 17.9489 11.7741 17.2259C11.0511 16.503 10.645 15.5224 10.645 14.5C10.645 13.4776 11.0511 12.497 11.7741 11.7741ZM19.21 11.2191C19.2987 11.1354 19.3697 11.0348 19.4188 10.9232C19.468 10.8115 19.4942 10.6912 19.496 10.5693C19.4977 10.4473 19.475 10.3263 19.4292 10.2133C19.3833 10.1003 19.3153 9.99762 19.2291 9.91139C19.1428 9.82516 19.0402 9.75711 18.9272 9.71126C18.8142 9.66542 18.6931 9.64271 18.5712 9.64449C18.4492 9.64627 18.3289 9.67249 18.2173 9.72161C18.1057 9.77073 18.005 9.84175 17.9214 9.93045C17.7586 10.103 17.6695 10.3321 17.673 10.5693C17.6764 10.8064 17.7722 11.0329 17.9399 11.2006C18.1076 11.3683 18.334 11.464 18.5712 11.4675C18.8083 11.4709 19.0375 11.3818 19.21 11.2191Z"
+                      fill="#FFEA94"
+                    />
+                  </svg>
+                </a>
+
+                <a
+                  class="mx-1.5 text-black-main-1 transition-colors duration-300 transform hover:text-blue-500"
+                  href="https://www.tiktok.com/@sushistop.id?lang=en/"
+                >
+                  <svg
+                    width="30"
+                    height="30"
+                    viewBox="0 0 30 30"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="15" cy="15" r="15" fill="#A81A0C" />
+                    <path
+                      d="M19.1071 9.50667C18.4969 8.81291 18.1606 7.92213 18.1607 7H15.4018V18.0222C15.3809 18.6188 15.1281 19.1841 14.6967 19.5987C14.2653 20.0133 13.6889 20.2448 13.0893 20.2444C11.8214 20.2444 10.7679 19.2133 10.7679 17.9333C10.7679 16.4044 12.25 15.2578 13.7768 15.7289V12.92C10.6964 12.5111 8 14.8933 8 17.9333C8 20.8933 10.4643 23 13.0804 23C15.8839 23 18.1607 20.7333 18.1607 17.9333V12.3422C19.2795 13.1421 20.6226 13.5712 22 13.5689V10.8222C22 10.8222 20.3214 10.9022 19.1071 9.50667Z"
+                      fill="#FFEA94"
+                    />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="mt-8 w-full lg:mx-6">
-          <div class="w-full overflow-hidden rounded-lg">
-            <form class="mt-6 flex flex-col gap-10 pt-5">
-              <div class="flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-20">
-                <div class="group w-full">
-                  <p class="text-red-main-1 font-semibold">First Name</p>
-                  <div class="flex items-center border-b border-red-main-1 py-2">
-                    <input
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="Jane Doe"
-                      aria-label="Full name"
-                    />
+          <div class="mt-8 w-full lg:mx-6">
+            <div class="w-full overflow-hidden rounded-lg">
+              <form class="mt-6 flex flex-col gap-10 pt-5">
+                <div class="flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-20">
+                  <div class="group w-full">
+                    <p class="text-red-main-1 font-semibold">First Name</p>
+                    <div class="flex items-center border-b border-red-main-1 py-2">
+                      <input
+                        v-model="firstName"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="Jane Doe"
+                        aria-label="John"
+                      />
+                    </div>
+                  </div>
+                  <div class="group w-full">
+                    <p class="text-red-main-1 font-semibold">Last Name</p>
+                    <div class="flex items-center border-b border-red-main-1 py-2">
+                      <input
+                        v-model="lastName"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="Doe"
+                      />
+                    </div>
                   </div>
                 </div>
-                <div class="group w-full">
-                  <p class="text-red-main-1 font-semibold">Last Name</p>
-                  <div class="flex items-center border-b border-red-main-1 py-2">
-                    <input
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="Jane Doe"
-                      aria-label="Full name"
-                    />
+                <div class="flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-20">
+                  <div class="group w-full">
+                    <p class="text-red-main-1 font-semibold">Email</p>
+                    <div class="flex items-center border-b border-red-main-1 py-2">
+                      <input
+                        v-model="email1"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="example@gmail.com"
+                      />
+                    </div>
+                  </div>
+                  <div class="group w-full">
+                    <p class="text-red-main-1 font-semibold">No Hp</p>
+                    <div class="flex items-center border-b border-red-main-1 py-2">
+                      <input
+                        v-model="whatsapp"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="08238xxxxx"
+                      />
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="flex flex-col lg:flex-row lg:justify-between gap-5 lg:gap-20">
-                <div class="group w-full">
-                  <p class="text-red-main-1 font-semibold">Email</p>
-                  <div class="flex items-center border-b border-red-main-1 py-2">
-                    <input
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="Jane Doe"
-                      aria-label="Full name"
-                    />
-                  </div>
-                </div>
-                <div class="group w-full">
-                  <p class="text-red-main-1 font-semibold">No Hp</p>
-                  <div class="flex items-center border-b border-red-main-1 py-2">
-                    <input
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="Jane Doe"
-                      aria-label="Full name"
-                    />
-                  </div>
-                </div>
-              </div>
 
-              <div class="group w-full">
-                <p class="text-red-main-1 font-semibold">Subject</p>
-                <div class="flex items-center border-b border-red-main-1 py-2">
-                  <input
-                    class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                    type="text"
-                    placeholder="Jane Doe"
-                    aria-label="Full name"
-                  />
+                <div class="group w-full">
+                  <p class="text-red-main-1 font-semibold">Subject</p>
+                  <div class="flex items-center border-b border-red-main-1 py-2">
+                    <input
+                      v-model="subject"
+                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                      type="text"
+                      placeholder="Jane Doe"
+                    />
+                  </div>
                 </div>
-              </div>
-              <div class="group w-full">
-                <p class="text-red-main-1 font-semibold">Message</p>
-                <div class="flex items-center w-full">
-                  <textarea
-                    class="leading-tight focus:outline-none border w-full border-red-main-1 p-5"
-                    name=""
-                    id=""
-                  ></textarea>
+                <div class="group w-full">
+                  <p class="text-red-main-1 font-semibold">Message</p>
+                  <div class="flex items-center w-full">
+                    <textarea
+                      v-model="pesan"
+                      class="leading-tight focus:outline-none border w-full border-red-main-1 p-5"
+                      name=""
+                      id=""
+                    ></textarea>
+                  </div>
                 </div>
-              </div>
 
-              <button
-                class="btn w-full w-full bg-red-main-1 text-sm md:text-lg lg:text-2xl h-auto py-2 rounded-full text-left shadow-none"
-                style="border: none"
-              >
-                KIRIM
-              </button>
-            </form>
+                <button
+                  type="button"
+                  class="btn w-full w-full bg-red-main-1 text-sm md:text-lg lg:text-2xl h-auto py-2 rounded-full text-left shadow-none"
+                  style="border: none"
+                  @click="sendMail"
+                >
+                  KIRIM
+                </button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <section class="text-red-main-1 bg-yellow-main-2 p-2 lg:p-10">
     <div class="border border-1 border-red-main-1 p-5">
       <h2 class="text-4xl font-bold">LOCATION</h2>
