@@ -253,29 +253,29 @@ Sushi Stop memiliki
     </section>
 
     <!-- Brand Values Section -->
-    <section class="py-12 pt-3 px-4 md:px-16 bg-yellow-main-3 relative flex justify-center">
-      <div class="w-full h-full bg-petals3 absolute left-0 top-0 rotate-180 z-0"></div>
-      <div class="w-150 h-full bg-sakuratree absolute right-0 top-0 z-0"></div>
-      <div class="container flex flex-col gap-7 bg-petals3 z-2">
-        <div class="mb-12 flex flex-col gap-4 ">
+    <section class="py-12 pt-3 px-2 md:px-16 bg-yellow-main-3 relative flex justify-center">
+      <!-- <div class="w-full h-full bg-petals3 absolute left-0 top-0 rotate-180 z-0"></div> -->
+      <div class="container px-15 flex flex-col gap-7 bg-petals3 relative">
+        <div class="w-150 h-full bg-sakuratree absolute right-0 top-0 z-0"></div>
+        <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
-             <h3 class="text-2xl font-bold text-red-main-1 text-center mb-6">Brand Vision</h3>
+             <h3 class="text-5xl font-bold text-red-main-1 text-center mb-6">Brand Vision</h3>
              <img class="w-20" src="/image/kemitraan/mascot2.png" alt="">
           </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg">
-            <p class="white-outline-box p-5 rounded-lg">
+            <p class="white-outline-box p-5 rounded-lg text-2xl">
               Menjadi jaringan restoran sushi premium terbesar di Indonesia yang memberikan <br>
               pengalaman kuliner Jepang berkualitas dengan harga terjangkau
             </p>
           </div>
         </div>
-        <div class="mb-12 flex flex-col gap-4">
+        <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
-             <h3 class="text-2xl font-bold text-red-main-1 text-center mb-6">Brand Purpose</h3>
+             <h3 class="text-5xl font-bold text-red-main-1 text-center mb-6">Brand Purpose</h3>
              <img class="w-20" src="/image/kemitraan/mascot3.png" alt="">
           </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg">
-            <p class="white-outline-box p-5 rounded-lg">
+            <p class="white-outline-box p-5 rounded-lg text-2xl">
               Kami percaya bahwa makanan Jepang yang berkualitas tidak harus mahal dan bisa <br>
               dinikmati oleh semua kalangan masyarakat Indonesia dengan mempertahankan kualitas dan
               inovasi
@@ -284,11 +284,11 @@ Sushi Stop memiliki
         </div>
         <div class="mb-12 flex flex-col gap-4">
            <div class="flex items-center gap-5">
-             <h3 class="text-2xl font-bold text-red-main-1 text-center mb-6">Brand Promise</h3>
+             <h3 class="text-5xl font-bold text-red-main-1 text-center mb-6">Brand Promise</h3>
              <img class="w-20" src="/image/kemitraan/mascot4.png" alt="">
           </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg">
-            <p class="white-outline-box p-5 rounded-lg">
+            <p class="white-outline-box p-5 rounded-lg text-2xl">
               Kami berkomitmen untuk menyajikan hidangan sushi berkualitas tinggi dengan bahan-bahan <br>
               premium, pelayanan terbaik, dan pengalaman makan yang memuaskan
             </p>
