@@ -200,7 +200,7 @@ Sushi Stop memiliki
             <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
             <p>NANAKOOT</p>
           </div>
-          <div class="z-4 text-[10px] lg:text-2xl text-center">"Tempatnya cozzy, ada dekorasi Jepang bisa buat foto-foto, varian sushinya bervarian dan cocok di lidah kita! Dengan harga yang affordable,rasanya enak dan berkualitas, inisih WORTH BANGET!"</div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Tempatnya cozzy, ada dekorasi Jepang bisa buat foto-foto, varian sushinya bervarian dan cocok di lidah kita! Dengan harga yang affordable, rasanya enak dan berkualitas, ini sih WORTH BANGET!"</div>
           <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
           </svg>
@@ -230,7 +230,7 @@ Sushi Stop memiliki
             <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
             <p>KULINERSAMACICI</p>
           </div>
-          <div class="z-4 text-[10px] lg:text-2xl text-center">"Korean Daebak Combo Ro 町 ini adalah kesukaan akudan suami. Rasanya 」 uga enak-enak semua!"</div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Korean Daebak Combo Roll ini adalah kesukaan aku dan suami. Rasanya juga enak-enak semua!"</div>
 
           <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
