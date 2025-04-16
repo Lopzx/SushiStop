@@ -71,10 +71,13 @@ function sendMail() {
           </p>
         </h1>
         <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
-                <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-40 font-bold text-center white-outline-box rounded-lg">
-                  Daftar
-                </div>
-              </div>
+          <a href="#Daftar">
+            <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-40 font-bold text-center white-outline-box rounded-lg">
+              Daftar
+            </div>
+
+          </a>
+        </div>
       </div>
       </div>
     </header>
@@ -473,7 +476,7 @@ berkembang</p>
     </section>
 
     <!-- Contact Form Section -->
-    <section class=" bg-yellow-main-2  flex flex-col lg:flex-row justify-center items-center">
+    <section id="Daftar" class=" bg-yellow-main-2  flex flex-col lg:flex-row justify-center items-center">
       <div class=" container bg-petals3 relative w-full h-full pt-10 py-20 px-4 md:px-16">
         <div class="w-full h-full bg-petals3 left-0 top-0 rotate-180 z-0"></div>
         <img src="/image/kemitraan/place1.png" class=" absolute bottom-0 -left-20 hidden lg:block md:w-1/2 order-last md:order-first" alt="">
@@ -526,13 +529,12 @@ berkembang</p>
                       />
             </div>
             </div>
-            <div class="btn-wrapper pt-10">
-              <button @click="sendMail"
-              class=" z-2 w-full btn lg:w-80 bg-red-main-1 text-sm md:text-lg lg:text-2xl h-auto py-2 rounded-full text-left shadow-none"
-              style="border: none"
-            >
-              KIRIM
-            </button>
+            <div class="btn-wrapper pt-10 lg:pr-10 self-start w-full lg:w-auto">
+              <div @click="sendMail" class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+            <div class="text-md lg:text-2xl white-outline py-2 lg:py-2 lg:px-40 font-bold text-center white-outline-box rounded-lg">
+              Kirim
+            </div>
+        </div>
             </div>
           </div>
         </div>
