@@ -49,34 +49,41 @@ function sendMail() {
   </Notivue>
   <body class="bg-yellow-main-2">
     <!-- Header Section -->
-    <header class="bg-yellow-main-3 bg-header py-20 lg:px-20 px-5 relative overflow-hidden">
-      <img src="/image/kemitraan/sakura1.png" class="z-0 absolute top-0 right-0 w-80 lg:w-2/7" alt="" />
-      <img src="/image/kemitraan/platter1.png" class="z-0 absolute bottom-0 lg:-bottom-1/5 -right-25 w-120 lg:w-5/8" alt="" />
+    <header class=" overflow-hidden flex justify-center items-center bg-yellow-main-3">
+      <div class="w-full  bg-header py-20 lg:px-20 px-5 relative">
+        <img src="/image/kemitraan/sakura1.png" class="z-0 absolute top-0 right-0 h-50 md:h-100 lg:h-150" alt="" />
+        <img src="/image/kemitraan/platter1.png" class="z-0 absolute bottom-0 lg:-bottom-1/5 -right-25 h-50 md:h-75 lg:h-150" alt="" />
       <div class="flex flex-col gap-10 text-red-main-1 z-2">
         <img class="w-50 z-2" src="/image/icons/Logo.png" alt="" />
         <h1 class="font-bold white-outline flex flex-col gap-2 lg:gap-5 z-2">
-          <p class="text-md lg:text-3xl">Bisnis Kemitraan</p>
-          <p class="text-lg lg:text-3xl">Raih Keuntungan Hingga</p>
-          <p class="text-5xl lg:text-8xl w-fit bg-sparkle">10 JT/Bulan</p>
+          <p class="text-3xl lg:text-8xl w-fit">Raih Keuntungan</p>
+          <p class="text-3xl lg:text-8xl w-fit relative">
+            <span class="z-1">PuIuhan Hingga</span>
+            <img class="w-10 lg:w-20 absolute -bottom-3/4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+            <img class="w-10 lg:w-20 absolute left-3/7 top-0 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          </p>
+          <p class="text-3xl lg:text-8xl w-fit relative">
+            Ratusan Juta/Bulan
+            <img class="w-10 lg:w-20 absolute left-1/1 top-0 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          </p>
           <p>
-            <p class="text-lg lg:text-3xl">Nikmati peluang kesuksesan bisnis Anda</p>
-            <p class="text-lg lg:text-3xl">Dengan branding yang telah disiapkan!</p>
+            <p class="text-md lg:text-3xl">Yuk jadi Sushi Preneur tanpa harus memikirkan branding <br>marketing, dan operasional yang ribet!</p>
           </p>
         </h1>
-        <button
-          class=" z-2 btn lg:w-80 bg-red-main-1 text-sm md:text-lg lg:text-2xl h-auto py-2 rounded-full text-left shadow-none"
-          style="border: none"
-        >
-          Tentang Kemitraan
-        </button>
+        <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+                <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-40 font-bold text-center white-outline-box rounded-lg">
+                  Daftar
+                </div>
+              </div>
+      </div>
       </div>
     </header>
 
     <!-- Main Value Proposition -->
     <section class="pt-5 px-4 md:px-16 bg-yellow-main-2 text-red-main-1 relative flex justify-center">
       <div class="container mx-auto z-1 bg-petals2">
-        <h2 class="text-2xl lg:text-5xl font-bold text-center mb-8">Jadilah Bagian Dari Sushi Stop!</h2>
-        <h3 class="text-md lg:text-xl font-semibold text-center pt-4">Kuliner tidak perlu khawatir lagi tentang...</h3>
+        <h2 class="text-2xl pt-20 lg:text-7xl font-bold text-center mb-8">Jadilah Bagian Dari Sushi Stop!</h2>
+        <h3 class="text-md lg:text-4xl font-semibold text-center pt-4">Kalian tidak perlu lagi khawatir lagi tentang...</h3>
         <div class="flex flex-col md:flex-row gap-5 items-center justify-center pt-15">
           <div class="self-end">
             <img src="/image/kemitraan/chef.png" alt="Chef Preparing Sushi" class="w-200 z-0" />
@@ -116,8 +123,8 @@ function sendMail() {
 
 
     <!-- Journey Section -->
-    <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1">
-      <h2 class="text-2xl lg:text-5xl font-bold text-center mb-8 bg-sparkle-no-repeat bg-center bg-pos-1">Perjalanan Kami</h2>
+    <!-- <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1">
+      <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 bg-sparkle-no-repeat bg-center bg-pos-1">Perjalanan Kami</h2>
       <div class="flex w-full gap-10 flex-col lg:flex-row items-center justify-center pt-15 bg-petals2">
         <div class="flex flex-col items-center gap-4">
           <img class="w-80 h-50" src="/image/kemitraan/platter2.png" alt="">
@@ -143,38 +150,37 @@ Sushi Stop memiliki
 30 Gerai Self Owned!</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Advantages Section -->
-    <section class="py-12 px-4 flex flex-col justify-center items-center bg-yellow-main-2">
-      <h2 class="text-2xl lg:text-5xl font-bold text-center mb-12 text-red-main-1 bg-sparkle-no-repeat bg-pos-2">Keunggulan Kami</h2>
-      <div class="container flex justify-center items-center mx-auto bg-petals2">
-        <div class="flex gap-4 flex-col lg:flex-row items-center justify-center">
-          <div class="bg-yellow-main-2 p-6 rounded-lg">
-            <img src="/image/kemitraan/trophy.png" alt="Support Icon" class="w-60 lg:w-100" />
+    <section class="py-20 px-4 flex flex-col justify-center items-center bg-yellow-main-3 relative">
+      <h2 class="text-2xl lg:text-7xl font-bold text-center py-8 text-red-main-1 bg-sparkle-no-repeat bg-pos-2">Keunggulan Kami</h2>
+      <div class="bg-petals2 lg:hidden absolute top-0 left-0 h-100 w-full"></div>
+      <div class="bg-petals2 lg:hidden absolute bottom-0 left-0 h-50 w-full"></div>
+      <div class="container flex justify-center items-center mx-auto bg-petals3">
+        <div class="flex gap-1 flex-col lg:flex-row items-center justify-center">
+          <div class="bg-yellow-main-3 p-6 rounded-lg">
+            <img src="/image/kemitraan/trophy.png" alt="Support Icon" class="w-60 lg:w-200" />
           </div>
-          <div class="p-6 rounded-lg text-red-main-1 flex flex-col gap-5">
+          <div class="p-6 rounded-lg text-red-main-1 flex flex-col gap-5 items-end">
               <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
                 <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
-                  Menjadi brand sushi berkualitas dengan harga affordable pertama di Indonesia
+                  Sebagai pelopor sushi affordable pertama dilndonesia, Kami melihat potensi dan antusiasmepasar masih sangatlah besar.
+                </div>
+              </div>
+              <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+                <div class="p-2 text-md lg:text-xl lg:w-200 font-bold text-center white-outline-box rounded-lg">
+                  Dengan pengalaman lebih dari 5 tahun dan keberhasilan melewati masapandemi, Sushi Stop hadirsebagai brand yang kuat dengan supportsystem yang siap mendukung setiap mitra untuk berkembang bersama.
                 </div>
               </div>
               <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
                 <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
-                  Bisnis dengan modal rendah berimbal dengan
-                  income puluhan hingga ratusan juta per bulan
+                  Peluang bisnis dengan ROI yang menarik denganincome puluhan hingga ratusanjuta perbulan
                 </div>
               </div>
               <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
                 <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
-                  Bisnis telah berjalan lebih dari 5 tahun
-                  dan memiliki strong support system
-                </div>
-              </div>
-              <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
-                <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
-                  Telah meraih banyak penghargaan dari
-                  platform Shopee,Grabfood,dan Gofood
+                  TeIah meraih banyak penghargaan dariplatform Shopee,Grabfood,dan Gofoodd
                 </div>
               </div>
           </div>
@@ -183,9 +189,73 @@ Sushi Stop memiliki
     </section>
 
     <!-- Testimonials Section -->
-    <section class="py-12 bg-yellow-main-3 flex justify-center items-center">
+     <section class="py-12 bg-yellow-main-2 flex justify-center items-center text-black-main-1">
+      <div class="flex-col flex gap-5 lg:justify-between items-center ">
+        <div class="bg-white w-3/4 lg:w-150 p-5 px-10 rounded-4xl relative flex flex-col gap-2 lg:self-end">
+          <img class="w-10 lg:w-20 absolute left-3/4 -bottom-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <div class="justify-center items-center text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
+            <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
+            <p>NANAKOOT</p>
+          </div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Tempatnya cozzy, ada dekorasi Jepang bisa buat foto-foto, varian sushinya bervarian dan cocok di lidah kita! Dengan harga yang affordable,rasanya enak dan berkualitas, inisih WORTH BANGET!"</div>
+          <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
+          </svg>
+        </div>
+      <div class="flex items-center lg:gap-15 justify-center">
+        <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
+          <img class="w-10 lg:w-20 absolute -left-5 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
+            <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
+            <p>TYASMIRASIH</p>
+          </div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Aku ambil yang paketan jadi udah termasuk minumannya. Rasanya enak banget!!! Crunchy didalam! Menunya juga banyak banget!"</div>
+
+          <svg class="-bottom-5 -left-7 absolute z-0" width="80" height="74" viewBox="0 0 80 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
+        </svg>
+        </div>
+        <img class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/platter3.png" alt="">
+      </div>
+
+      <div class="flex items-center lg:gap-15 justify-center">
+        <img class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot1.png" alt="">
+        <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
+          <img class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <img class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
+            <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
+            <p>KULINERSAMACICI</p>
+          </div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Korean Daebak Combo Ro 町 ini adalah kesukaan akudan suami. Rasanya 」 uga enak-enak semua!"</div>
+
+          <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
+        </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center lg:gap-15 justify-center">
+        <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
+          <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
+            <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
+            <p>MAKANLURR</p>
+          </div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Wah murah banget, sushinya enak-enak semua!"</div>
+
+          <svg class="-bottom-5 -left-7 absolute z-0 w-20" viewBox="0 0 80 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
+        </svg>
+        </div>
+        <img class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot3.png" alt="">
+      </div>
+    </div>
+     </section>
+
+
+    <!-- <section class="py-12 bg-yellow-main-3 flex justify-center items-center">
       <div class="w-full flex flex-col justify-center items-center text-red-main-1">
-        <h2 class="text-2xl lg:text-5xl font-bold text-center mb-12">Testimoni Mitra Kami</h2>
+        <h2 class="text-2xl lg:text-7xl font-bold text-center mb-12">Testimoni Mitra Kami</h2>
 
         <div class="influencer-wrapper flex items-center justify-center flex-col">
           <div class="flex items-end justify-end lg:justify-between lg:gap-4 pt-15 lg:pt-30 w-full">
@@ -250,47 +320,45 @@ Sushi Stop memiliki
 
 
       </div>
-    </section>
+    </section> -->
 
     <!-- Brand Values Section -->
-    <section class="py-12 pt-3 px-2 md:px-16 bg-yellow-main-3 relative flex justify-center">
-      <!-- <div class="w-full h-full bg-petals3 absolute left-0 top-0 rotate-180 z-0"></div> -->
-      <div class="container px-15 flex flex-col gap-7 bg-petals3 relative">
-        <div class="w-150 h-full bg-sakuratree absolute right-0 top-0 z-0"></div>
+    <section class="py-12 pt-3 bg-yellow-main-3 relative flex justify-center realative">
+      <div class="container px-5 lg:px-50 py-20 lg:py-50 flex flex-col gap-7 bg-petals3 relative">
+        <div class="w-150 h-200 bg-sakuratree absolute right-0 top-0 z-0"></div>
         <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
-             <h3 class="text-5xl font-bold text-red-main-1 text-center mb-6">Brand Vision</h3>
+             <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Vision</h3>
              <img class="w-20" src="/image/kemitraan/mascot2.png" alt="">
-          </div>
-          <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg">
-            <p class="white-outline-box p-5 rounded-lg text-2xl">
-              Menjadi jaringan restoran sushi premium terbesar di Indonesia yang memberikan <br>
-              pengalaman kuliner Jepang berkualitas dengan harga terjangkau
+            </div>
+          <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg relative">
+            <img class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+            <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
+              Menjadi restoran sushi terdepan yang memberikan pengalaman kuliner Jepang premium dengan harga terjangkau dan membawa kelezatan yang autentik ke seluruh Indonesia.
             </p>
           </div>
         </div>
         <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
-             <h3 class="text-5xl font-bold text-red-main-1 text-center mb-6">Brand Purpose</h3>
+             <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Purpose</h3>
              <img class="w-20" src="/image/kemitraan/mascot3.png" alt="">
           </div>
-          <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg">
-            <p class="white-outline-box p-5 rounded-lg text-2xl">
-              Kami percaya bahwa makanan Jepang yang berkualitas tidak harus mahal dan bisa <br>
-              dinikmati oleh semua kalangan masyarakat Indonesia dengan mempertahankan kualitas dan
-              inovasi
+          <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 lg:w-fit text-red-main-1 rounded-lg relative">
+            <img class="w-10 lg:w-20 absolute -right-0 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+            <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
+              Kami percaya bahwa kualitas dan inovasi tidak harus mahal, dan kami ingin membuka kesempatan bagi para mitra bisnis untuk bergabung dan menawarkan peluang investasi bisnis yang sangat menguntungkan di industri kuliner yang berkembang pesat dengan komitmen terhadap kualitas, inovasi, dan potensi pertumbuhan yang besar.
             </p>
           </div>
         </div>
         <div class="mb-12 flex flex-col gap-4">
            <div class="flex items-center gap-5">
-             <h3 class="text-5xl font-bold text-red-main-1 text-center mb-6">Brand Promise</h3>
+             <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Promise</h3>
              <img class="w-20" src="/image/kemitraan/mascot4.png" alt="">
           </div>
-          <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg">
-            <p class="white-outline-box p-5 rounded-lg text-2xl">
-              Kami berkomitmen untuk menyajikan hidangan sushi berkualitas tinggi dengan bahan-bahan <br>
-              premium, pelayanan terbaik, dan pengalaman makan yang memuaskan
+          <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg relative">
+            <img class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+            <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
+              Kami berkomitmen mendampingi Anda disetiap langkah perjalanan bisnis, memastikan bahwa bisnis Anda tumbuh,berkembang, dan terbuka secara transparant.
             </p>
           </div>
         </div>
@@ -298,31 +366,32 @@ Sushi Stop memiliki
     </section>
 
     <!-- ROI Section -->
-    <section class="py-12 px-4 md:px-16 bg-yellow-main-3 flex justify-center items-center">
+    <!-- <section class="py-12 px-4 md:px-16 bg-yellow-main-3 flex justify-center items-center">
       <div class="container mx-auto bg-petals3">
-        <h2 class="text-2xl lg:text-5xl font-bold text-center mb-8 text-red-main-1">ROI (Ilustrasi Hasil Modal)</h2>
+        <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 text-red-main-1">ROI (Ilustrasi Hasil Modal)</h2>
         <div class="overflow-x-auto py-20">
          <img src="/image/kemitraan/roi.png" alt="">
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- How to Join Section -->
-    <section class="py-12  md:px-16 bg-yellow-main-2 text-red-main-1  flex justify-center">
+    <section class="bg-yellow-main-2 text-red-main-1 w-full flex justify-center">
 
-      <div class="container bg-petals2 z-1 flex justify-center items-center">
+      <div class="bg-petals2 z-1 lg:py-50 w-full lg:max-w-[1536px] max-w-screen flex justify-center items-center relative">
+        <img class="absolute md:w-100 lg:w-200 left-0" src="/image/kemitraan/platter5.png" alt="">
         <div class="flex items-center justify-center pt-20 ">
           <div class="flex gap-10 p-10 relative justify-center flex-col lg:flex-row">
-            <div class="w-full h-full z-0 bg-platter absolute left-0 bottom-0 z-0 translate-y-15 -translate-x-25"></div>
+            <div class="w-full h-full z-0 absolute left-0 bottom-0 z-0 translate-y-15 -translate-x-25"></div>
             <div class="left z-1">
-              <h3 class="flex flex-col text-5xl lg:text-6xl gap-4 font-bold">
+              <h3 class="flex flex-col text-4xl lg:text-6xl gap-4 font-bold">
                 <p>Cara</p>
                 <p>Bergabung</p>
                 <img class="w-15" src="/image/kemitraan/heart.png" alt="">
               </h3>
 
             </div>
-            <div class="right bg-white z-1 rounded-lg p-4 flex flex-col gap-8">
+            <div class="right bg-white z-1 rounded-lg p-5 lg:p-20 flex flex-col gap-8">
               <div class="wrapper items-center flex gap-5">
                 <img class="w-10" src="/image/kemitraan/location.png" alt="">
                 <p class="bold text-sm lg:text-lg">Pengajuan lokasi usaha yang <br> dilakukan Oleh Mitra</p>
@@ -360,9 +429,14 @@ Sushi Stop memiliki
 
     <!-- Why Join Section -->
      <!-- Journey Section -->
-     <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1">
-      <h2 class="text-2xl lg:text-5xl font-bold text-center mb-8">Saatnya wujudkan Impian Anda!</h2>
-      <div class="flex w-full items-center justify-center pt-15 gap-20 lg:gap-0 flex-col lg:flex-row">
+    <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1 flex justify-center flex-col items-center relative">
+      <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 relative">
+        Saatnya wujudkan Impian Anda!
+        <img class="w-10 lg:w-20 absolute -left-1/40 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+        <img class="w-10 lg:w-20 absolute -right-1/40 top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+      </h2>
+
+      <div class="flex items-center justify-center pt-15 gap-20 lg:gap-0 flex-col lg:flex-row">
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">
           <div class="h-40">
             <img class="h-40" src="/image/kemitraan/money.png" alt="">
@@ -399,68 +473,71 @@ berkembang</p>
     </section>
 
     <!-- Contact Form Section -->
-    <section class="pt-10 px-4 md:px-16 bg-yellow-main-2 relative flex justify-center">
-      <div class="w-full h-full bg-petals3 absolute left-0 top-0 rotate-180 z-0"></div>
-      <div class="w-150 h-150 bg-sakuratree absolute right-0 top-0 z-0"></div>
-      <div class="container flex justify-center items-center md:items-end gap-10 md:flex-row flex-col">
-        <img src="/image/kemitraan/place1.png" class="md:w-100 lg:w-150 order-last md:order-first" alt="">
-        <div class="flex flex-col gap-5 text-red-main-1 z-2 lg:py-20">
-          <img class="w-50 z-2" src="/image/icons/Logo.png" alt="" />
-          <div class="wrapper flex flex-col">
-            <p class="pl-5 font-bold">Nama</p>
-            <div class="flex items-center bg-yellow-main-3 rounded-full px-3 py-2">
-                    <input
-                      v-model="name"
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="Jane Doe"
-                      aria-label="Full name"
-                    />
-          </div>
-          </div>
-          <div class="wrapper flex flex-col">
-            <p class="pl-5 font-bold">No Whatsapp</p>
-            <div class="flex items-center bg-yellow-main-3 rounded-full px-3 py-2">
-                    <input
-                      v-model="whatsapp"
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="08828xxxx"
-                    />
-          </div>
-          </div>
-          <div class="wrapper flex flex-col">
-            <p class="pl-5 font-bold">Email</p>
-            <div class="flex items-center bg-yellow-main-3 rounded-full px-3 py-2">
-                    <input
-                    v-model="email1"
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="example@gmail.com"
-                    />
-          </div>
-          </div>
-          <div class="wrapper flex flex-col">
-            <p class="pl-5 font-bold">Target Penempatan Franchise</p>
-            <div class="flex items-center bg-yellow-main-3 rounded-full px-3 py-2">
-                    <input
-                      v-model="targetTempat"
-                      class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
-                      type="text"
-                      placeholder="Alamat lengkap target lokasi"
-                    />
-          </div>
-          </div>
-          <div class="btn-wrapper pt-10">
-            <button @click="sendMail"
-            class=" z-2 btn w-80 bg-red-main-1 text-sm md:text-lg lg:text-2xl h-auto py-2 rounded-full text-left shadow-none"
-            style="border: none"
-          >
-            KIRIM
-          </button>
+    <section class=" bg-yellow-main-2  flex flex-col lg:flex-row justify-center items-center">
+      <div class=" container bg-petals3 relative w-full h-full pt-10 py-20 px-4 md:px-16">
+        <div class="w-full h-full bg-petals3 left-0 top-0 rotate-180 z-0"></div>
+        <img src="/image/kemitraan/place1.png" class=" absolute bottom-0 -left-20 hidden lg:block md:w-1/2 order-last md:order-first" alt="">
+        <div class="w-50 lg:w-150 lg:h-150 bg-sakuratree absolute right-0 top-0 z-0"></div>
+        <div class=" lg:pl-120 flex justify-center items-center md:items-end gap-10 md:flex-row flex-col">
+          <div class="w-full lg:w-auto flex flex-col gap-5 text-red-main-1 z-2 lg:py-20">
+            <img class="w-40 lg:w-70 z-2" src="/image/icons/Logo.png" alt="" />
+            <div class="wrapper flex flex-col">
+              <p class="pl-5 font-bold">Nama</p>
+              <div class="flex items-center bg-yellow-main-3 rounded-full px-5 py-2">
+                      <input
+                        v-model="name"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="Jane Doe"
+                        aria-label="Full name"
+                      />
+            </div>
+            </div>
+            <div class="wrapper flex flex-col">
+              <p class="pl-5 font-bold">No Whatsapp</p>
+              <div class="flex items-center bg-yellow-main-3 rounded-full px-5 py-2">
+                      <input
+                        v-model="whatsapp"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="08828xxxx"
+                      />
+            </div>
+            </div>
+            <div class="wrapper flex flex-col">
+              <p class="pl-5 font-bold">Email</p>
+              <div class="flex items-center bg-yellow-main-3 rounded-full px-5 py-2">
+                      <input
+                      v-model="email1"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="example@gmail.com"
+                      />
+            </div>
+            </div>
+            <div class="wrapper flex flex-col">
+              <p class="pl-5 font-bold">Target Penempatan Franchise</p>
+              <div class="flex items-center bg-yellow-main-3 rounded-full px-5 py-2">
+                      <input
+                        v-model="targetTempat"
+                        class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none"
+                        type="text"
+                        placeholder="Alamat lengkap target lokasi"
+                      />
+            </div>
+            </div>
+            <div class="btn-wrapper pt-10">
+              <button @click="sendMail"
+              class=" z-2 w-full btn lg:w-80 bg-red-main-1 text-sm md:text-lg lg:text-2xl h-auto py-2 rounded-full text-left shadow-none"
+              style="border: none"
+            >
+              KIRIM
+            </button>
+            </div>
           </div>
         </div>
       </div>
+      <img src="/image/kemitraan/place1.png" class=" md:hidden px-4 h-70 order-last" alt="">
     </section>
   </body>
 </template>
@@ -504,7 +581,6 @@ berkembang</p>
   .bg-petals3{
     background: url('/image/kemitraan/sakura2.png') no-repeat;
     background-size: cover;
-
   }
 
   .bg-sakuratree{
