@@ -14,11 +14,11 @@ const image = ref()
 const carouselRef = ref()
 
 onMounted(() => {
-  const jumlahGambar = 59 // Update this to the actual number of images
+  const jumlahGambar = 50 // Update this to the actual number of images
   image.value = []
   const imagePath = '/image/menuimage/'
   for (let idx = 1; idx <= jumlahGambar; idx++) {
-    const imgPath = `${imagePath}${idx}.JPG` // Ensure the file extension matches
+    const imgPath = `${imagePath}${idx}.jpg` // Ensure the file extension matches
     image.value.push(imgPath)
   }
 })
@@ -41,6 +41,11 @@ const responsiveOptions = ref([
   },
   {
     breakpoint: '575px',
+    numVisible: 3,
+    numScroll: 3,
+  },
+  {
+    breakpoint: '425px',
     numVisible: 2,
     numScroll: 2,
   },
@@ -50,14 +55,14 @@ const responsiveOptions = ref([
 <template>
   <CarouselBanner />
   <section class="bg-yellow-main-3 relative py-2 lg:py-20">
-    <div class="bg-petals2 absolute top-0 left-0 h-100 w-full"></div>
+    <div class="bg-petals2 absolute top-0 left-0 h-100 w-full p-0"></div>
     <div class="bg-petals2 absolute bottom-150 left-0 h-50 w-full"></div>
     <div class="flex flex-col">
       <section class="py-12 px-4 w-full md:px-16 text-red-main-1">
         <h2
-          class="text-2xl lg:text-5xl font-bold text-center mb-8 bg-sparkle-no-repeat bg-center bg-pos-1"
+          class="text-2xl lg:text-5xl font-bold text-center mb-8 bg-sparkle-no-repeat bg-center bg-pos-1 p-1 relative py-5"
         >
-          Perjalanan Kami
+          <p class="z-1">Perjalanan Kami</p>
         </h2>
         <div
           class="flex w-full gap-10 flex-col lg:flex-row items-center justify-center pt-5 lg:pt-15"
@@ -65,23 +70,23 @@ const responsiveOptions = ref([
           <div class="flex flex-col flex-1 items-center gap-4">
             <img class="h-80" src="/image/journeyimage/1.png" alt="" />
             <p class="text-center text-lg">
-              Sushi Stop pertama kali didirikanpada tahun 2020 , dengan visi menjadikan sushi yang
-              affordable pertama di lndonesia
+              <b>Sushi Stop pertama kali didirikan pada tahun 2020.</b> Dengan visi menjadi Brand
+              nomor satu Sushi affordable di Indonesia
             </p>
           </div>
           <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
           <div class="flex flex-col flex-1 items-center gap-4">
             <img class="h-80" src="/image/journeyimage/2.png" alt="" />
             <p class="text-center text-lg">
-              Pada tahun 2021 , Sushi Stop melakukan ekspansi melalui pembukaan outlet/booth di
-              berbagai lokasi
+              Pada tahun 2021 , Sushi Stop melakukan
+              <b>ekspansi melalui pembukaan outlet/booth</b> di berbagai lokasi
             </p>
           </div>
           <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
           <div class="flex flex-col flex-1 items-center gap-4">
             <img class="h-80" src="/image/journeyimage/3.png" alt="" />
             <p class="text-center text-lg">
-              Pada tahun 2022 , Sushi Stop membuka resto dinein pertama di GreenviIIe
+              Pada tahun 2022 , Sushi Stop <b>membuka resto dine in pertama</b> di Greenville
             </p>
           </div>
         </div>
@@ -94,22 +99,26 @@ const responsiveOptions = ref([
           <div class="flex flex-col items-center gap-4 flex-1">
             <img class="h-80" src="/image/journeyimage/4.png" alt="" />
             <p class="text-center text-lg">
-              Pada tahun 2023 , Sushi Stop berkembang hingga 25 outlet di Jabodetabek
+              Pada tahun 2023 , Sushi Stop melakukan rebranding perubahan logo dan
+              <b>berkembang hingga 25 outlet di Jabodetabek</b>
             </p>
           </div>
           <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
           <div class="flex flex-col items-center gap-4 flex-1">
             <img class="h-80" src="/image/journeyimage/5.png" alt="" />
             <p class="text-center text-lg">
-              Pada tahun 2024 , Sushi Stop membuka resto dine in kedua dan ketiga serta menambah
-              varian menu seperti Ramen dan Donburi
+              Pada tahun 2024 , Sushi Stop membuka
+              <b
+                >resto dine in kedua dan ketiga serta menambah varian menu seperti Ramen dan
+                Donburi</b
+              >
             </p>
           </div>
           <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
           <div class="flex flex-col items-center gap-4 flex-1">
             <img class="h-80" src="/image/journeyimage/6.png" alt="" />
             <p class="text-center text-lg">
-              Hingga tahun 2025 , Sushi Stop membuka peluang kemitraan
+              Hingga tahun 2025 , Sushi Stop <b>membuka peluang kemitraan</b>
             </p>
           </div>
         </div>
@@ -138,7 +147,7 @@ const responsiveOptions = ref([
         >
           <template #item="slotProps">
             <figure class="h-45 lg:h-75 px-4">
-              <img :src="slotProps.data" class="rounded-full h-full" alt="Shoes" />
+              <img :src="slotProps.data" class="rounded-full h-full" />
             </figure>
           </template>
         </Carousel>
@@ -154,14 +163,6 @@ h2 {
 }
 button.btn {
   margin-top: 1rem; /* Ensure margin-top is applied */
-}
-
-.white-outline {
-  text-shadow:
-    -2px -2px 0 #fff,
-    2px -2px 0 #fff,
-    -2px 2px 0 #fff,
-    2px 2px 0 #fff;
 }
 
 .bg-sparkle {
@@ -188,17 +189,6 @@ button.btn {
   background-image: url('/image/kemitraan/platter5.png');
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.bg-petals2 {
-  background: url('/image/kemitraan/sakura2.png');
-  background-color: var(--bg-yellow-main-3);
-  background-size: cover;
-}
-
-.bg-petals3 {
-  background: url('/image/kemitraan/sakura2.png') no-repeat;
-  background-size: cover;
 }
 
 .bg-sakuratree {

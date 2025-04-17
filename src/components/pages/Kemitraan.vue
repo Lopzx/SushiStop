@@ -54,7 +54,7 @@ function sendMail() {
         <img src="/image/kemitraan/sakura1.png" class="z-0 absolute top-0 right-0 h-50 md:h-100 lg:h-150" alt="" />
         <img src="/image/kemitraan/platter1.png" class="z-0 absolute bottom-0 lg:-bottom-1/5 -right-25 h-50 md:h-75 lg:h-150" alt="" />
       <div class="flex flex-col gap-10 text-red-main-1 z-2">
-        <img class="w-50 z-2" src="/image/icons/Logo.png" alt="" />
+        <!-- <img class="w-50 z-2" src="/image/icons/Logo.png" alt="" /> -->
         <h1 class="font-bold white-outline flex flex-col gap-2 lg:gap-5 z-2">
           <p class="text-3xl lg:text-8xl w-fit">Raih Keuntungan</p>
           <p class="text-3xl lg:text-8xl w-fit relative">
@@ -67,7 +67,7 @@ function sendMail() {
             <img class="w-10 lg:w-20 absolute left-1/1 top-0 z-0" src="/image/kemitraan/sparkle.png" alt="">
           </p>
           <p>
-            <p class="text-md lg:text-3xl">Yuk jadi Sushi Preneur tanpa harus memikirkan branding <br>marketing, dan operasional yang ribet!</p>
+            <p class="text-md lg:text-3xl w-100 lg:w-200">Yuk jadi Sushi Preneur tanpa harus memikirkan branding marketing, dan operasional yang ribet!</p>
           </p>
         </h1>
         <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
@@ -86,7 +86,7 @@ function sendMail() {
     <section class="pt-5 px-4 md:px-16 bg-yellow-main-2 text-red-main-1 relative flex justify-center">
       <div class="container mx-auto z-1 bg-petals2">
         <h2 class="text-2xl pt-20 lg:text-7xl font-bold text-center mb-8">Jadilah Bagian Dari Sushi Stop!</h2>
-        <h3 class="text-md lg:text-4xl font-semibold text-center pt-4">Kalian tidak perlu lagi khawatir lagi tentang...</h3>
+        <h3 class="text-md lg:text-4xl text-center pt-4">Kalian tidak <b>perlu lagi khawatir</b> lagi tentang...</h3>
         <div class="flex flex-col md:flex-row gap-5 items-center justify-center pt-15">
           <div class="self-end">
             <img src="/image/kemitraan/chef.png" alt="Chef Preparing Sushi" class="w-200 z-0" />
@@ -101,7 +101,7 @@ function sendMail() {
                   •
                 </p>
                 <p>
-                   Takut balik modal lama dan margin kecil
+                  Ribet membuat usaha dari 0 dan mengurus operasional, karyawan, dll
                 </p>
          </li>
               <li class="flex items-start gap-4">
@@ -109,14 +109,14 @@ function sendMail() {
                   •
                 </p>
                 <p>
-                   Bingung buat branding dan pemasaran
+                  Bingung menciptakan produk yang
+                  autentik, bervariasi, dan tidak
+                  ketinggalan zaman.
                 </p>
          </li>
               <li class="flex items-start gap-4">
                 <p>•</p>
-                <p>Bingung menciptakan produk yang
-                      autentik, bervariasi, dan tidak
-                      ketinggalan zaman.</p>
+                <p>Trial error dalam membangun usaha F&B</p>
               </li>
             </ul>
           </div>
@@ -168,22 +168,22 @@ Sushi Stop memiliki
           <div class="p-6 rounded-lg text-red-main-1 flex flex-col gap-5 items-end">
               <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
                 <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
-                  Sebagai pelopor sushi affordable pertama dilndonesia, Kami melihat potensi dan antusiasmepasar masih sangatlah besar.
+                  Sebagai pelopor sushi affordable pertama di lndonesia, Kami melihat potensi dan antusiasme pasar masih sangatlah besar.
                 </div>
               </div>
               <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
                 <div class="p-2 text-md lg:text-xl lg:w-200 font-bold text-center white-outline-box rounded-lg">
-                  Dengan pengalaman lebih dari 5 tahun dan keberhasilan melewati masapandemi, Sushi Stop hadirsebagai brand yang kuat dengan supportsystem yang siap mendukung setiap mitra untuk berkembang bersama.
+                  Dengan pengalaman lebih dari 5 tahun dan keberhasilan melewati masa pandemi, Sushi Stop hadir sebagai brand yang kuat dengan support system yang siap mendukung setiap mitra untuk berkembang bersama.
                 </div>
               </div>
               <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
                 <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
-                  Peluang bisnis dengan ROI yang menarik denganincome puluhan hingga ratusanjuta perbulan
+                  Peluang bisnis dengan ROI yang menarik dengan potensi income puluhan hingga ratusan juta perbulan
                 </div>
               </div>
               <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
                 <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
-                  TeIah meraih banyak penghargaan dariplatform Shopee,Grabfood,dan Gofoodd
+                  Telah meraih banyak penghargaan dari platform Shopee, Grabfood, dan Gofood
                 </div>
               </div>
           </div>
@@ -205,14 +205,14 @@ Sushi Stop memiliki
               <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
           </svg>
         </div>
-      <div class="flex items-center lg:gap-15 justify-center">
+      <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
           <img class="w-10 lg:w-20 absolute -left-5 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
             <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
-            <p>TYASMIRASIH</p>
+            <p>KULINERSAMACICI</p>
           </div>
-          <div class="z-4 text-[10px] lg:text-2xl text-center">"Aku ambil yang paketan jadi udah termasuk minumannya. Rasanya enak banget!!! Crunchy didalam! Menunya juga banyak banget!"</div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Korean Daebak Combo Roll ini adalah kesukaan aku dan suami. Rasanya juga enak-enak semua!"</div>
 
           <svg class="-bottom-5 -left-7 absolute z-0" width="80" height="74" viewBox="0 0 80 74" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
@@ -221,16 +221,16 @@ Sushi Stop memiliki
         <img class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/platter3.png" alt="">
       </div>
 
-      <div class="flex items-center lg:gap-15 justify-center">
+      <div class="flex items-center lg:gap-15 justify-center w-full">
         <img class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot1.png" alt="">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
           <img class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
           <img class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.png" alt="">
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
             <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
-            <p>KULINERSAMACICI</p>
+            <p>⁠lululahfah</p>
           </div>
-          <div class="z-4 text-[10px] lg:text-2xl text-center">"Korean Daebak Combo Roll ini adalah kesukaan aku dan suami. Rasanya juga enak-enak semua!"</div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">“Asik makan sushiStop!”</div>
 
           <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
@@ -238,13 +238,13 @@ Sushi Stop memiliki
         </div>
       </div>
 
-      <div class="flex items-center lg:gap-15 justify-center">
+      <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
             <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
-            <p>MAKANLURR</p>
+            <p>foodierectory</p>
           </div>
-          <div class="z-4 text-[10px] lg:text-2xl text-center">"Wah murah banget, sushinya enak-enak semua!"</div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">“sushinya sih udah enak, affordable pula!”</div>
 
           <svg class="-bottom-5 -left-7 absolute z-0 w-20" viewBox="0 0 80 74" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
@@ -252,6 +252,58 @@ Sushi Stop memiliki
         </div>
         <img class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot3.png" alt="">
       </div>
+
+
+
+      <div class="flex items-center lg:gap-15 justify-center w-full">
+        <img class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/platter2.png" alt="">
+        <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
+          <img class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <img class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
+            <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
+            <p>heyitsmomochan</p>
+          </div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">“Nemuin Sushi yang enak bngt tapi harganya terjangkau cuma di Sushi Stop!”</div>
+
+          <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
+        </svg>
+        </div>
+      </div>
+
+      <div class="flex items-center lg:gap-15 justify-center w-full">
+        <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
+          <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
+            <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
+            <p>Kulinersamaagam</p>
+          </div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">"Pas aku cobain wah enak banget walapun harga murah tapi rasanya berkelas gitu. Favorite aku yang Chicken Katsu dan Salmon Roll."</div>
+
+          <svg class="-bottom-5 -left-7 absolute z-0 w-20" viewBox="0 0 80 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
+        </svg>
+        </div>
+        <img class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot2.png" alt="">
+      </div>
+      <div class="flex items-center lg:gap-15 justify-center w-full">
+        <img class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot4.png" alt="">
+        <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
+          <img class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <img class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.png" alt="">
+          <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
+            <img class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt="">
+            <p>Hendry.jonathan</p>
+          </div>
+          <div class="z-4 text-[10px] lg:text-2xl text-center">“Favorite aku yang Unagi! Tempatnya juga estetik banget bisa buat foto.”
+          </div>
+
+          <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
+        </svg>
+        </div>
+      </div>
+
     </div>
      </section>
 
@@ -349,7 +401,7 @@ Sushi Stop memiliki
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 lg:w-fit text-red-main-1 rounded-lg relative">
             <img class="w-10 lg:w-20 absolute -right-0 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt="">
             <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
-              Kami percaya bahwa kualitas dan inovasi tidak harus mahal, dan kami ingin membuka kesempatan bagi para mitra bisnis untuk bergabung dan menawarkan peluang investasi bisnis yang sangat menguntungkan di industri kuliner yang berkembang pesat dengan komitmen terhadap kualitas, inovasi, dan potensi pertumbuhan yang besar.
+              Kami percaya bahwa kualitas dan inovasi tidak harus mahal, dan kami ingin membuka kesempatan bagi para mitra bisnis untuk bergabung dan menawarkan peluang investasi bisnis yang berpotensi memberikan income puluhan hingga ratusan juta di industri kuliner yang berkembang pesat dengan komitmen terhadap kualitas, inovasi, dan potensi pertumbuhan yang besar.
             </p>
           </div>
         </div>

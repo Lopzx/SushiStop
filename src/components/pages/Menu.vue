@@ -1,56 +1,63 @@
 <script setup>
-import { onMounted, ref } from 'vue';
+import { onMounted, ref } from 'vue'
 
-const menuImage = ref([]);
+const menuImage = ref([])
 
-onMounted(()=> {
-  let jumlahHalaman = 24;
-  let imagePath = "/image/menu/HalamanMenu"
-  let extension = ".png"
-  menuImage.value = [];
-  for(let x = 1; x <= jumlahHalaman; x++){
-    menuImage.value.push(imagePath+x+extension)
+onMounted(() => {
+  let jumlahHalaman = 24
+  let imagePath = '/image/menu/HalamanMenu'
+  let extension = '.png'
+  menuImage.value = []
+  for (let x = 1; x <= jumlahHalaman; x++) {
+    menuImage.value.push(imagePath + x + extension)
   }
 })
 </script>
 
 <template>
+  <header
+    class="overflow-hidden flex flex-col justify-center items-center bg-yellow-main-2 text-red-main-1 relative"
+  >
+    <img
+      src="/image/kemitraan/sakura1.png"
+      class="z-0 absolute top-30 lg:-top-60 md:top-0 right-0 h-50 md:h-100 lg:h-150"
+      alt=""
+    />
 
-  <div class="flex items-center justify-start bg-yellow-main-2 p-5 lg:p-10">
-    <img src="/image/icons/Heart.png" class="w-5 lg:w-20">
-    <h1 class="text-red-main-1 font-bold lg:text-4xl">AT EVERY BITE</h1>
+    <div class="bg-petals4 absolute bottom-20 right-0 h-50 w-20 p-0"></div>
+    <div class="bg-petals4 absolute -top-20 left-100 h-50 w-20 p-0"></div>
+    <div class="container pt-10 lg:pt-40 pb-10 lg:pb-20">
+      <div class="flex flex-col lg:flex-row justify-center items-center gap-15">
+        <div class="left relative">
+          <img class="w-50 lg:w-100 xl:w-150" src="/image/kemitraan/mascot7.png" />
+          <div
+            class="flex items-center justify-center p-5 lg:p-10 w-full absolute -top-5 lg:-top-20 left-1/2 -translate-x-1/2"
+          >
+            <img src="/image/kemitraan/heart.png" class="w-5 lg:w-20" />
+            <h1 class="text-red-main-1 font-bold text-xl lg:text-4xl">At Every Bite</h1>
+          </div>
+        </div>
+        <div class="right text-center items-center justify-center font-bold flex flex-col gap-10">
+          <h2 class="text-5xl lg:text-9xl white-outline-lg lg:white-outline-xl">
+            Our<br />
+            Menu
+          </h2>
+          <p class="text-sm lg:text-2xl white-outline lg:white-outline-lg flex gap-4 lg:gap-5">
+            <span>Donburi</span> <span>Sushi</span> <span>Ramen</span> <span>Snacks</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-red-main-1 py-2 px-5 lg:p-6 flex items-center gap-5 rounded-full">
+      <p class="font-bold text-white text-xl lg:text-4xl">Browse</p>
+      <img src="/image/kemitraan/arrow.png" class="h-5 lg:h-10" />
+    </div>
+  </header>
+
+  <div class="Menu w-full flex justify-center items-center bg-yellow-main-2 pt-15 lg:pt-30">
+    <div class="container flex flex-col items-center justify-center">
+      <img v-for="image in menuImage" class="w-full lg:w-1/2" :src="image" />
+    </div>
   </div>
-  <div class="bg-yellow-main-2 flex flex-col items-center justify-center text-center relative gap-2">
-      <div class="flex items-center justify-center gap-5 w-1/2 lg:w-1/4">
-        <div class="border-t-2 border-red-main-1 flex-1"></div>
-        <span class=" text-m lg:text-lg font-bold text-black-main-1">our</span>
-        <div class="border-t-2 border-red-main-1 flex-3"></div>
-      </div>
-      <h2 class="text-red-main-1 pb-10 font-bold text-6xl lg:text-9xl mb-6">MENU</h2>
-      <div class="bg-red-main-1 text-white font-bold text-4xl w-full py-5 px-8 mb-6">SUSHI</div>
-      <div class="flex items-center justify-center py-10 gap-2 lg:gap-10">
-        <span class="text-black-main-1 font-bold">RAMEN</span>
-        <div class="flex items-center space-x-2">
-          <div class="w-2 h-2 rotate-45 bg-red-main-1"></div>
-          <div class="border-t-5  border-red-main-1 w-5 lg:w-16"></div>
-          <div class="w-2 h-2 rotate-45 bg-red-main-1"></div>
-        </div>
-        <span class="text-black-main-1 font-bold">DONBURI</span>
-        <div class="flex items-center space-x-2">
-          <div class="w-2 h-2 rotate-45 bg-red-main-1"></div>
-          <div class="border-t-5  border-red-main-1 w-5 lg:w-16"></div>
-          <div class="w-2 h-2 rotate-45 bg-red-main-1"></div>
-        </div>
-        <span class="text-black-main-1 font-bold">SNACKS</span>
-      </div>
-      <div class="text-center py-10">
-        <p class="text-black-main-1 font-bold ">BROWSE</p>
-        <div class="text-black-main-1 text-2xl">&#x25BC;</div>
-      </div>
-    </div>
-
-    <div class="Menu w-full flex flex-col items-center bg-yellow-main-2">
-      <img v-for="image in menuImage" class="w-full lg:w-1/2" :src="image">
-    </div>
 </template>
-

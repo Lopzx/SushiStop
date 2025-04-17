@@ -442,6 +442,45 @@
     U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+.white-outline {
+  text-shadow:
+    -2px -2px 0 #fff,
+    2px -2px 0 #fff,
+    -2px 2px 0 #fff,
+    2px 2px 0 #fff;
+}
+
+.white-outline-lg {
+  text-shadow:
+    -5px -5px 0 #fff,
+    5px -5px 0 #fff,
+    -5px 5px 0 #fff,
+    5px 5px 0 #fff;
+}
+
+.white-outline-xl {
+  text-shadow:
+    -8px -8px 0 #fff,
+    8px -8px 0 #fff,
+    -8px 8px 0 #fff,
+    8px 8px 0 #fff;
+}
+
+.bg-petals2 {
+  background: url('/image/kemitraan/sakura2.png');
+  background-color: var(--bg-yellow-main-3);
+  background-size: cover;
+}
+
+.bg-petals3 {
+  background: url('/image/kemitraan/sakura2.png') no-repeat;
+  background-size: cover;
+}
+.bg-petals4 {
+  background: url('/image/kemitraan/sakura3.png') no-repeat;
+  background-size: contain;
+}
+
 @theme {
   --font-main: 'Poppins';
   --color-yellow-main-1: #f7c700;
