@@ -9,7 +9,6 @@ import { createNotivue } from 'notivue'
 
 import Main from './components/pages/Main.vue'
 import ContactUs from './components/pages/ContactUs.vue'
-import Menu from './components/pages/Menu.vue'
 import Kemitraan from './components/pages/Kemitraan.vue'
 import VueVisibleClass from 'vue-visible-class'
 
@@ -20,9 +19,9 @@ import 'notivue/notification-progress.css'
 const routes = [
   { path: '/', component: Main },
   { path: '/home', component: Main },
-  { path: '/menu', component: Menu },
-  { path: '/mitra', component: Kemitraan },
-  { path: '/contact', component: ContactUs },
+  { path: '/menu', component: () => import('./components/pages/Menu.vue') },
+  { path: '/mitra', component: () => import('./components/pages/Kemitraan.vue') },
+  { path: '/contact', component: () => import('./components/pages/ContactUs.vue') },
 ]
 
 const router = createRouter({
