@@ -57,7 +57,7 @@ onMounted(() => {
 
   <div class="Menu w-full flex justify-center items-center bg-yellow-main-2 pt-15 lg:pt-30">
     <div class="container flex flex-col items-center justify-center">
-      <img v-for="image in menuImage" class="w-full lg:w-1/2" :src="image" />
+      <img v-for="image in menuImage" class="w-full lg:w-1/2" loading="lazy" :src="image" />
     </div>
   </div>
 </template>
