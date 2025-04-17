@@ -52,20 +52,20 @@ function sendMail() {
     <!-- Header Section -->
     <header class=" overflow-hidden flex justify-center items-center bg-yellow-main-3">
       <div class="w-full  bg-header py-20 lg:px-20 px-5 relative">
-        <VLazyImage src="/image/kemitraan/sakura1.png" class="z-0 absolute top-0 right-0 h-50 md:h-100 lg:h-150" alt=""/>
-        <VLazyImage src="/image/kemitraan/platter1.png" class="z-0 absolute bottom-0 lg:-bottom-1/5 -right-25 h-50 md:h-75 lg:h-150" alt="" />
+        <VLazyImage src="/image/kemitraan/sakura1.webp" class="z-0 absolute top-0 right-0 h-50 md:h-100 lg:h-150" alt=""/>
+        <VLazyImage src="/image/kemitraan/platter1.webp" class="z-0 absolute bottom-0 lg:-bottom-1/5 -right-25 h-50 md:h-75 lg:h-150" alt="" />
       <div class="flex flex-col gap-10 text-red-main-1 z-2">
-        <!-- <VLazyImage class="w-50 z-2" src="/image/icons/Logo.png" alt=""/ /> -->
+        <!-- <VLazyImage class="w-50 z-2" src="/image/icons/Logo.webp" alt=""/ /> -->
         <h1 class="font-bold white-outline flex flex-col gap-2 lg:gap-5 z-2">
           <p class="text-3xl lg:text-8xl w-fit">Raih Keuntungan</p>
           <p class="text-3xl lg:text-8xl w-fit relative">
             <span class="z-1">PuIuhan Hingga</span>
-            <VLazyImage class="w-10 lg:w-20 absolute -bottom-3/4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
-            <VLazyImage class="w-10 lg:w-20 absolute left-3/7 top-0 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -bottom-3/4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute left-3/7 top-0 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           </p>
           <p class="text-3xl lg:text-8xl w-fit relative">
             Ratusan Juta/Bulan
-            <VLazyImage class="w-10 lg:w-20 absolute left-1/1 top-0 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute left-1/1 top-0 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           </p>
           <p>
             <p class="text-md lg:text-3xl w-100 lg:w-200">Yuk jadi Sushi Preneur tanpa harus memikirkan branding marketing, dan operasional yang ribet!</p>
@@ -90,11 +90,11 @@ function sendMail() {
         <h3 class="text-md lg:text-4xl text-center pt-4">Kalian tidak <b>perlu lagi khawatir</b> lagi tentang...</h3>
         <div class="flex flex-col md:flex-row gap-5 items-center justify-center pt-15">
           <div class="self-end">
-            <VLazyImage src="/image/kemitraan/chef.png" alt="Chef Preparing Sushi" class="w-200 z-0" />
+            <VLazyImage src="/image/kemitraan/chef.webp" alt="Chef Preparing Sushi" class="w-200 z-0" />
           </div>
           <div class="order-first lg:order-last lg:w-150 bg-white rounded-lg p-10 relative">
             <div class="left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 absolute z-0">
-              <VLazyImage src="/image/kemitraan/mascotandbulb.png" alt="Chef Preparing Sushi" class="w-40 z-0" />
+              <VLazyImage src="/image/kemitraan/mascotandbulb.webp" alt="Chef Preparing Sushi" class="w-40 z-0" />
             </div>
             <ul class="flex flex-col gap-5 pt-5 z-3 text-xl">
               <li class="flex items-start gap-4">
@@ -131,23 +131,23 @@ function sendMail() {
       <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 bg-sparkle-no-repeat bg-center bg-pos-1">Perjalanan Kami</h2>
       <div class="flex w-full gap-10 flex-col lg:flex-row items-center justify-center pt-15 bg-petals2">
         <div class="flex flex-col items-center gap-4">
-          <VLazyImage class="w-80 h-50" src="/image/kemitraan/platter2.png" alt=""/>
+          <VLazyImage class="w-80 h-50" src="/image/kemitraan/platter2.webp" alt=""/>
           <p class="text-center text-lg">Sushi Stop pertama kali didirikan
               pada tahun 2020, dengan visi
               menjadikan sushi yang
               affordable pertama di Indonesia</p>
         </div>
-        <VLazyImage class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt=""/>
+        <VLazyImage class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.webp" alt=""/>
         <div class="flex flex-col items-center gap-4">
-          <VLazyImage class="w-80 h-50" src="/image/kemitraan/platter1.png" alt=""/>
+          <VLazyImage class="w-80 h-50" src="/image/kemitraan/platter1.webp" alt=""/>
           <p class="text-center text-lg">Sushi Stop berkembang
               dengan menciptakan
               varian menu lainnya,
               seperti ramen dan dounburi</p>
         </div>
-        <VLazyImage class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt=""/>
+        <VLazyImage class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.webp" alt=""/>
         <div class="flex flex-col items-center gap-4">
-          <VLazyImage class="w-50 h-50" src="/image/kemitraan/tempat1.png" alt=""/>
+          <VLazyImage class="w-50 h-50" src="/image/kemitraan/tempat1.webp" alt=""/>
           <p class="text-center text-lg">Dengan pengalaman lebih
 dari 5 tahun, sekarang
 Sushi Stop memiliki
@@ -164,7 +164,7 @@ Sushi Stop memiliki
       <div class="container flex justify-center items-center mx-auto bg-petals3">
         <div class="flex gap-1 flex-col lg:flex-row items-center justify-center">
           <div class="bg-yellow-main-3 p-6 rounded-lg">
-            <VLazyImage src="/image/kemitraan/trophy.png" alt="Support Icon" class="w-60 lg:w-125" />
+            <VLazyImage src="/image/kemitraan/trophy.webp" alt="Support Icon" class="w-60 lg:w-125" />
           </div>
           <div class="p-6 rounded-lg text-red-main-1 flex flex-col gap-5 items-end">
               <div class="card w-full lg:w-auto bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
@@ -196,9 +196,9 @@ Sushi Stop memiliki
      <section class="py-12 bg-yellow-main-2 flex justify-center items-center text-black-main-1">
       <div class="flex-col flex gap-5 lg:justify-between items-center ">
         <div class="bg-white w-3/4 lg:w-150 p-5 px-10 rounded-4xl relative flex flex-col gap-2 lg:self-end">
-          <VLazyImage class="w-10 lg:w-20 absolute left-3/4 -bottom-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute left-3/4 -bottom-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center items-center text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
             <p>NANAKOOT</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">"Tempatnya cozzy, ada dekorasi Jepang bisa buat foto-foto, varian sushinya bervarian dan cocok di lidah kita! Dengan harga yang affordable, rasanya enak dan berkualitas, ini sih WORTH BANGET!"</div>
@@ -208,9 +208,9 @@ Sushi Stop memiliki
         </div>
       <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-5 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-5 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
             <p>KULINERSAMACICI</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">"Korean Daebak Combo Roll ini adalah kesukaan aku dan suami. Rasanya juga enak-enak semua!"</div>
@@ -219,16 +219,16 @@ Sushi Stop memiliki
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
         </svg>
         </div>
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/platter3.png" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/platter3.webp" alt=""/>
       </div>
 
       <div class="flex items-center lg:gap-15 justify-center w-full">
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot1.png" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot1.webp" alt=""/>
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
-          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
             <p>⁠lululahfah</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“Asik makan sushiStop!”</div>
@@ -242,7 +242,7 @@ Sushi Stop memiliki
       <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
             <p>foodierectory</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“sushinya sih udah enak, affordable pula!”</div>
@@ -251,18 +251,18 @@ Sushi Stop memiliki
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
         </svg>
         </div>
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot3.png" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot3.webp" alt=""/>
       </div>
 
 
 
       <div class="flex items-center lg:gap-15 justify-center w-full">
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/platter2.png" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/platter2.webp" alt=""/>
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
-          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
             <p>heyitsmomochan</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“Nemuin Sushi yang enak bngt tapi harganya terjangkau cuma di Sushi Stop!”</div>
@@ -276,7 +276,7 @@ Sushi Stop memiliki
       <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
             <p>Kulinersamaagam</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">"Pas aku cobain wah enak banget walapun harga murah tapi rasanya berkelas gitu. Favorite aku yang Chicken Katsu dan Salmon Roll."</div>
@@ -285,15 +285,15 @@ Sushi Stop memiliki
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
         </svg>
         </div>
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot2.png" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot2.webp" alt=""/>
       </div>
       <div class="flex items-center lg:gap-15 justify-center w-full">
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot4.png" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot4.webp" alt=""/>
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
-          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.png" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
             <p>Hendry.jonathan</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“Favorite aku yang Unagi! Tempatnya juga estetik banget bisa buat foto.”
@@ -324,20 +324,20 @@ Sushi Stop memiliki
               </div>
             </div>
             <div class="flex justify-end items-center lg:pr-20 lg:pt-20">
-              <VLazyImage class="w-20 lg:w-60" src="/image/kemitraan/platter3.png" alt=""/>
-              <VLazyImage class="w-20 lg:w-60" src="/image/kemitraan/mascot1.png" alt=""/>
+              <VLazyImage class="w-20 lg:w-60" src="/image/kemitraan/platter3.webp" alt=""/>
+              <VLazyImage class="w-20 lg:w-60" src="/image/kemitraan/mascot1.webp" alt=""/>
             </div>
           </div>
 
           <div class="v-lazy-image w-50 lg:w-200 justify-end">
-            <VLazyImage class="w-full" src="/image/kemitraan/influencer1.png" alt=""/>
+            <VLazyImage class="w-full" src="/image/kemitraan/influencer1.webp" alt=""/>
           </div>
         </div>
 
           <div class="flex flex-col items-start justify-start gap-4 w-full">
             <div class="flex justify-start gap-4 h-40 lg:h-120">
               <div class="v-lazy-image w-50 lg:w-200">
-              <VLazyImage class="w-full" src="/image/kemitraan/influencer2.png" alt=""/>
+              <VLazyImage class="w-full" src="/image/kemitraan/influencer2.webp" alt=""/>
             </div>
             <div class="left-wrapper flex flex-col lg:justify-between lg:self-end w-full">
               <div class="chat chat-start w-full shrink-2">
@@ -349,7 +349,7 @@ Sushi Stop memiliki
                 </div>
               </div>
               <div class="flex justify-start -translate-x-10 translate-y--1 lg:-translate-x-30 lg:translate-y-30 items-center lg:pr-20 lg:pt-20">
-                <VLazyImage class="w-35 lg:w-80" src="/image/kemitraan/platter4.png" alt=""/>
+                <VLazyImage class="w-35 lg:w-80" src="/image/kemitraan/platter4.webp" alt=""/>
               </div>
             </div>
             </div>
@@ -366,7 +366,7 @@ Sushi Stop memiliki
               </div>
 
               <div class="v-lazy-image w-50 lg:w-200">
-                <VLazyImage class="w-full" src="/image/kemitraan/influencer3.png" alt=""/>
+                <VLazyImage class="w-full" src="/image/kemitraan/influencer3.webp" alt=""/>
               </div>
             </div>
         </div>
@@ -385,10 +385,10 @@ Sushi Stop memiliki
         <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
              <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Vision</h3>
-             <VLazyImage class="w-20" src="/image/kemitraan/mascot2.png" alt=""/>
+             <VLazyImage class="w-20" src="/image/kemitraan/mascot2.webp" alt=""/>
             </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg relative">
-            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
             <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
               Menjadi restoran sushi terdepan yang memberikan pengalaman kuliner Jepang premium dengan harga terjangkau dan membawa kelezatan yang autentik ke seluruh Indonesia.
             </p>
@@ -397,10 +397,10 @@ Sushi Stop memiliki
         <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
              <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Purpose</h3>
-             <VLazyImage class="w-20" src="/image/kemitraan/mascot3.png" alt=""/>
+             <VLazyImage class="w-20" src="/image/kemitraan/mascot3.webp" alt=""/>
           </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 lg:w-fit text-red-main-1 rounded-lg relative">
-            <VLazyImage class="w-10 lg:w-20 absolute -right-0 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -right-0 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
             <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
               Kami percaya bahwa kualitas dan inovasi tidak harus mahal, dan kami ingin membuka kesempatan bagi para mitra bisnis untuk bergabung dan menawarkan peluang investasi bisnis yang berpotensi memberikan income puluhan hingga ratusan juta di industri kuliner yang berkembang pesat dengan komitmen terhadap kualitas, inovasi, dan potensi pertumbuhan yang besar.
             </p>
@@ -409,10 +409,10 @@ Sushi Stop memiliki
         <div class="mb-12 flex flex-col gap-4">
            <div class="flex items-center gap-5">
              <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Promise</h3>
-             <VLazyImage class="w-20" src="/image/kemitraan/mascot4.png" alt=""/>
+             <VLazyImage class="w-20" src="/image/kemitraan/mascot4.webp" alt=""/>
           </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg relative">
-            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
             <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
               Kami berkomitmen mendampingi Anda disetiap langkah perjalanan bisnis, memastikan bahwa bisnis Anda tumbuh,berkembang, dan terbuka secara transparant.
             </p>
@@ -426,7 +426,7 @@ Sushi Stop memiliki
       <div class="container mx-auto bg-petals3">
         <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 text-red-main-1">ROI (Ilustrasi Hasil Modal)</h2>
         <div class="overflow-x-auto py-20">
-         <VLazyImage src="/image/kemitraan/roi.png" alt=""/>
+         <VLazyImage src="/image/kemitraan/roi.webp" alt=""/>
         </div>
       </div>
     </section> -->
@@ -435,7 +435,7 @@ Sushi Stop memiliki
     <!-- <section class="bg-yellow-main-2 text-red-main-1 w-full flex justify-center">
 
       <div class="bg-petals2 z-1 lg:py-50 w-full lg:max-w-[1536px] max-w-screen flex justify-center items-center relative">
-        <VLazyImage class="absolute md:w-100 lg:w-200 left-0" src="/image/kemitraan/platter5.png" alt=""/>
+        <VLazyImage class="absolute md:w-100 lg:w-200 left-0" src="/image/kemitraan/platter5.webp" alt=""/>
         <div class="flex items-center justify-center pt-20 ">
           <div class="flex gap-10 p-10 relative justify-center flex-col lg:flex-row">
             <div class="w-full h-full z-0 absolute left-0 bottom-0 z-0 translate-y-15 -translate-x-25"></div>
@@ -443,37 +443,37 @@ Sushi Stop memiliki
               <h3 class="flex flex-col text-4xl lg:text-6xl gap-4 font-bold">
                 <p>Cara</p>
                 <p>Bergabung</p>
-                <VLazyImage class="w-15" src="/image/kemitraan/heart.png" alt=""/>
+                <VLazyImage class="w-15" src="/image/kemitraan/heart.webp" alt=""/>
               </h3>
 
             </div>
             <div class="right bg-white z-1 rounded-lg p-5 lg:p-20 flex flex-col gap-8">
               <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/location.png" alt=""/>
+                <VLazyImage class="w-10" src="/image/kemitraan/location.webp" alt=""/>
                 <p class="bold text-sm lg:text-lg">Pengajuan lokasi usaha yang <br> dilakukan Oleh Mitra</p>
               </div>
               <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10 h-13" src="/image/kemitraan/pena.png" alt=""/>
+                <VLazyImage class="w-10 h-13" src="/image/kemitraan/pena.webp" alt=""/>
                 <p class="bold text-sm lg:text-lg">Penandatanganan kontrak</p>
               </div>
               <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/paid.png" alt=""/>
+                <VLazyImage class="w-10" src="/image/kemitraan/paid.webp" alt=""/>
                 <p class="bold text-sm lg:text-lg">Pembayaran invoice</p>
               </div>
               <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/gear.png" alt=""/>
+                <VLazyImage class="w-10" src="/image/kemitraan/gear.webp" alt=""/>
                 <p class="bold text-sm lg:text-lg">2 Minggu persiapan peralatan</p>
               </div>
               <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/truck.png" alt=""/>
+                <VLazyImage class="w-10" src="/image/kemitraan/truck.webp" alt=""/>
                 <p class="bold text-sm lg:text-lg">1 Minggu pengiriman</p>
               </div>
               <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/manager.png" alt=""/>
+                <VLazyImage class="w-10" src="/image/kemitraan/manager.webp" alt=""/>
                 <p class="bold text-sm lg:text-lg">Pelatihan pegawai</p>
               </div>
               <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/mascot5.png" alt=""/>
+                <VLazyImage class="w-10" src="/image/kemitraan/mascot5.webp" alt=""/>
                 <p class="bold text-sm lg:text-lg">Pembukaan Sushi Stop</p>
               </div>
             </div>
@@ -488,14 +488,14 @@ Sushi Stop memiliki
     <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1 flex justify-center flex-col items-center relative">
       <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 relative">
         Saatnya wujudkan Impian Anda!
-        <VLazyImage class="w-10 lg:w-20 absolute -left-1/40 -top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
-        <VLazyImage class="w-10 lg:w-20 absolute -right-1/40 top-4 z-0" src="/image/kemitraan/sparkle.png" alt=""/>
+        <VLazyImage class="w-10 lg:w-20 absolute -left-1/40 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+        <VLazyImage class="w-10 lg:w-20 absolute -right-1/40 top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
       </h2>
 
       <div class="flex items-center justify-center pt-15 gap-20 lg:gap-0 flex-col lg:flex-row">
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">
           <div class="h-40">
-            <VLazyImage class="h-40" src="/image/kemitraan/money.png" alt=""/>
+            <VLazyImage class="h-40" src="/image/kemitraan/money.webp" alt=""/>
           </div>
           <p class="px-5 font-semibold text-xl lg:px-10 text-center">Peluang Bisnis yang berpotensi memberikan anda passive income puluhan hingga ratusan juta per bulan!</p>
         </div>
@@ -503,7 +503,7 @@ Sushi Stop memiliki
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">
           <div class="h-40">
 
-            <VLazyImage class=" h-40" src="/image/kemitraan/gate.png" alt=""/>
+            <VLazyImage class=" h-40" src="/image/kemitraan/gate.webp" alt=""/>
           </div>
           <p class="px-5 font-semibold text-xl lg:px-10 text-center">Menjalakan usaha
 dengan brand
@@ -513,7 +513,7 @@ yang sudah dikenal luas</p>
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">
           <div class="h-40">
 
-            <VLazyImage class="h-40 w-50" src="/image/kemitraan/mascot1.png" alt=""/>
+            <VLazyImage class="h-40 w-50" src="/image/kemitraan/mascot1.webp" alt=""/>
           </div>
           <p class="px-5 font-semibold text-xl lg:px-10 text-center">Punya bisnis kuliner hits
 tanpa harus memulai dari 0
@@ -528,11 +528,11 @@ berkembang</p>
     <section id="Daftar" class=" bg-yellow-main-2  flex flex-col lg:flex-row justify-center items-center">
       <div class=" container bg-petals3 relative w-full h-full pt-10 py-20 px-4 md:px-16">
         <div class="w-full h-full bg-petals3 left-0 top-0 rotate-180 z-0"></div>
-        <VLazyImage src="/image/kemitraan/place1.png" class=" absolute bottom-0 -left-20 hidden lg:block md:w-1/2 order-last md:order-first" alt=""/>
+        <VLazyImage src="/image/kemitraan/place1.webp" class=" absolute bottom-0 -left-20 hidden lg:block md:w-1/2 order-last md:order-first" alt=""/>
         <div class="w-50 lg:w-150 lg:h-150 bg-sakuratree absolute right-0 top-0 z-0"></div>
         <div class=" lg:pl-120 flex justify-center items-center md:items-end gap-10 md:flex-row flex-col">
           <div class="w-full lg:w-auto flex flex-col gap-5 text-red-main-1 z-2 lg:py-20">
-            <VLazyImage class="w-40 lg:w-70 z-2" src="/image/icons/Logo.png" alt=""/>
+            <VLazyImage class="w-40 lg:w-70 z-2" src="/image/icons/Logo.webp" alt=""/>
             <div class="wrapper flex flex-col">
               <p class="pl-5 font-bold">Nama</p>
               <div class="flex items-center bg-yellow-main-3 rounded-full px-5 py-2">
@@ -588,7 +588,7 @@ berkembang</p>
           </div>
         </div>
       </div>
-      <VLazyImage src="/image/kemitraan/place1.png" class=" md:hidden px-4 h-70 order-last" alt=""/>
+      <VLazyImage src="/image/kemitraan/place1.webp" class=" md:hidden px-4 h-70 order-last" alt=""/>
     </section>
   </body>
 </template>
@@ -598,13 +598,13 @@ berkembang</p>
   }
 
   .bg-sparkle {
-    background-image: url('/image/kemitraan/sparkle.png');
+    background-image: url('/image/kemitraan/sparkle.webp');
     background-repeat: repeat;
     background-size: contain;
   }
 
   .bg-sparkle-no-repeat {
-    background-image: url('/image/kemitraan/sparkle.png');
+    background-image: url('/image/kemitraan/sparkle.webp');
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -618,24 +618,24 @@ berkembang</p>
   }
 
   .bg-platter {
-    background-image: url('/image/kemitraan/platter5.png');
+    background-image: url('/image/kemitraan/platter5.webp');
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .bg-petals2{
-    background: url('/image/kemitraan/sakura2.png');
+    background: url('/image/kemitraan/sakura2.webp');
     background-color: var(--bg-yellow-main-3);
     background-size: cover;
   }
 
   .bg-petals3{
-    background: url('/image/kemitraan/sakura2.png') no-repeat;
+    background: url('/image/kemitraan/sakura2.webp') no-repeat;
     background-size: cover;
   }
 
   .bg-sakuratree{
-    background: url('/image/kemitraan/sakura1.png') no-repeat;
+    background: url('/image/kemitraan/sakura1.webp') no-repeat;
     background-size: cover;
 
   }
@@ -653,7 +653,7 @@ berkembang</p>
   }
 
   .bg-outlet {
-    background: url('/image/kemitraan/place1.png');
+    background: url('/image/kemitraan/place1.webp');
     background-color: var(--bg-yellow-main-3);
     background-size: contain;
     background-repeat: no-repeat;

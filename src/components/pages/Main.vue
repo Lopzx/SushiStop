@@ -13,7 +13,7 @@ onMounted(() => {
   image.value = []
   const imagePath = '/image/menuimage/'
   for (let idx = 1; idx <= jumlahGambar; idx++) {
-    const imgPath = `${imagePath}${idx}.jpg` // Ensure the file extension matches
+    const imgPath = `${imagePath}${idx}.webp` // Ensure the file extension matches
     image.value.push(imgPath)
   }
 })
@@ -63,7 +63,7 @@ const responsiveOptions = ref([
           class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-start pt-5 lg:pt-15"
         >
           <div class="flex flex-col flex-1 items-center gap-4">
-            <VLazyImage class="h-80" loading="lazy" src="/image/journeyimage/1.png" alt="" />
+            <VLazyImage class="h-80" loading="lazy" src="/image/journeyimage/1.webp" alt="" />
             <p class="text-center text-lg">
               <b>Sushi Stop pertama kali didirikan pada tahun 2020.</b> Dengan visi menjadi Brand
               nomor satu Sushi affordable di Indonesia
@@ -72,11 +72,11 @@ const responsiveOptions = ref([
           <VLazyImage
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             loading="lazy"
-            src="/image/kemitraan/arrow1.png"
+            src="/image/kemitraan/arrow1.webp"
             alt=""
           />
           <div class="flex flex-col flex-1 items-center gap-4">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/2.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/2.webp" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2021 , Sushi Stop melakukan
               <b>ekspansi melalui pembukaan outlet/booth</b> di berbagai lokasi
@@ -84,11 +84,11 @@ const responsiveOptions = ref([
           </div>
           <VLazyImage
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-            src="/image/kemitraan/arrow1.png"
+            src="/image/kemitraan/arrow1.webp"
             alt=""
           />
           <div class="flex flex-col flex-1 items-center gap-4">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/3.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/3.webp" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2022 , Sushi Stop <b>membuka resto dine in pertama</b> di Greenville
             </p>
@@ -99,7 +99,7 @@ const responsiveOptions = ref([
         <VLazyImage
           loading="lazy"
           class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-          src="/image/kemitraan/arrow1.png"
+          src="/image/kemitraan/arrow1.webp"
           alt=""
         />
       </div>
@@ -108,7 +108,7 @@ const responsiveOptions = ref([
           class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-between lg:pt-15"
         >
           <div class="flex flex-col items-center gap-4 flex-1">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/4.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/4.webp" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2023 , Sushi Stop melakukan rebranding perubahan logo dan
               <b>berkembang hingga 25 outlet di Jabodetabek</b>
@@ -117,11 +117,11 @@ const responsiveOptions = ref([
           <VLazyImage
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-            src="/image/kemitraan/arrow1.png"
+            src="/image/kemitraan/arrow1.webp"
             alt=""
           />
           <div class="flex flex-col items-center gap-4 flex-1">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/5.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/5.webp" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2024 , Sushi Stop membuka
               <b
@@ -133,11 +133,11 @@ const responsiveOptions = ref([
           <VLazyImage
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-            src="/image/kemitraan/arrow1.png"
+            src="/image/kemitraan/arrow1.webp"
             alt=""
           />
           <div class="flex flex-col items-center gap-4 flex-1">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/6.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/6.webp" alt="" />
             <p class="text-center text-lg">
               Hingga tahun 2025 , Sushi Stop <b>membuka peluang kemitraan</b>
             </p>
@@ -147,7 +147,7 @@ const responsiveOptions = ref([
         <h3
           class="text-2xl lg:text-2xl font-bold text-center mb-8 bg-center bg-pos-1 flex justify-center pt-40 items-center flex-col relative"
         >
-          <VLazyImage loading="lazy" class="w-30" src="/image/icons/mascots/mascot7.png" alt="" />
+          <VLazyImage loading="lazy" class="w-30" src="/image/icons/mascots/mascot7.webp" alt="" />
           <p class="md:w-100 lg:w-200">
             Dengan pengalaman lebih dari 5 tahun, sekarang Sushi Stop memiliki +- 30 Gerai Self
             Owned!
@@ -187,13 +187,13 @@ button.btn {
 }
 
 .bg-sparkle {
-  background-image: url('/image/kemitraan/sparkle.png');
+  background-image: url('/image/kemitraan/sparkle.webp');
   background-repeat: repeat;
   background-size: contain;
 }
 
 .bg-sparkle-no-repeat {
-  background-image: url('/image/kemitraan/sparkle.png');
+  background-image: url('/image/kemitraan/sparkle.webp');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -207,13 +207,13 @@ button.btn {
 }
 
 .bg-platter {
-  background-image: url('/image/kemitraan/platter5.png');
+  background-image: url('/image/kemitraan/platter5.webp');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .bg-sakuratree {
-  background: url('/image/kemitraan/sakura1.png') no-repeat;
+  background: url('/image/kemitraan/sakura1.webp') no-repeat;
   background-size: cover;
 }
 
@@ -230,7 +230,7 @@ button.btn {
 }
 
 .bg-outlet {
-  background: url('/image/kemitraan/place1.png');
+  background: url('/image/kemitraan/place1.webp');
   background-color: var(--bg-yellow-main-3);
   background-size: contain;
   background-repeat: no-repeat;

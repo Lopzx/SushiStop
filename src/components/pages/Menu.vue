@@ -7,7 +7,7 @@ const menuImage = ref([])
 onMounted(() => {
   const jumlahHalaman = 24
   const imagePath = '/image/menu/HalamanMenu'
-  const extension = '.jpg'
+  const extension = '.webp'
   menuImage.value = []
   for (let x = 1; x <= jumlahHalaman; x++) {
     menuImage.value.push(imagePath + x + extension)
@@ -20,7 +20,7 @@ onMounted(() => {
     class="overflow-hidden flex flex-col justify-center items-center bg-yellow-main-2 text-red-main-1 relative"
   >
     <img
-      src="/image/kemitraan/sakura1.png"
+      src="/image/kemitraan/sakura1.webp"
       class="z-0 absolute top-30 lg:-top-60 md:top-0 right-0 h-50 md:h-100 lg:h-150"
       alt=""
     />
@@ -30,11 +30,11 @@ onMounted(() => {
     <div class="container pt-10 lg:pt-40 pb-10 lg:pb-20">
       <div class="flex flex-col lg:flex-row justify-center items-center gap-15">
         <div class="left relative">
-          <img class="w-50 lg:w-100 xl:w-150" src="/image/kemitraan/mascot7.png" />
+          <img class="w-50 lg:w-100 xl:w-150" src="/image/kemitraan/mascot7.webp" />
           <div
             class="flex items-center justify-center p-5 lg:p-10 w-full absolute -top-5 lg:-top-20 left-1/2 -translate-x-1/2"
           >
-            <img src="/image/kemitraan/heart.png" class="w-5 lg:w-20" />
+            <img src="/image/kemitraan/heart.webp" class="w-5 lg:w-20" />
             <h1 class="text-red-main-1 font-bold text-xl lg:text-4xl">At Every Bite</h1>
           </div>
         </div>
@@ -52,7 +52,7 @@ onMounted(() => {
 
     <div class="bg-red-main-1 py-2 px-5 lg:p-6 flex items-center gap-5 rounded-full">
       <p class="font-bold text-white text-xl lg:text-4xl">Browse</p>
-      <img src="/image/kemitraan/arrow.png" class="h-5 lg:h-10" />
+      <img src="/image/kemitraan/arrow.webp" class="h-5 lg:h-10" />
     </div>
   </header>
 
