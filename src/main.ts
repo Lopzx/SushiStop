@@ -8,8 +8,6 @@ import { createWebHistory, createRouter } from 'vue-router'
 import { createNotivue } from 'notivue'
 
 import Main from './components/pages/Main.vue'
-import ContactUs from './components/pages/ContactUs.vue'
-import Kemitraan from './components/pages/Kemitraan.vue'
 import VueVisibleClass from 'vue-visible-class'
 
 import 'notivue/notification.css' // Only needed if using built-in notifications
