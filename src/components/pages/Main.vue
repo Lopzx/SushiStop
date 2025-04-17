@@ -3,18 +3,13 @@ import { ref, onMounted } from 'vue'
 import CarouselBanner from '../CarouselBanner.vue'
 import ReviewCarousel from '../ReviewCarousel.vue'
 import Carousel from 'primevue/carousel'
-import { useElementVisibility } from '@vueuse/core'
-import { vElementVisibility } from '@vueuse/components'
-import { useTemplateRef } from 'vue'
-
-const target = useTemplateRef<HTMLDivElement>('target')
-const targetIsVisible = useElementVisibility(target)
+import VLazyImage from 'v-lazy-image'
 
 const image = ref()
 const carouselRef = ref()
 
 onMounted(() => {
-  const jumlahGambar = 24 // Update this to the actual number of images
+  const jumlahGambar = 10 // Update this to the actual number of images
   image.value = []
   const imagePath = '/image/menuimage/'
   for (let idx = 1; idx <= jumlahGambar; idx++) {
@@ -68,32 +63,32 @@ const responsiveOptions = ref([
           class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-start pt-5 lg:pt-15"
         >
           <div class="flex flex-col flex-1 items-center gap-4">
-            <img class="h-80" loading="lazy" src="/image/journeyimage/1.png" alt="" />
+            <VLazyImage class="h-80" loading="lazy" src="/image/journeyimage/1.png" alt="" />
             <p class="text-center text-lg">
               <b>Sushi Stop pertama kali didirikan pada tahun 2020.</b> Dengan visi menjadi Brand
               nomor satu Sushi affordable di Indonesia
             </p>
           </div>
-          <img
+          <VLazyImage
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             loading="lazy"
             src="/image/kemitraan/arrow1.png"
             alt=""
           />
           <div class="flex flex-col flex-1 items-center gap-4">
-            <img loading="lazy" class="h-80" src="/image/journeyimage/2.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/2.png" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2021 , Sushi Stop melakukan
               <b>ekspansi melalui pembukaan outlet/booth</b> di berbagai lokasi
             </p>
           </div>
-          <img
+          <VLazyImage
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             src="/image/kemitraan/arrow1.png"
             alt=""
           />
           <div class="flex flex-col flex-1 items-center gap-4">
-            <img loading="lazy" class="h-80" src="/image/journeyimage/3.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/3.png" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2022 , Sushi Stop <b>membuka resto dine in pertama</b> di Greenville
             </p>
@@ -101,7 +96,7 @@ const responsiveOptions = ref([
         </div>
       </section>
       <div class="block lg:hidden flex justify-center items-center">
-        <img
+        <VLazyImage
           loading="lazy"
           class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
           src="/image/kemitraan/arrow1.png"
@@ -113,20 +108,20 @@ const responsiveOptions = ref([
           class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-between lg:pt-15"
         >
           <div class="flex flex-col items-center gap-4 flex-1">
-            <img loading="lazy" class="h-80" src="/image/journeyimage/4.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/4.png" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2023 , Sushi Stop melakukan rebranding perubahan logo dan
               <b>berkembang hingga 25 outlet di Jabodetabek</b>
             </p>
           </div>
-          <img
+          <VLazyImage
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             src="/image/kemitraan/arrow1.png"
             alt=""
           />
           <div class="flex flex-col items-center gap-4 flex-1">
-            <img loading="lazy" class="h-80" src="/image/journeyimage/5.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/5.png" alt="" />
             <p class="text-center text-lg">
               Pada tahun 2024 , Sushi Stop membuka
               <b
@@ -135,14 +130,14 @@ const responsiveOptions = ref([
               >
             </p>
           </div>
-          <img
+          <VLazyImage
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             src="/image/kemitraan/arrow1.png"
             alt=""
           />
           <div class="flex flex-col items-center gap-4 flex-1">
-            <img loading="lazy" class="h-80" src="/image/journeyimage/6.png" alt="" />
+            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/6.png" alt="" />
             <p class="text-center text-lg">
               Hingga tahun 2025 , Sushi Stop <b>membuka peluang kemitraan</b>
             </p>
@@ -152,7 +147,7 @@ const responsiveOptions = ref([
         <h3
           class="text-2xl lg:text-2xl font-bold text-center mb-8 bg-center bg-pos-1 flex justify-center pt-40 items-center flex-col relative"
         >
-          <img loading="lazy" class="w-30" src="/image/icons/mascots/mascot7.png" alt="" />
+          <VLazyImage loading="lazy" class="w-30" src="/image/icons/mascots/mascot7.png" alt="" />
           <p class="md:w-100 lg:w-200">
             Dengan pengalaman lebih dari 5 tahun, sekarang Sushi Stop memiliki +- 30 Gerai Self
             Owned!
@@ -173,7 +168,7 @@ const responsiveOptions = ref([
         >
           <template #item="slotProps">
             <figure class="h-45 lg:h-75 px-4">
-              <img :src="slotProps.data" loading="lazy" class="rounded-full h-full" />
+              <VLazyImage :src="slotProps.data" loading="lazy" class="rounded-full h-full" />
             </figure>
           </template>
         </Carousel>

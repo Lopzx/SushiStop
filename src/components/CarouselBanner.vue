@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
 import Carousel from 'primevue/carousel'
+import VLazyImage from 'v-lazy-image'
 
 onMounted(() => {
   banner.value = [

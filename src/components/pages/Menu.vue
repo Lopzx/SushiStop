@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
+import VLazyImage from 'v-lazy-image'
 
 const menuImage = ref([])
 
 onMounted(() => {
-  let jumlahHalaman = 24
-  let imagePath = '/image/menu/HalamanMenu'
-  let extension = '.jpg'
+  const jumlahHalaman = 24
+  const imagePath = '/image/menu/HalamanMenu'
+  const extension = '.jpg'
   menuImage.value = []
   for (let x = 1; x <= jumlahHalaman; x++) {
     menuImage.value.push(imagePath + x + extension)
@@ -57,7 +58,13 @@ onMounted(() => {
 
   <div class="Menu w-full flex justify-center items-center bg-yellow-main-2 pt-15 lg:pt-30">
     <div class="container flex flex-col items-center justify-center">
-      <img v-for="image in menuImage" class="w-full lg:w-1/2" loading="lazy" :src="image" />
+      <VLazyImage
+        v-bind:key="index"
+        v-for="(image, index) in menuImage"
+        class="w-full lg:w-1/2"
+        loading="lazy"
+        :src="image"
+      />
     </div>
   </div>
 </template>
