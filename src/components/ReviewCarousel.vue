@@ -87,11 +87,11 @@ const responsiveOptions = ref([
           <div class="w-full flex justify-center items-center">
             <div class="card bg-yellow-main-2 w-5/6 shadow-sm resizer">
               <div class="pl-5 justify-start pl pt-5 flex gap-1">
-                <img src="/image/icons/Star.png" class="w-5" alt="Shoes" />
-                <img src="/image/icons/Star.png" class="w-5" alt="Shoes" />
-                <img src="/image/icons/Star.png" class="w-5" alt="Shoes" />
-                <img src="/image/icons/Star.png" class="w-5" alt="Shoes" />
-                <img src="/image/icons/Star.png" class="w-5" alt="Shoes" />
+                <img src="/image/icons/Star.webp" class="w-5" alt="Shoes" />
+                <img src="/image/icons/Star.webp" class="w-5" alt="Shoes" />
+                <img src="/image/icons/Star.webp" class="w-5" alt="Shoes" />
+                <img src="/image/icons/Star.webp" class="w-5" alt="Shoes" />
+                <img src="/image/icons/Star.webp" class="w-5" alt="Shoes" />
               </div>
               <div class="p-5 pt-2 text-black-main-1">
                 <h2 class="card-title">
