@@ -6,7 +6,7 @@ const menuImage = ref([])
 onMounted(() => {
   let jumlahHalaman = 24
   let imagePath = '/image/menu/HalamanMenu'
-  let extension = '.png'
+  let extension = '.jpg'
   menuImage.value = []
   for (let x = 1; x <= jumlahHalaman; x++) {
     menuImage.value.push(imagePath + x + extension)

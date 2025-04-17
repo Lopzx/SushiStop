@@ -14,7 +14,7 @@ const image = ref()
 const carouselRef = ref()
 
 onMounted(() => {
-  const jumlahGambar = 50 // Update this to the actual number of images
+  const jumlahGambar = 24 // Update this to the actual number of images
   image.value = []
   const imagePath = '/image/menuimage/'
   for (let idx = 1; idx <= jumlahGambar; idx++) {
@@ -65,7 +65,7 @@ const responsiveOptions = ref([
           <p class="z-1">Perjalanan Kami</p>
         </h2>
         <div
-          class="flex w-full gap-10 flex-col lg:flex-row items-center justify-center pt-5 lg:pt-15"
+          class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-start pt-5 lg:pt-15"
         >
           <div class="flex flex-col flex-1 items-center gap-4">
             <img class="h-80" src="/image/journeyimage/1.png" alt="" />
@@ -74,7 +74,11 @@ const responsiveOptions = ref([
               nomor satu Sushi affordable di Indonesia
             </p>
           </div>
-          <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
+          <img
+            class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
+            src="/image/kemitraan/arrow1.png"
+            alt=""
+          />
           <div class="flex flex-col flex-1 items-center gap-4">
             <img class="h-80" src="/image/journeyimage/2.png" alt="" />
             <p class="text-center text-lg">
@@ -82,7 +86,11 @@ const responsiveOptions = ref([
               <b>ekspansi melalui pembukaan outlet/booth</b> di berbagai lokasi
             </p>
           </div>
-          <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
+          <img
+            class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
+            src="/image/kemitraan/arrow1.png"
+            alt=""
+          />
           <div class="flex flex-col flex-1 items-center gap-4">
             <img class="h-80" src="/image/journeyimage/3.png" alt="" />
             <p class="text-center text-lg">
@@ -92,10 +100,16 @@ const responsiveOptions = ref([
         </div>
       </section>
       <div class="block lg:hidden flex justify-center items-center">
-        <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
+        <img
+          class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
+          src="/image/kemitraan/arrow1.png"
+          alt=""
+        />
       </div>
       <section class="py-12 px-4 w-full md:px-16 text-red-main-1">
-        <div class="flex w-full gap-10 flex-col lg:flex-row items-center justify-between lg:pt-15">
+        <div
+          class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-between lg:pt-15"
+        >
           <div class="flex flex-col items-center gap-4 flex-1">
             <img class="h-80" src="/image/journeyimage/4.png" alt="" />
             <p class="text-center text-lg">
@@ -103,7 +117,11 @@ const responsiveOptions = ref([
               <b>berkembang hingga 25 outlet di Jabodetabek</b>
             </p>
           </div>
-          <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
+          <img
+            class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
+            src="/image/kemitraan/arrow1.png"
+            alt=""
+          />
           <div class="flex flex-col items-center gap-4 flex-1">
             <img class="h-80" src="/image/journeyimage/5.png" alt="" />
             <p class="text-center text-lg">
@@ -114,7 +132,11 @@ const responsiveOptions = ref([
               >
             </p>
           </div>
-          <img class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.png" alt="" />
+          <img
+            class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
+            src="/image/kemitraan/arrow1.png"
+            alt=""
+          />
           <div class="flex flex-col items-center gap-4 flex-1">
             <img class="h-80" src="/image/journeyimage/6.png" alt="" />
             <p class="text-center text-lg">

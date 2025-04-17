@@ -68,9 +68,8 @@ const responsiveOptions = ref([
   <div>
     <div class="text-center pt-20">
       <h1 class="text-red-main-1 text-2xl lg:text-5xl font-bold inline-block align-top">
-        KATA MANTAN KAMI
+        Apa Kata Mereka?
       </h1>
-      <span class="text-red-main-1 text-sm lg:text-xl font-semibold align-top">* Pelanggan</span>
     </div>
     <div class="card py-20">
       <Carousel
