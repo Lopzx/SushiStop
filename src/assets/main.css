@@ -467,17 +467,17 @@
 }
 
 .bg-petals2 {
-  background: url('/image/kemitraan/sakura2.png');
+  background: url('/image/kemitraan/sakura2.webp');
   background-color: var(--bg-yellow-main-3);
   background-size: cover;
 }
 
 .bg-petals3 {
-  background: url('/image/kemitraan/sakura2.png') no-repeat;
+  background: url('/image/kemitraan/sakura2.webp') no-repeat;
   background-size: cover;
 }
 .bg-petals4 {
-  background: url('/image/kemitraan/sakura3.png') no-repeat;
+  background: url('/image/kemitraan/sakura3.webp') no-repeat;
   background-size: contain;
 }
 
