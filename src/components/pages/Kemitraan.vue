@@ -163,26 +163,26 @@ Sushi Stop memiliki
       <div class="container flex justify-center items-center mx-auto bg-petals3">
         <div class="flex gap-1 flex-col lg:flex-row items-center justify-center">
           <div class="bg-yellow-main-3 p-6 rounded-lg">
-            <img src="/image/kemitraan/trophy.png" alt="Support Icon" class="w-60 lg:w-200" />
+            <img src="/image/kemitraan/trophy.png" alt="Support Icon" class="w-60 lg:w-125" />
           </div>
           <div class="p-6 rounded-lg text-red-main-1 flex flex-col gap-5 items-end">
-              <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
-                <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
+              <div class="card w-full lg:w-auto bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+                <div class="p-2 text-md lg:text-md lg:w-100 xl:text-xl xl:w-125 font-bold text-center white-outline-box rounded-lg">
                   Sebagai pelopor sushi affordable pertama di lndonesia, Kami melihat potensi dan antusiasme pasar masih sangatlah besar.
                 </div>
               </div>
-              <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
-                <div class="p-2 text-md lg:text-xl lg:w-200 font-bold text-center white-outline-box rounded-lg">
+              <div class="card w-full lg:w-auto bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+                <div class="p-2 text-md lg:text-md lg:w-125 xl:text-xl xl:w-150 font-bold text-center white-outline-box rounded-lg">
                   Dengan pengalaman lebih dari 5 tahun dan keberhasilan melewati masa pandemi, Sushi Stop hadir sebagai brand yang kuat dengan support system yang siap mendukung setiap mitra untuk berkembang bersama.
                 </div>
               </div>
-              <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
-                <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
+              <div class="card w-full lg:w-auto bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+                <div class="p-2 text-md lg:text-md lg:w-100 xl:text-xl xl:w-125 font-bold text-center white-outline-box rounded-lg">
                   Peluang bisnis dengan ROI yang menarik dengan potensi income puluhan hingga ratusan juta perbulan
                 </div>
               </div>
-              <div class="card  bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
-                <div class="p-2 text-md lg:text-xl lg:w-150 font-bold text-center white-outline-box rounded-lg">
+              <div class="card w-full lg:w-auto bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+                <div class="p-2 text-md lg:text-md lg:w-100 xl:text-xl xl:w-125 font-bold text-center white-outline-box rounded-lg">
                   Telah meraih banyak penghargaan dari platform Shopee, Grabfood, dan Gofood
                 </div>
               </div>
@@ -431,7 +431,7 @@ Sushi Stop memiliki
     </section> -->
 
     <!-- How to Join Section -->
-    <section class="bg-yellow-main-2 text-red-main-1 w-full flex justify-center">
+    <!-- <section class="bg-yellow-main-2 text-red-main-1 w-full flex justify-center">
 
       <div class="bg-petals2 z-1 lg:py-50 w-full lg:max-w-[1536px] max-w-screen flex justify-center items-center relative">
         <img class="absolute md:w-100 lg:w-200 left-0" src="/image/kemitraan/platter5.png" alt="">
@@ -480,7 +480,7 @@ Sushi Stop memiliki
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Why Join Section -->
      <!-- Journey Section -->
@@ -496,11 +496,7 @@ Sushi Stop memiliki
           <div class="h-40">
             <img class="h-40" src="/image/kemitraan/money.png" alt="">
           </div>
-          <p class="px-5 font-semibold text-xl lg:px-10 text-center">Peluang bisnis
-            yang menguntungkan
-            dan investasi berkelanjutan
-            cocok untuk Anda yang ingin
-            memiliki passive income</p>
+          <p class="px-5 font-semibold text-xl lg:px-10 text-center">Peluang Bisnis yang berpotensi memberikan anda passive income puluhan hingga ratusan juta per bulan!</p>
         </div>
 
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">

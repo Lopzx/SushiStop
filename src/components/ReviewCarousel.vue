@@ -68,7 +68,7 @@ const responsiveOptions = ref([
   <div>
     <div class="text-center pt-20">
       <h1 class="text-red-main-1 text-2xl lg:text-5xl font-bold inline-block align-top">
-        Apa Kata Mereka?
+        Kata Pelanggan Kami
       </h1>
     </div>
     <div class="card py-20">
