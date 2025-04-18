@@ -4,6 +4,7 @@ import CarouselBanner from '../CarouselBanner.vue'
 import ReviewCarousel from '../ReviewCarousel.vue'
 import Carousel from 'primevue/carousel'
 import VLazyImage from 'v-lazy-image'
+import WhatsappCTA from '../WhatsappCTA.vue'
 
 const image = ref()
 const carouselRef = ref()
@@ -48,10 +49,11 @@ const responsiveOptions = ref([
 </script>
 
 <template>
+  <WhatsappCTA class="z-100" />
   <CarouselBanner />
   <section class="bg-yellow-main-3 relative py-2 lg:py-20">
     <div class="bg-petals2 absolute top-0 left-0 h-100 w-full p-0"></div>
-    <div class="bg-petals2 absolute bottom-150 left-0 h-50 w-full"></div>
+
     <div class="flex flex-col">
       <section class="py-12 px-4 w-full md:px-16 text-red-main-1">
         <h2
@@ -147,6 +149,7 @@ const responsiveOptions = ref([
         <h3
           class="text-2xl lg:text-2xl font-bold text-center mb-8 bg-center bg-pos-1 flex justify-center pt-40 items-center flex-col relative"
         >
+          <div class="bg-petals2 absolute bottom-0 left-0 h-75 w-full"></div>
           <VLazyImage loading="lazy" class="w-30" src="/image/icons/mascots/mascot7.webp" alt="" />
           <p class="md:w-100 lg:w-200">
             Dengan pengalaman lebih dari 5 tahun, sekarang Sushi Stop memiliki +- 30 Gerai Self
@@ -172,6 +175,45 @@ const responsiveOptions = ref([
             </figure>
           </template>
         </Carousel>
+
+        <div class="flex flex-col justify-center items-center">
+          <h2 class="text-5xl font-bold pb-5">Order Disini</h2>
+          <div class="flex flex-col lg:justify-between lg:flex-row w-full gap-10">
+            <a
+              class="w-full"
+              href="https://www.google.com/url?q=https%3A%2F%2Fshopee.co.id%2Funiversal-link%2Fnow-food%2FstoreListing%2F39483%3Fdeep_and_deferred%3D1%26shareChannel%3Dcopy_link&sa=D&sntz=1&usg=AOvVaw0AC7bn6AVRTaRC1wFe73cZ"
+            >
+              <button
+                class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
+              >
+                <img class="w-20 rounded" src="/image/icons/shopeefood.webp" alt="" />
+                <div class="text-xl md:text-3xl text-red-main-1">Shopee Food</div>
+              </button>
+            </a>
+            <a
+              class="w-full"
+              href="https://www.google.com/url?q=https%3A%2F%2Fgofood.link%2Fa%2FCg8GMz3%23&sa=D&sntz=1&usg=AOvVaw3A2Rbisu_WEQqN7grRF9rD"
+            >
+              <button
+                class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
+              >
+                <img class="w-20 rounded" src="/image/icons/grabfood.webp" alt="" />
+                <div class="text-xl md:text-3xl text-red-main-1">Grab Food</div>
+              </button>
+            </a>
+            <a
+              class="w-full"
+              href="https://www.google.com/url?q=https%3A%2F%2Fgrab.onelink.me%2F2695613898%3Fpid%3Dinstagram_organic%26c%3D%26is_retargeting%3Dtrue%26af_dp%3Dgrab%253A%252F%252Fopen%253FscreenType%253DGRABFOOD%2526categoryShortcutID%253D8863%26af_web_dp%3D&sa=D&sntz=1&usg=AOvVaw2X_pAj1hqlINOzAUKJXdHe"
+            >
+              <button
+                class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
+              >
+                <img class="w-20 rounded" src="/image/icons/gofood.webp" alt="" />
+                <div class="text-xl md:text-3xl text-red-main-1">Go Food</div>
+              </button>
+            </a>
+          </div>
+        </div>
       </section>
     </div>
   </section>

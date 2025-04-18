@@ -125,38 +125,6 @@ function sendMail() {
       </div>
     </section>
 
-
-    <!-- Journey Section -->
-    <!-- <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1">
-      <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 bg-sparkle-no-repeat bg-center bg-pos-1">Perjalanan Kami</h2>
-      <div class="flex w-full gap-10 flex-col lg:flex-row items-center justify-center pt-15 bg-petals2">
-        <div class="flex flex-col items-center gap-4">
-          <VLazyImage class="w-80 h-50" src="/image/kemitraan/platter2.webp" alt=""/>
-          <p class="text-center text-lg">Sushi Stop pertama kali didirikan
-              pada tahun 2020, dengan visi
-              menjadikan sushi yang
-              affordable pertama di Indonesia</p>
-        </div>
-        <VLazyImage class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.webp" alt=""/>
-        <div class="flex flex-col items-center gap-4">
-          <VLazyImage class="w-80 h-50" src="/image/kemitraan/platter1.webp" alt=""/>
-          <p class="text-center text-lg">Sushi Stop berkembang
-              dengan menciptakan
-              varian menu lainnya,
-              seperti ramen dan dounburi</p>
-        </div>
-        <VLazyImage class="w-20 h-10 rotate-90 lg:rotate-0" src="/image/kemitraan/arrow1.webp" alt=""/>
-        <div class="flex flex-col items-center gap-4">
-          <VLazyImage class="w-50 h-50" src="/image/kemitraan/tempat1.webp" alt=""/>
-          <p class="text-center text-lg">Dengan pengalaman lebih
-dari 5 tahun, sekarang
-Sushi Stop memiliki
-30 Gerai Self Owned!</p>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Advantages Section -->
     <section class="py-20 px-4 flex flex-col justify-center items-center bg-yellow-main-3 relative">
       <h2 class="text-2xl lg:text-7xl font-bold text-center py-8 text-red-main-1 bg-sparkle-no-repeat bg-pos-2">Keunggulan Kami</h2>
       <div class="bg-petals2 lg:hidden absolute top-0 left-0 h-100 w-full"></div>
@@ -308,77 +276,6 @@ Sushi Stop memiliki
     </div>
      </section>
 
-
-    <!-- <section class="py-12 bg-yellow-main-3 flex justify-center items-center">
-      <div class="w-full flex flex-col justify-center items-center text-red-main-1">
-        <h2 class="text-2xl lg:text-7xl font-bold text-center mb-12">Testimoni Mitra Kami</h2>
-
-        <div class="influencer-wrapper flex items-center justify-center flex-col">
-          <div class="flex items-end justify-end lg:justify-between lg:gap-4 pt-15 lg:pt-30 w-full">
-          <div class="left-wrapper flex flex-col justify-between self-start w-full">
-            <div class="chat chat-end w-full">
-              <div class="chat-bubble w-full text-center bg-white text-red-main-1 text-[8px] sm:text-sm lg:text-3xl p-2 lg:p-10">
-                <h3 class="font-bold pb-5 lg:pb-10">Aurel Hermansyah (Public Figure)</h3>
-                <p>"Sushinya enaakk! Enak-enak semua banyak variant
-                  jadi pengen coba-coba yang lain."</p>
-              </div>
-            </div>
-            <div class="flex justify-end items-center lg:pr-20 lg:pt-20">
-              <VLazyImage class="w-20 lg:w-60" src="/image/kemitraan/platter3.webp" alt=""/>
-              <VLazyImage class="w-20 lg:w-60" src="/image/kemitraan/mascot1.webp" alt=""/>
-            </div>
-          </div>
-
-          <div class="v-lazy-image w-50 lg:w-200 justify-end">
-            <VLazyImage class="w-full" src="/image/kemitraan/influencer1.webp" alt=""/>
-          </div>
-        </div>
-
-          <div class="flex flex-col items-start justify-start gap-4 w-full">
-            <div class="flex justify-start gap-4 h-40 lg:h-120">
-              <div class="v-lazy-image w-50 lg:w-200">
-              <VLazyImage class="w-full" src="/image/kemitraan/influencer2.webp" alt=""/>
-            </div>
-            <div class="left-wrapper flex flex-col lg:justify-between lg:self-end w-full">
-              <div class="chat chat-start w-full shrink-2">
-                <div class="w-full chat-bubble text-center bg-white text-red-main-1 text-[8px] sm:text-sm lg:text-3xl p-2 lg:p-10">
-                  <h3 class="font-bold pb-5 lg:pb-10 w-full">Tyas Mirasih (Public Figure)</h3>
-                  <p>"Aku ambil yang paketan jadi udah termasuk
-                      minumannya. Rasanya enak banget!!! Crunchy didalam!
-                      Menu nya juga banyak banget!"</p>
-                </div>
-              </div>
-              <div class="flex justify-start -translate-x-10 translate-y--1 lg:-translate-x-30 lg:translate-y-30 items-center lg:pr-20 lg:pt-20">
-                <VLazyImage class="w-35 lg:w-80" src="/image/kemitraan/platter4.webp" alt=""/>
-              </div>
-            </div>
-            </div>
-
-            <div class="flex self-end gap-4 lg:pt-25">
-              <div class="left-wrapper flex flex-col justify-between self-start w-full">
-                <div class="chat chat-end w-full">
-                  <div class="chat-bubble w-full text-center bg-white text-red-main-1 text-[8px] sm:text-sm lg:text-3xl p-2 lg:p-10">
-                    <h3 class="font-bold pb-5 lg:pb-10">Aurel Hermansyah (Public Figure)</h3>
-                    <p>"Sushinya enaakk! Enak-enak semua banyak variant
-                      jadi pengen coba-coba yang lain."</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="v-lazy-image w-50 lg:w-200">
-                <VLazyImage class="w-full" src="/image/kemitraan/influencer3.webp" alt=""/>
-              </div>
-            </div>
-        </div>
-
-          </div>
-
-
-
-      </div>
-    </section> -->
-
-    <!-- Brand Values Section -->
     <section class="py-12 pt-3 bg-yellow-main-3 relative flex justify-center realative">
       <div class="container px-5 lg:px-50 py-20 lg:py-50 flex flex-col gap-7 bg-petals3 relative">
         <div class="w-150 h-200 bg-sakuratree absolute right-0 top-0 z-0"></div>
@@ -421,70 +318,6 @@ Sushi Stop memiliki
       </div>
     </section>
 
-    <!-- ROI Section -->
-    <!-- <section class="py-12 px-4 md:px-16 bg-yellow-main-3 flex justify-center items-center">
-      <div class="container mx-auto bg-petals3">
-        <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 text-red-main-1">ROI (Ilustrasi Hasil Modal)</h2>
-        <div class="overflow-x-auto py-20">
-         <VLazyImage src="/image/kemitraan/roi.webp" alt=""/>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- How to Join Section -->
-    <!-- <section class="bg-yellow-main-2 text-red-main-1 w-full flex justify-center">
-
-      <div class="bg-petals2 z-1 lg:py-50 w-full lg:max-w-[1536px] max-w-screen flex justify-center items-center relative">
-        <VLazyImage class="absolute md:w-100 lg:w-200 left-0" src="/image/kemitraan/platter5.webp" alt=""/>
-        <div class="flex items-center justify-center pt-20 ">
-          <div class="flex gap-10 p-10 relative justify-center flex-col lg:flex-row">
-            <div class="w-full h-full z-0 absolute left-0 bottom-0 z-0 translate-y-15 -translate-x-25"></div>
-            <div class="left z-1">
-              <h3 class="flex flex-col text-4xl lg:text-6xl gap-4 font-bold">
-                <p>Cara</p>
-                <p>Bergabung</p>
-                <VLazyImage class="w-15" src="/image/kemitraan/heart.webp" alt=""/>
-              </h3>
-
-            </div>
-            <div class="right bg-white z-1 rounded-lg p-5 lg:p-20 flex flex-col gap-8">
-              <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/location.webp" alt=""/>
-                <p class="bold text-sm lg:text-lg">Pengajuan lokasi usaha yang <br> dilakukan Oleh Mitra</p>
-              </div>
-              <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10 h-13" src="/image/kemitraan/pena.webp" alt=""/>
-                <p class="bold text-sm lg:text-lg">Penandatanganan kontrak</p>
-              </div>
-              <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/paid.webp" alt=""/>
-                <p class="bold text-sm lg:text-lg">Pembayaran invoice</p>
-              </div>
-              <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/gear.webp" alt=""/>
-                <p class="bold text-sm lg:text-lg">2 Minggu persiapan peralatan</p>
-              </div>
-              <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/truck.webp" alt=""/>
-                <p class="bold text-sm lg:text-lg">1 Minggu pengiriman</p>
-              </div>
-              <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/manager.webp" alt=""/>
-                <p class="bold text-sm lg:text-lg">Pelatihan pegawai</p>
-              </div>
-              <div class="wrapper items-center flex gap-5">
-                <VLazyImage class="w-10" src="/image/kemitraan/mascot5.webp" alt=""/>
-                <p class="bold text-sm lg:text-lg">Pembukaan Sushi Stop</p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- Why Join Section -->
-     <!-- Journey Section -->
     <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1 flex justify-center flex-col items-center relative">
       <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 relative">
         Saatnya wujudkan Impian Anda!
