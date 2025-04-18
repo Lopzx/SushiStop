@@ -192,7 +192,7 @@ const responsiveOptions = ref([
             </a>
             <a
               class="w-full"
-              href="https://www.google.com/url?q=https%3A%2F%2Fgofood.link%2Fa%2FCg8GMz3%23&sa=D&sntz=1&usg=AOvVaw3A2Rbisu_WEQqN7grRF9rD"
+              href="https://www.google.com/url?q=https%3A%2F%2Fgrab.onelink.me%2F2695613898%3Fpid%3Dinstagram_organic%26c%3D%26is_retargeting%3Dtrue%26af_dp%3Dgrab%253A%252F%252Fopen%253FscreenType%253DGRABFOOD%2526categoryShortcutID%253D8863%26af_web_dp%3D&sa=D&sntz=1&usg=AOvVaw2X_pAj1hqlINOzAUKJXdHe"
             >
               <button
                 class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
@@ -201,12 +201,10 @@ const responsiveOptions = ref([
                 <div class="text-xl md:text-3xl text-red-main-1">Grab Food</div>
               </button>
             </a>
-            <a
-              class="w-full"
-              href="https://www.google.com/url?q=https%3A%2F%2Fgrab.onelink.me%2F2695613898%3Fpid%3Dinstagram_organic%26c%3D%26is_retargeting%3Dtrue%26af_dp%3Dgrab%253A%252F%252Fopen%253FscreenType%253DGRABFOOD%2526categoryShortcutID%253D8863%26af_web_dp%3D&sa=D&sntz=1&usg=AOvVaw2X_pAj1hqlINOzAUKJXdHe"
-            >
+            <a class="w-full">
               <button
                 class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
+                href="https://www.google.com/url?q=https%3A%2F%2Fgofood.link%2Fa%2FCg8GMz3%23&sa=D&sntz=1&usg=AOvVaw3A2Rbisu_WEQqN7grRF9rD"
               >
                 <img class="w-20 rounded" src="/image/icons/gofood.webp" alt="" />
                 <div class="text-xl md:text-3xl text-red-main-1">Go Food</div>
