@@ -62,18 +62,18 @@ const openNavbar = ref(false)
           </li>
           <li class="px-4 py-2 rounded-sm" active-class="active border bg-yellow-main-2">
             <RouterLink
-              to="/mitra"
+              to="/franchise"
               active-class="active border bg-yellow-main-2"
               class="block rounded-sm hover:bg-yellow-main-2 md:border-0 md:p-0"
-              ><p class="p-10 py-2 px-3">Kemitraan</p></RouterLink
+              ><p class="p-10 py-2 px-3">Franchise</p></RouterLink
             >
           </li>
           <li class="px-4 py-2 rounded-sm">
             <RouterLink
-              to="/contact"
+              to="/contactus"
               active-class="active border bg-yellow-main-2"
               class="block rounded-sm hover:bg-yellow-main-2 md:border-0 md:p-0"
-              ><p class="p-10 py-2 px-3">Cari Kami</p></RouterLink
+              ><p class="p-10 py-2 px-3">Contact Us</p></RouterLink
             >
           </li>
         </ul>
@@ -120,18 +120,18 @@ const openNavbar = ref(false)
           </li>
           <li>
             <RouterLink
-              to="/mitra"
+              to="/franchise"
               @click="openNavbar = false"
               class="text-black-main-1 hover:text-white"
-              >Kemitraan</RouterLink
+              >Franchise</RouterLink
             >
           </li>
           <li>
             <RouterLink
-              to="/contact"
+              to="/contactus"
               @click="openNavbar = false"
               class="text-black-main-1 hover:text-white"
-              >Cari Kami</RouterLink
+              >Contact Us</RouterLink
             >
           </li>
         </ul>

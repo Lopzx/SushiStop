@@ -209,6 +209,8 @@ const pesan = ref('')
 
 emailjs.init({ publicKey: 'nMbT1rYxofp1KmPdN' })
 
+let sendingEmail = false
+
 function sendMail() {
   const templateParams = {
     nama: firstName.value + ' ' + lastName.value,
@@ -231,14 +233,26 @@ function sendMail() {
     return
   }
 
-  emailjs.send('service_kqv7d61', 'template_585ldz3', templateParams).then(
-    () => {
-      push.success('Email berhasil dikirim')
-    },
-    () => {
-      push.error('Email gagal dikirim')
-    },
-  )
+  if (sendingEmail === false) {
+    sendingEmail = true
+    push.info('Memproses pengiriman email')
+    emailjs.send('service_kqv7d61', 'template_585ldz3', templateParams).then(
+      () => {
+        push.success('Email berhasil dikirim')
+        sendingEmail = false
+        firstName.value = ''
+        lastName.value = ''
+        whatsapp.value = ''
+        email1.value = ''
+        subject.value = ''
+        pesan.value = ''
+      },
+      () => {
+        push.error('Email gagal dikirim')
+        sendingEmail = false
+      },
+    )
+  }
 }
 </script>
 

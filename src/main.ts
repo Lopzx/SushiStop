@@ -20,8 +20,8 @@ const routes = [
   { path: '/', component: Main },
   { path: '/home', component: Main },
   { path: '/menu', component: Menu },
-  { path: '/mitra', component: Kemitraan },
-  { path: '/contact', component: ContactUs },
+  { path: '/franchise', component: Kemitraan },
+  { path: '/contactus', component: ContactUs },
 ]
 
 const router = createRouter({

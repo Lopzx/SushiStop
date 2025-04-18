@@ -6,9 +6,9 @@ import VLazyImage from 'v-lazy-image'
 onMounted(() => {
   banner.value = [
     '/image/carouselimage/1.webp',
+    '/image/carouselimage/4.webp',
     '/image/carouselimage/2.webp',
     '/image/carouselimage/3.webp',
-    '/image/carouselimage/4.webp',
   ]
 })
 

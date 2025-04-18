@@ -12,7 +12,7 @@ const targetTempat = ref('');
 
 
 emailjs.init({ publicKey: 'nMbT1rYxofp1KmPdN' })
-
+let sendingEmail = false;
 
 function sendMail() {
   const templateParams = {
@@ -22,22 +22,30 @@ function sendMail() {
                   location: targetTempat.value
                 };
 
-
-            if (           name.value == ''
-            ||           whatsapp.value == ''
-            ||              email1.value == ''
-            ||              targetTempat.value == '') {
+  if (           name.value == ''
+  ||           whatsapp.value == ''
+  ||              email1.value == ''
+  ||              targetTempat.value == '') {
     push.error('Mohon isi semua data sebelum menekan kirim')
     return
   }
+  if(sendingEmail === false) {
+    sendingEmail = true;
+    push.info('Memproses pengiriman email')
     emailjs.send('service_kqv7d61', 'template_hylf8kv', templateParams).then(
       () => {
       push.success('Email berhasil dikirim')
+      sendingEmail = false;
+      name.value = ''
+      whatsapp.value = ''
+      email1.value = ''
+      targetTempat.value = ''
     },
     () => {
       push.error('Email gagal dikirim')
-    }
-    );
+      sendingEmail = false;
+    });
+  }
 }
 
 </script>
@@ -48,7 +56,7 @@ function sendMail() {
       <NotificationProgress :item="item" />
     </Notification>
   </Notivue>
-  <body class="bg-yellow-main-2">
+  <body class="bg-yellow-main-2 overflow-hidden">
     <!-- Header Section -->
     <header class=" overflow-hidden flex justify-center items-center bg-yellow-main-3">
       <div class="w-full  bg-header py-20 lg:px-20 px-5 relative">
@@ -71,13 +79,23 @@ function sendMail() {
             <p class="text-md lg:text-3xl w-100 lg:w-200">Yuk jadi Sushi Preneur tanpa harus memikirkan branding marketing, dan operasional yang ribet!</p>
           </p>
         </h1>
-        <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+        <div class="flex flex-col gap-4">
+          <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
           <a href="#Daftar">
             <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-40 font-bold text-center white-outline-box rounded-lg">
               Daftar
             </div>
-
           </a>
+         </div>
+          <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+            <a href="https://api.whatsapp.com/send/?phone=6281210003496&text=Hi+Minshi%21&type=phone_number&app_absent=0">
+              <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-25 justify-center lg:justify-start font-bold text-center white-outline-box rounded-lg flex items-center gap-2 lg:gap-4">
+                <img class="w-6 lg:w-12" src="/image/icons/Whatsapp1.webp" alt="">
+
+                <span>Whatsapp</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
       </div>
