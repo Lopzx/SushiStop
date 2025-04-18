@@ -200,15 +200,6 @@ const selectedLocation = ref({
 
 const Maps = useTemplateRef('Maps')
 
-// const observer = new IntersectionObserver((entries) => {
-//   console.log(entries)
-// })
-// onMounted(() => {
-//   viewMap.value = document.querySelector('[aria-label="View larger map"]')
-//   observer.observe(viewMap.value.href)
-//   console.log(viewMap.value)
-// })
-
 const firstName = ref('')
 const lastName = ref('')
 const whatsapp = ref('')
@@ -293,7 +284,7 @@ function sendMail() {
                 </svg>
 
                 <span class="mx-2 text-[10px] lg:text-sm text-black-main-1">
-                  0812 - 1000 - 1396
+                  0812 - 1000 - 3496
                 </span>
               </p>
 
