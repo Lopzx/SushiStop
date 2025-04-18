@@ -15,7 +15,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/image/icons/Facebook.webp" alt="Facebook Icon" class="w-4" />
+              <img src="/image/icons/Facebook.webp" alt="Sushi Stop Facebook Icon" class="w-4" />
             </a>
           </i>
           <i class="fab fa-instagram">
@@ -26,7 +26,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/image/icons/Instagram.webp" alt="Instagram Icon" class="w-4" />
+              <img src="/image/icons/Instagram.webp" alt="Sushi Stop Instagram Icon" class="w-4" />
             </a>
           </i>
           <i class="fab fa-tiktok">
@@ -37,7 +37,7 @@
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/image/icons/Tiktok.webp" alt="TikTok Icon" class="w-4" />
+              <img src="/image/icons/Tiktok.webp" alt="Sushi Stop TikTok Icon" class="w-4" />
             </a>
           </i>
         </div>

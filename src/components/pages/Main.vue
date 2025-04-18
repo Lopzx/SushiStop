@@ -66,7 +66,12 @@ const responsiveOptions = ref([
           class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-start pt-5 lg:pt-15"
         >
           <div class="flex flex-col flex-1 items-center gap-4">
-            <VLazyImage class="h-80" loading="lazy" src="/image/journeyimage/1.webp" alt="" />
+            <VLazyImage
+              class="h-80"
+              loading="lazy"
+              src="/image/journeyimage/1.webp"
+              alt="Sushi Stop Journey Image 1 "
+            />
             <p class="text-center text-lg">
               <b>Sushi Stop pertama kali didirikan pada tahun 2020.</b> Dengan visi menjadi Brand
               nomor satu Sushi affordable di Indonesia
@@ -76,10 +81,14 @@ const responsiveOptions = ref([
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             loading="lazy"
             src="/image/kemitraan/arrow1.webp"
-            alt=""
           />
           <div class="flex flex-col flex-1 items-center gap-4">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/2.webp" alt="" />
+            <VLazyImage
+              loading="lazy"
+              class="h-80"
+              src="/image/journeyimage/2.webp"
+              alt="Sushi Stop Journey Image 2"
+            />
             <p class="text-center text-lg">
               Pada tahun 2021 , Sushi Stop melakukan
               <b>ekspansi melalui pembukaan outlet/booth</b> di berbagai lokasi
@@ -88,10 +97,14 @@ const responsiveOptions = ref([
           <VLazyImage
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             src="/image/kemitraan/arrow1.webp"
-            alt=""
           />
           <div class="flex flex-col flex-1 items-center gap-4">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/3.webp" alt="" />
+            <VLazyImage
+              loading="lazy"
+              class="h-80"
+              src="/image/journeyimage/3.webp"
+              alt="Sushi Stop Journey Image 3"
+            />
             <p class="text-center text-lg">
               Pada tahun 2022 , Sushi Stop <b>membuka resto dine in pertama</b> di Greenville
             </p>
@@ -103,7 +116,6 @@ const responsiveOptions = ref([
           loading="lazy"
           class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
           src="/image/kemitraan/arrow1.webp"
-          alt=""
         />
       </div>
       <section class="py-12 px-4 w-full md:px-16 text-red-main-1">
@@ -111,7 +123,12 @@ const responsiveOptions = ref([
           class="flex w-full gap-10 flex-col lg:flex-row items-center lg:items-start justify-between lg:pt-15"
         >
           <div class="flex flex-col items-center gap-4 flex-1">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/4.webp" alt="" />
+            <VLazyImage
+              loading="lazy"
+              class="h-80"
+              src="/image/journeyimage/4.webp"
+              alt="Sushi Stop Journey Image 4"
+            />
             <p class="text-center text-lg">
               Pada tahun 2023 , Sushi Stop melakukan rebranding perubahan logo dan
               <b>berkembang hingga 25 outlet di Jabodetabek</b>
@@ -121,10 +138,14 @@ const responsiveOptions = ref([
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             src="/image/kemitraan/arrow1.webp"
-            alt=""
           />
           <div class="flex flex-col items-center gap-4 flex-1">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/5.webp" alt="" />
+            <VLazyImage
+              loading="lazy"
+              class="h-80"
+              src="/image/journeyimage/5.webp"
+              alt="Sushi Stop Journey Image 5"
+            />
             <p class="text-center text-lg">
               Pada tahun 2024 , Sushi Stop membuka
               <b
@@ -137,10 +158,14 @@ const responsiveOptions = ref([
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             src="/image/kemitraan/arrow1.webp"
-            alt=""
           />
           <div class="flex flex-col items-center gap-4 flex-1">
-            <VLazyImage loading="lazy" class="h-80" src="/image/journeyimage/6.webp" alt="" />
+            <VLazyImage
+              loading="lazy"
+              class="h-80"
+              src="/image/journeyimage/6.webp"
+              alt="Sushi Stop Journey Image 6"
+            />
             <p class="text-center text-lg">
               Hingga tahun 2025 , Sushi Stop <b>membuka peluang kemitraan</b>
             </p>
@@ -154,7 +179,12 @@ const responsiveOptions = ref([
           <div
             class="bg-petals4 absolute top-6 -right-5 h-40 lg:h-50 w-30 rotate-94 lg:h-70 p-0"
           ></div>
-          <VLazyImage loading="lazy" class="w-30" src="/image/icons/mascots/mascot7.webp" alt="" />
+          <VLazyImage
+            loading="lazy"
+            class="w-30"
+            src="/image/icons/mascots/mascot7.webp"
+            alt="Sushi Stop Mascot"
+          />
           <p class="md:w-100 lg:w-200 z-100">
             Dengan pengalaman lebih dari 5 tahun, sekarang Sushi Stop memiliki +- 30 Gerai Self
             Owned!
@@ -190,7 +220,11 @@ const responsiveOptions = ref([
               <button
                 class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
               >
-                <img class="w-20 rounded" src="/image/icons/shopeefood.webp" alt="" />
+                <img
+                  class="w-20 rounded"
+                  src="/image/icons/shopeefood.webp"
+                  alt="Sushi Stop Shopee Food Logo"
+                />
                 <div class="text-xl md:text-3xl text-red-main-1">Shopee Food</div>
               </button>
             </a>
@@ -201,7 +235,11 @@ const responsiveOptions = ref([
               <button
                 class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
               >
-                <img class="w-20 rounded" src="/image/icons/grabfood.webp" alt="" />
+                <img
+                  class="w-20 rounded"
+                  src="/image/icons/grabfood.webp"
+                  alt="Sushi Stop Grab Food Logo"
+                />
                 <div class="text-xl md:text-3xl text-red-main-1">Grab Food</div>
               </button>
             </a>
@@ -212,7 +250,7 @@ const responsiveOptions = ref([
               <button
                 class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
               >
-                <img class="w-20 rounded" src="/image/icons/gofood.webp" alt="" />
+                <img class="w-20 rounded" src="/image/icons/gofood.webp" alt="Sushi Stop Go Food" />
                 <div class="text-xl md:text-3xl text-red-main-1">Go Food</div>
               </button>
             </a>

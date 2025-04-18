@@ -22,7 +22,6 @@ onMounted(() => {
     <img
       src="/image/kemitraan/sakura1.webp"
       class="z-0 absolute top-30 lg:-top-60 md:top-0 right-0 h-50 md:h-100 lg:h-150"
-      alt=""
     />
 
     <div class="bg-petals4 absolute bottom-20 right-0 h-50 w-20 p-0"></div>
@@ -64,6 +63,7 @@ onMounted(() => {
         class="w-full lg:w-1/2"
         loading="lazy"
         :src="image"
+        alt="Sushi Stop Menu"
       />
     </div>
   </div>

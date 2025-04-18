@@ -60,12 +60,7 @@ const responsiveOptions = ref([
       <template #item="slotProps">
         <div class="carousel w-full h-full">
           <div class="carousel-item w-full">
-            <img
-              :src="slotProps.data"
-              loading="lazy"
-              class="w-full h-full"
-              alt="Tailwind CSS Carousel component"
-            />
+            <img :src="slotProps.data" loading="lazy" class="w-full h-full" alt="Banner Image" />
           </div>
         </div>
       </template>
