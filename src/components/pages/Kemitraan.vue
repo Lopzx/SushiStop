@@ -197,7 +197,7 @@ function sendMail() {
           <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
             <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
-            <p>⁠lululahfah</p>
+            <p>Lulalahfah</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“Asik makan sushiStop!”</div>
 
