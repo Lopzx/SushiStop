@@ -51,8 +51,9 @@ const responsiveOptions = ref([
 <template>
   <WhatsappCTA class="z-100" />
   <CarouselBanner />
-  <section class="bg-yellow-main-3 relative py-2 lg:py-20">
-    <div class="bg-petals2 absolute top-0 left-0 h-100 w-full p-0"></div>
+  <section class="bg-yellow-main-3 relative py-2 lg:py-20 relative overflow-hidden">
+    <div class="bg-petals4 absolute top-6 left-3 h-40 lg:h-50 w-20 lg:w-50 lg:h-70 p-0"></div>
+    <div class="bg-petals4 absolute top-6 -right-5 h-40 lg:h-50 w-40 rotate-190 lg:h-70 p-0"></div>
 
     <div class="flex flex-col">
       <section class="py-12 px-4 w-full md:px-16 text-red-main-1">
@@ -149,9 +150,12 @@ const responsiveOptions = ref([
         <h3
           class="text-2xl lg:text-2xl font-bold text-center mb-8 bg-center bg-pos-1 flex justify-center pt-40 items-center flex-col relative"
         >
-          <div class="bg-petals2 absolute bottom-0 left-0 h-75 w-full"></div>
+          <div class="bg-petals4 absolute top-6 left-3 h-40 lg:h-50 w-20 lg:w-50 lg:h-70 p-0"></div>
+          <div
+            class="bg-petals4 absolute top-6 -right-5 h-40 lg:h-50 w-30 rotate-94 lg:h-70 p-0"
+          ></div>
           <VLazyImage loading="lazy" class="w-30" src="/image/icons/mascots/mascot7.webp" alt="" />
-          <p class="md:w-100 lg:w-200">
+          <p class="md:w-100 lg:w-200 z-100">
             Dengan pengalaman lebih dari 5 tahun, sekarang Sushi Stop memiliki +- 30 Gerai Self
             Owned!
           </p>
