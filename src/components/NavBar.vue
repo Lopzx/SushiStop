@@ -10,7 +10,11 @@ const openNavbar = ref(false)
       class="xl:gap-20 flex flex-wrap items-center justify-between px-10 xl:px-40 py-3 lg:py-6 w-full"
     >
       <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="/image/icons/Logo.webp" class="h-10 lg:h-16" alt="Sushi Stop Logo" />
+        <img
+          src="https://ik.imagekit.io/9q7ec421nq/icons/Logo.webp"
+          class="h-10 lg:h-16"
+          alt="Sushi Stop Logo"
+        />
       </a>
       <button
         @click="openNavbar = !openNavbar"

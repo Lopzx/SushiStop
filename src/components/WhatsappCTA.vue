@@ -6,7 +6,11 @@
     href="https://api.whatsapp.com/send/?phone=6281210003496&text=Hi+Minshi%21&type=phone_number&app_absent=0"
   >
     <div class="bg-yellow-main-1 rounded-full">
-      <img class="w-10 md:w-15" src="/image/icons/Whatsapp.webp" alt="Sushi Stop Whatsapp Icon" />
+      <img
+        class="w-10 md:w-15"
+        src="https://ik.imagekit.io/9q7ec421nq/icons/Whatsapp.webp"
+        alt="Sushi Stop Whatsapp Icon"
+      />
     </div>
   </a>
 </template>

@@ -12,9 +12,10 @@ const carouselRef = ref()
 onMounted(() => {
   const jumlahGambar = 10 // Update this to the actual number of images
   image.value = []
-  const imagePath = '/image/menuimage/'
+  // const imagePath = 'https://ik.imagekit.io/9q7ec421nq/menuimage/'
+  const imagePath = 'https://ik.imagekit.io/9q7ec421nq/menuimage/'
   for (let idx = 1; idx <= jumlahGambar; idx++) {
-    const imgPath = `${imagePath}${idx}.webp` // Ensure the file extension matches
+    const imgPath = `${imagePath}${idx}.jpg` // Ensure the file extension matches
     image.value.push(imgPath)
   }
 })
@@ -69,7 +70,7 @@ const responsiveOptions = ref([
             <VLazyImage
               class="h-80"
               loading="lazy"
-              src="/image/journeyimage/1.webp"
+              src="https://ik.imagekit.io/9q7ec421nq/journeyimage/1.webp"
               alt="Sushi Stop Journey Image 1 "
             />
             <p class="text-center text-lg">
@@ -80,13 +81,13 @@ const responsiveOptions = ref([
           <VLazyImage
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
             loading="lazy"
-            src="/image/kemitraan/arrow1.webp"
+            src="https://ik.imagekit.io/9q7ec421nq/kemitraan/arrow1.webp"
           />
           <div class="flex flex-col flex-1 items-center gap-4">
             <VLazyImage
               loading="lazy"
               class="h-80"
-              src="/image/journeyimage/2.webp"
+              src="https://ik.imagekit.io/9q7ec421nq/journeyimage/2.webp"
               alt="Sushi Stop Journey Image 2"
             />
             <p class="text-center text-lg">
@@ -96,13 +97,13 @@ const responsiveOptions = ref([
           </div>
           <VLazyImage
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-            src="/image/kemitraan/arrow1.webp"
+            src="https://ik.imagekit.io/9q7ec421nq/kemitraan/arrow1.webp"
           />
           <div class="flex flex-col flex-1 items-center gap-4">
             <VLazyImage
               loading="lazy"
               class="h-80"
-              src="/image/journeyimage/3.webp"
+              src="https://ik.imagekit.io/9q7ec421nq/journeyimage/3.webp"
               alt="Sushi Stop Journey Image 3"
             />
             <p class="text-center text-lg">
@@ -115,7 +116,7 @@ const responsiveOptions = ref([
         <VLazyImage
           loading="lazy"
           class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-          src="/image/kemitraan/arrow1.webp"
+          src="https://ik.imagekit.io/9q7ec421nq/kemitraan/arrow1.webp"
         />
       </div>
       <section class="py-12 px-4 w-full md:px-16 text-red-main-1">
@@ -126,7 +127,7 @@ const responsiveOptions = ref([
             <VLazyImage
               loading="lazy"
               class="h-80"
-              src="/image/journeyimage/4.webp"
+              src="https://ik.imagekit.io/9q7ec421nq/journeyimage/4.webp"
               alt="Sushi Stop Journey Image 4"
             />
             <p class="text-center text-lg">
@@ -137,13 +138,13 @@ const responsiveOptions = ref([
           <VLazyImage
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-            src="/image/kemitraan/arrow1.webp"
+            src="https://ik.imagekit.io/9q7ec421nq/kemitraan/arrow1.webp"
           />
           <div class="flex flex-col items-center gap-4 flex-1">
             <VLazyImage
               loading="lazy"
               class="h-80"
-              src="/image/journeyimage/5.webp"
+              src="https://ik.imagekit.io/9q7ec421nq/journeyimage/5.webp"
               alt="Sushi Stop Journey Image 5"
             />
             <p class="text-center text-lg">
@@ -157,13 +158,13 @@ const responsiveOptions = ref([
           <VLazyImage
             loading="lazy"
             class="w-20 h-10 rotate-90 lg:rotate-0 self-center"
-            src="/image/kemitraan/arrow1.webp"
+            src="https://ik.imagekit.io/9q7ec421nq/kemitraan/arrow1.webp"
           />
           <div class="flex flex-col items-center gap-4 flex-1">
             <VLazyImage
               loading="lazy"
               class="h-80"
-              src="/image/journeyimage/6.webp"
+              src="https://ik.imagekit.io/9q7ec421nq/journeyimage/6.webp"
               alt="Sushi Stop Journey Image 6"
             />
             <p class="text-center text-lg">
@@ -182,7 +183,7 @@ const responsiveOptions = ref([
           <VLazyImage
             loading="lazy"
             class="w-30"
-            src="/image/icons/mascots/mascot7.webp"
+            src="https://ik.imagekit.io/9q7ec421nq/icons/mascots/mascot7.webp"
             alt="Sushi Stop Mascot"
           />
           <p class="md:w-100 lg:w-200 z-100">
@@ -222,7 +223,7 @@ const responsiveOptions = ref([
               >
                 <img
                   class="w-20 rounded"
-                  src="/image/icons/shopeefood.webp"
+                  src="https://ik.imagekit.io/9q7ec421nq/icons/shopeefood.webp"
                   alt="Sushi Stop Shopee Food Logo"
                 />
                 <div class="text-xl md:text-3xl text-red-main-1">Shopee Food</div>
@@ -237,7 +238,7 @@ const responsiveOptions = ref([
               >
                 <img
                   class="w-20 rounded"
-                  src="/image/icons/grabfood.webp"
+                  src="https://ik.imagekit.io/9q7ec421nq/icons/grabfood.webp"
                   alt="Sushi Stop Grab Food Logo"
                 />
                 <div class="text-xl md:text-3xl text-red-main-1">Grab Food</div>
@@ -250,7 +251,11 @@ const responsiveOptions = ref([
               <button
                 class="bg-yellow-main-1 flex gap-5 md:gap-10 items-center w-full lg:gap-5 lg:justify-center lg:justify-between text-white font-bold p-4 border-b-4 border-yellow-main-2 hover:border-red-main-1 rounded"
               >
-                <img class="w-20 rounded" src="/image/icons/gofood.webp" alt="Sushi Stop Go Food" />
+                <img
+                  class="w-20 rounded"
+                  src="https://ik.imagekit.io/9q7ec421nq/icons/gofood.webp"
+                  alt="Sushi Stop Go Food"
+                />
                 <div class="text-xl md:text-3xl text-red-main-1">Go Food</div>
               </button>
             </a>
@@ -271,13 +276,13 @@ button.btn {
 }
 
 .bg-sparkle {
-  background-image: url('/image/kemitraan/sparkle.webp');
+  background-image: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp');
   background-repeat: repeat;
   background-size: contain;
 }
 
 .bg-sparkle-no-repeat {
-  background-image: url('/image/kemitraan/sparkle.webp');
+  background-image: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp');
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -291,13 +296,13 @@ button.btn {
 }
 
 .bg-platter {
-  background-image: url('/image/kemitraan/platter5.webp');
+  background-image: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/platter5.webp');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .bg-sakuratree {
-  background: url('/image/kemitraan/sakura1.webp') no-repeat;
+  background: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sakura1.webp') no-repeat;
   background-size: cover;
 }
 
@@ -314,7 +319,7 @@ button.btn {
 }
 
 .bg-outlet {
-  background: url('/image/kemitraan/place1.webp');
+  background: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/place1.webp');
   background-color: var(--bg-yellow-main-3);
   background-size: contain;
   background-repeat: no-repeat;

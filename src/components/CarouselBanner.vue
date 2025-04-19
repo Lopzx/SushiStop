@@ -5,10 +5,10 @@ import VLazyImage from 'v-lazy-image'
 
 onMounted(() => {
   banner.value = [
-    '/image/carouselimage/1.webp',
-    '/image/carouselimage/4.webp',
-    '/image/carouselimage/2.webp',
-    '/image/carouselimage/3.webp',
+    'https://ik.imagekit.io/9q7ec421nq/carouselimage/1.webp',
+    'https://ik.imagekit.io/9q7ec421nq/carouselimage/4.webp',
+    'https://ik.imagekit.io/9q7ec421nq/carouselimage/2.webp',
+    'https://ik.imagekit.io/9q7ec421nq/carouselimage/3.webp',
   ]
 })
 

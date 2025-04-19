@@ -60,20 +60,20 @@ function sendMail() {
     <!-- Header Section -->
     <header class=" overflow-hidden flex justify-center items-center bg-yellow-main-3">
       <div class="w-full  bg-header py-20 lg:px-20 px-5 relative">
-        <VLazyImage src="/image/kemitraan/sakura1.webp" class="z-0 absolute top-0 right-0 h-50 md:h-100 lg:h-150" alt=""/>
-        <VLazyImage src="/image/kemitraan/platter1.webp" class="z-0 absolute bottom-0 lg:-bottom-1/5 -right-25 h-50 md:h-75 lg:h-150" alt="" />
+        <VLazyImage src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sakura1.webp" class="z-0 absolute top-0 right-0 h-50 md:h-100 lg:h-150" alt=""/>
+        <VLazyImage src="https://ik.imagekit.io/9q7ec421nq/kemitraan/platter1.webp" class="z-0 absolute bottom-0 lg:-bottom-1/5 -right-25 h-50 md:h-75 lg:h-150" alt="" />
       <div class="flex flex-col gap-10 text-red-main-1 z-2">
-        <!-- <VLazyImage class="w-50 z-2" src="/image/icons/Logo.webp" alt=""/ /> -->
+        <!-- <VLazyImage class="w-50 z-2" src="https://ik.imagekit.io/9q7ec421nq/icons/Logo.webp" alt=""/ /> -->
         <h1 class="font-bold white-outline flex flex-col gap-2 lg:gap-5 z-2">
           <p class="text-3xl lg:text-8xl w-fit">Raih Keuntungan</p>
           <p class="text-3xl lg:text-8xl w-fit relative">
             <span class="z-1">PuIuhan Hingga</span>
-            <VLazyImage class="w-10 lg:w-20 absolute -bottom-3/4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
-            <VLazyImage class="w-10 lg:w-20 absolute left-3/7 top-0 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -bottom-3/4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute left-3/7 top-0 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
           </p>
           <p class="text-3xl lg:text-8xl w-fit relative">
             Ratusan Juta/Bulan
-            <VLazyImage class="w-10 lg:w-20 absolute left-1/1 top-0 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute left-1/1 top-0 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
           </p>
           <p>
             <p class="text-md lg:text-3xl w-100 lg:w-200">Yuk jadi Sushi Preneur tanpa harus memikirkan branding marketing, dan operasional yang ribet!</p>
@@ -90,7 +90,7 @@ function sendMail() {
           <div class="card w-full bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
             <a href="https://api.whatsapp.com/send/?phone=6281210003496&text=Hi+Minshi%21&type=phone_number&app_absent=0">
               <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-25 justify-center lg:justify-start font-bold text-center white-outline-box rounded-lg flex items-center gap-2 lg:gap-4">
-                <img class="w-6 lg:w-12" src="/image/icons/Whatsapp1.webp" alt="">
+                <img class="w-6 lg:w-12" src="https://ik.imagekit.io/9q7ec421nq/icons/Whatsapp1.webp" alt="">
                 <span>Whatsapp</span>
               </div>
             </a>
@@ -107,12 +107,12 @@ function sendMail() {
         <h3 class="text-md lg:text-4xl text-center pt-4">Kalian tidak <b>perlu lagi khawatir</b> lagi tentang...</h3>
         <div class="flex flex-col md:flex-row gap-5 items-center justify-center pt-15">
           <div class="self-end">
-            <VLazyImage src="/image/kemitraan/chef.webp" alt="Chef Preparing Sushi" class="w-200 z-0" />
+            <VLazyImage src="https://ik.imagekit.io/9q7ec421nq/kemitraan/chef.webp" alt="Chef Preparing Sushi" class="w-200 z-0" />
           </div>
           <div class="pb-10 xl:pb-0 order-first md:order-last">
             <div class=" md:w-70 lg:w-125 xl:w-150 bg-white rounded-lg p-10 relative">
               <div class="left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 absolute z-0">
-                <VLazyImage src="/image/kemitraan/mascotandbulb.webp" alt="Chef Preparing Sushi" class="w-40 z-0" />
+                <VLazyImage src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascotandbulb.webp" alt="Chef Preparing Sushi" class="w-40 z-0" />
               </div>
               <ul class="flex flex-col gap-2 lg:gap-5 pt-5 z-3 md:text-xs lg:text-xl">
                 <li class="flex items-start gap-4">
@@ -151,7 +151,7 @@ function sendMail() {
       <div class="container flex justify-center items-center mx-auto bg-petals3">
         <div class="flex gap-1 flex-col lg:flex-row items-center justify-center">
           <div class="bg-yellow-main-3 p-6 rounded-lg">
-            <VLazyImage src="/image/kemitraan/trophy.webp" alt="Support Icon" class="w-60 lg:w-125" />
+            <VLazyImage src="https://ik.imagekit.io/9q7ec421nq/kemitraan/trophy.webp" alt="Support Icon" class="w-60 lg:w-125" />
           </div>
           <div class="p-6 rounded-lg text-red-main-1 flex flex-col gap-5 items-end">
               <div class="card w-full lg:w-auto bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
@@ -184,9 +184,9 @@ function sendMail() {
       <div class="flex-col flex gap-5 lg:justify-between items-center ">
         <div class="w-full lg:pr-10 flex justify-center lg:justify-end">
           <div class="bg-white w-3/4 lg:w-150 mr-10 p-5 px-10 rounded-4xl relative flex flex-col gap-2 ">
-          <VLazyImage class="w-10 lg:w-20 absolute left-3/4 -bottom-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute left-3/4 -bottom-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center items-center text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="https://ik.imagekit.io/9q7ec421nq/icons/instagram2.webp" alt=""/>
             <p>NANAKOOT</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">"Tempatnya cozzy, ada dekorasi Jepang bisa buat foto-foto, varian sushinya bervarian dan cocok di lidah kita! Dengan harga yang affordable, rasanya enak dan berkualitas, ini sih WORTH BANGET!"</div>
@@ -197,9 +197,9 @@ function sendMail() {
         </div>
       <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-5 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-5 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="https://ik.imagekit.io/9q7ec421nq/icons/instagram2.webp" alt=""/>
             <p>KULINERSAMACICI</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">"Korean Daebak Combo Roll ini adalah kesukaan aku dan suami. Rasanya juga enak-enak semua!"</div>
@@ -208,16 +208,16 @@ function sendMail() {
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
         </svg>
         </div>
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/platter3.webp" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/platter3.webp" alt=""/>
       </div>
 
       <div class="flex items-center lg:gap-15 justify-center w-full">
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot1.webp" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot1.webp" alt=""/>
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
-          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="https://ik.imagekit.io/9q7ec421nq/icons/instagram2.webp" alt=""/>
             <p>Lulalahfah</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“Asik makan sushiStop!”</div>
@@ -231,7 +231,7 @@ function sendMail() {
       <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="https://ik.imagekit.io/9q7ec421nq/icons/instagram2.webp" alt=""/>
             <p>foodierectory</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“sushinya sih udah enak, affordable pula!”</div>
@@ -240,18 +240,18 @@ function sendMail() {
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
         </svg>
         </div>
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot3.webp" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot3.webp" alt=""/>
       </div>
 
 
 
       <div class="flex items-center lg:gap-15 justify-center w-full">
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/platter2.webp" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/platter2.webp" alt=""/>
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
-          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="https://ik.imagekit.io/9q7ec421nq/icons/instagram2.webp" alt=""/>
             <p>heyitsmomochan</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“Nemuin Sushi yang enak bngt tapi harganya terjangkau cuma di Sushi Stop!”</div>
@@ -265,7 +265,7 @@ function sendMail() {
       <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="https://ik.imagekit.io/9q7ec421nq/icons/instagram2.webp" alt=""/>
             <p>Kulinersamaagam</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">"Pas aku cobain wah enak banget walapun harga murah tapi rasanya berkelas gitu. Favorite aku yang Chicken Katsu dan Salmon Roll."</div>
@@ -274,15 +274,15 @@ function sendMail() {
           <path d="M30.6363 0C30.6363 0 85 61 78.5 53.5C72 46 0 74 0 74C0 74 16.2852 63.4841 23 53.5C34.778 35.9874 30.6363 0 30.6363 0Z" fill="white"/>
         </svg>
         </div>
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="/image/kemitraan/mascot2.webp" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-50 hidden md:block" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot2.webp" alt=""/>
       </div>
       <div class="flex items-center lg:gap-15 justify-center w-full">
-        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="/image/kemitraan/mascot4.webp" alt=""/>
+        <VLazyImage class="w-25 md:w-25 lg:w-auto lg:h-30 hidden md:block" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot4.webp" alt=""/>
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
-          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
-          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
+          <VLazyImage class="w-10 lg:w-20 absolute -right-1/30 -bottom-20 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center  items-center text-sm lg:text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
-            <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
+            <VLazyImage class="w-4 lg:w-8" src="https://ik.imagekit.io/9q7ec421nq/icons/instagram2.webp" alt=""/>
             <p>Hendry.jonathan</p>
           </div>
           <div class="z-4 text-[10px] lg:text-2xl text-center">“Favorite aku yang Unagi! Tempatnya juga estetik banget bisa buat foto.”
@@ -303,10 +303,10 @@ function sendMail() {
         <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
              <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Vision</h3>
-             <VLazyImage class="w-20" src="/image/kemitraan/mascot2.webp" alt=""/>
+             <VLazyImage class="w-20" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot2.webp" alt=""/>
             </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg relative">
-            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
             <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
               Menjadi restoran sushi terdepan yang memberikan pengalaman kuliner Jepang premium dengan harga terjangkau dan membawa kelezatan yang autentik ke seluruh Indonesia.
             </p>
@@ -315,10 +315,10 @@ function sendMail() {
         <div class="mb-12 flex flex-col gap-4 z-2">
            <div class="flex items-center gap-5">
              <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Purpose</h3>
-             <VLazyImage class="w-20" src="/image/kemitraan/mascot3.webp" alt=""/>
+             <VLazyImage class="w-20" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot3.webp" alt=""/>
           </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 lg:w-fit text-red-main-1 rounded-lg relative">
-            <VLazyImage class="w-10 lg:w-20 absolute -right-0 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -right-0 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
             <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
               Kami percaya bahwa kualitas dan inovasi tidak harus mahal, dan kami ingin membuka kesempatan bagi para mitra bisnis untuk bergabung dan menawarkan peluang investasi bisnis yang berpotensi memberikan income puluhan hingga ratusan juta di industri kuliner yang berkembang pesat dengan komitmen terhadap kualitas, inovasi, dan potensi pertumbuhan yang besar.
             </p>
@@ -327,10 +327,10 @@ function sendMail() {
         <div class="mb-12 flex flex-col gap-4">
            <div class="flex items-center gap-5">
              <h3 class="text-2xl lg:text-5xl font-bold text-red-main-1 text-center mb-6">Brand Promise</h3>
-             <VLazyImage class="w-20" src="/image/kemitraan/mascot4.webp" alt=""/>
+             <VLazyImage class="w-20" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot4.webp" alt=""/>
           </div>
           <div class="bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3 w-fit text-red-main-1 rounded-lg relative">
-            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+            <VLazyImage class="w-10 lg:w-20 absolute -left-20 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
             <p class="white-outline-box p-5 rounded-lg text-sm lg:text-2xl">
               Kami berkomitmen mendampingi Anda disetiap langkah perjalanan bisnis, memastikan bahwa bisnis Anda tumbuh,berkembang, dan terbuka secara transparant.
             </p>
@@ -342,14 +342,14 @@ function sendMail() {
     <section class="py-12 px-4 w-full md:px-16 bg-yellow-main-3 text-red-main-1 flex justify-center flex-col items-center relative">
       <h2 class="text-2xl lg:text-7xl font-bold text-center mb-8 relative">
         Saatnya wujudkan Impian Anda!
-        <VLazyImage class="w-10 lg:w-20 absolute -left-1/40 -top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
-        <VLazyImage class="w-10 lg:w-20 absolute -right-1/40 top-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
+        <VLazyImage class="w-10 lg:w-20 absolute -left-1/40 -top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
+        <VLazyImage class="w-10 lg:w-20 absolute -right-1/40 top-4 z-0" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp" alt=""/>
       </h2>
 
       <div class="flex items-center justify-center pt-15 gap-20 lg:gap-0 flex-col lg:flex-row">
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">
           <div class="h-40">
-            <VLazyImage class="h-40" src="/image/kemitraan/money.webp" alt=""/>
+            <VLazyImage class="h-40" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/money.webp" alt=""/>
           </div>
           <p class="px-5 font-semibold text-xl lg:px-10 text-center">Peluang Bisnis yang berpotensi memberikan anda passive income puluhan hingga ratusan juta per bulan!</p>
         </div>
@@ -357,9 +357,9 @@ function sendMail() {
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">
           <div class="h-40">
 
-            <VLazyImage class=" h-40" src="/image/kemitraan/gate.webp" alt=""/>
+            <VLazyImage class=" h-40" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/gate.webp" alt=""/>
           </div>
-          <p class="px-5 font-semibold text-xl lg:px-10 text-center">Menjalakan usaha
+          <p class="px-5 font-semibold text-xl lg:px-10 text-center">Menjalankan usaha
 dengan brand
 yang sudah dikenal luas</p>
         </div>
@@ -367,7 +367,7 @@ yang sudah dikenal luas</p>
         <div class="flex flex-col items-center gap-10 flex-1 lg:gap-4">
           <div class="h-40">
 
-            <VLazyImage class="h-40 w-50" src="/image/kemitraan/mascot1.webp" alt=""/>
+            <VLazyImage class="h-40 w-50" src="https://ik.imagekit.io/9q7ec421nq/kemitraan/mascot1.webp" alt=""/>
           </div>
           <p class="px-5 font-semibold text-xl lg:px-10 text-center">Punya bisnis kuliner hits
 tanpa harus memulai dari 0
@@ -382,11 +382,11 @@ berkembang</p>
     <section id="Daftar" class=" bg-yellow-main-2  flex flex-col lg:flex-row justify-center items-center">
       <div class=" container bg-petals3 relative w-full h-full pt-10 py-20 px-4 md:px-16">
         <div class="w-full h-full bg-petals3 left-0 top-0 rotate-180 z-0"></div>
-        <VLazyImage src="/image/kemitraan/place1.webp" class=" absolute bottom-0 -left-20 hidden lg:block md:w-1/2 order-last md:order-first" alt=""/>
+        <VLazyImage src="https://ik.imagekit.io/9q7ec421nq/kemitraan/place1.webp" class=" absolute bottom-0 -left-20 hidden lg:block md:w-1/2 order-last md:order-first" alt=""/>
         <div class="w-50 lg:w-150 lg:h-150 bg-sakuratree absolute right-0 top-0 z-0"></div>
         <div class=" lg:pl-120 flex justify-center items-center md:items-end gap-10 md:flex-row flex-col">
           <div class="w-full lg:w-auto flex flex-col gap-5 text-red-main-1 z-2 lg:py-20">
-            <VLazyImage class="w-40 lg:w-70 z-2" src="/image/icons/Logo.webp" alt=""/>
+            <VLazyImage class="w-40 lg:w-70 z-2" src="https://ik.imagekit.io/9q7ec421nq/icons/Logo.webp" alt=""/>
             <div class="wrapper flex flex-col">
               <p class="pl-5 font-bold">Nama</p>
               <div class="flex items-center bg-yellow-main-3 rounded-full px-5 py-2">
@@ -442,7 +442,7 @@ berkembang</p>
           </div>
         </div>
       </div>
-      <VLazyImage src="/image/kemitraan/place1.webp" class=" md:hidden px-4 h-70 order-last" alt=""/>
+      <VLazyImage src="https://ik.imagekit.io/9q7ec421nq/kemitraan/place1.webp" class=" md:hidden px-4 h-70 order-last" alt=""/>
     </section>
   </body>
 </template>
@@ -452,13 +452,13 @@ berkembang</p>
   }
 
   .bg-sparkle {
-    background-image: url('/image/kemitraan/sparkle.webp');
+    background-image: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp');
     background-repeat: repeat;
     background-size: contain;
   }
 
   .bg-sparkle-no-repeat {
-    background-image: url('/image/kemitraan/sparkle.webp');
+    background-image: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sparkle.webp');
     background-repeat: no-repeat;
     background-size: contain;
   }
@@ -472,24 +472,24 @@ berkembang</p>
   }
 
   .bg-platter {
-    background-image: url('/image/kemitraan/platter5.webp');
+    background-image: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/platter5.webp');
     background-repeat: no-repeat;
     background-size: contain;
   }
 
   .bg-petals2{
-    background: url('/image/kemitraan/sakura2.webp');
+    background: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sakura2.webp');
     background-color: var(--bg-yellow-main-3);
     background-size: cover;
   }
 
   .bg-petals3{
-    background: url('/image/kemitraan/sakura2.webp') no-repeat;
+    background: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sakura2.webp') no-repeat;
     background-size: cover;
   }
 
   .bg-sakuratree{
-    background: url('/image/kemitraan/sakura1.webp') no-repeat;
+    background: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/sakura1.webp') no-repeat;
     background-size: cover;
 
   }
@@ -507,7 +507,7 @@ berkembang</p>
   }
 
   .bg-outlet {
-    background: url('/image/kemitraan/place1.webp');
+    background: url('https://ik.imagekit.io/9q7ec421nq/kemitraan/place1.webp');
     background-color: var(--bg-yellow-main-3);
     background-size: contain;
     background-repeat: no-repeat;
