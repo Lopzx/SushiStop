@@ -79,19 +79,18 @@ function sendMail() {
             <p class="text-md lg:text-3xl w-100 lg:w-200">Yuk jadi Sushi Preneur tanpa harus memikirkan branding marketing, dan operasional yang ribet!</p>
           </p>
         </h1>
-        <div class="flex flex-col gap-4">
-          <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+        <div class="flex flex-col gap-4 w-full lg:w-fit">
+          <div class="card w-full bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
           <a href="#Daftar">
             <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-40 font-bold text-center white-outline-box rounded-lg">
               Daftar
             </div>
           </a>
          </div>
-          <div class="card w-full lg:w-fit bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
+          <div class="card w-full bg-linear-to-r from-yellow-main-1 to-yellow-main-3 p-3">
             <a href="https://api.whatsapp.com/send/?phone=6281210003496&text=Hi+Minshi%21&type=phone_number&app_absent=0">
               <div class="text-md lg:text-4xl white-outline py-2 lg:py-5 lg:px-25 justify-center lg:justify-start font-bold text-center white-outline-box rounded-lg flex items-center gap-2 lg:gap-4">
                 <img class="w-6 lg:w-12" src="/image/icons/Whatsapp1.webp" alt="">
-
                 <span>Whatsapp</span>
               </div>
             </a>
@@ -110,34 +109,36 @@ function sendMail() {
           <div class="self-end">
             <VLazyImage src="/image/kemitraan/chef.webp" alt="Chef Preparing Sushi" class="w-200 z-0" />
           </div>
-          <div class="order-first lg:order-last lg:w-150 bg-white rounded-lg p-10 relative">
-            <div class="left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 absolute z-0">
-              <VLazyImage src="/image/kemitraan/mascotandbulb.webp" alt="Chef Preparing Sushi" class="w-40 z-0" />
+          <div class="pb-10 xl:pb-0 order-first md:order-last">
+            <div class=" md:w-70 lg:w-125 xl:w-150 bg-white rounded-lg p-10 relative">
+              <div class="left-1/2 top-0 -translate-y-1/2 -translate-x-1/2 absolute z-0">
+                <VLazyImage src="/image/kemitraan/mascotandbulb.webp" alt="Chef Preparing Sushi" class="w-40 z-0" />
+              </div>
+              <ul class="flex flex-col gap-2 lg:gap-5 pt-5 z-3 md:text-xs lg:text-xl">
+                <li class="flex items-start gap-4">
+                  <p>
+                    •
+                  </p>
+                  <p>
+                    Ribet membuat usaha dari 0 dan mengurus operasional, karyawan, dll
+                  </p>
+                </li>
+                <li class="flex items-start gap-4">
+                  <p>
+                    •
+                  </p>
+                  <p>
+                    Bingung menciptakan produk yang
+                    autentik, bervariasi, dan tidak
+                    ketinggalan zaman.
+                  </p>
+                </li>
+                <li class="flex items-start gap-4">
+                  <p>•</p>
+                  <p>Trial error dalam membangun usaha F&B</p>
+                </li>
+              </ul>
             </div>
-            <ul class="flex flex-col gap-5 pt-5 z-3 text-xl">
-              <li class="flex items-start gap-4">
-                <p>
-                  •
-                </p>
-                <p>
-                  Ribet membuat usaha dari 0 dan mengurus operasional, karyawan, dll
-                </p>
-         </li>
-              <li class="flex items-start gap-4">
-                <p>
-                  •
-                </p>
-                <p>
-                  Bingung menciptakan produk yang
-                  autentik, bervariasi, dan tidak
-                  ketinggalan zaman.
-                </p>
-         </li>
-              <li class="flex items-start gap-4">
-                <p>•</p>
-                <p>Trial error dalam membangun usaha F&B</p>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -181,7 +182,8 @@ function sendMail() {
     <!-- Testimonials Section -->
      <section class="py-12 bg-yellow-main-2 flex justify-center items-center text-black-main-1">
       <div class="flex-col flex gap-5 lg:justify-between items-center ">
-        <div class="bg-white w-3/4 lg:w-150 p-5 px-10 rounded-4xl relative flex flex-col gap-2 lg:self-end">
+        <div class="w-full lg:pr-10 flex justify-center lg:justify-end">
+          <div class="bg-white w-3/4 lg:w-150 mr-10 p-5 px-10 rounded-4xl relative flex flex-col gap-2 ">
           <VLazyImage class="w-10 lg:w-20 absolute left-3/4 -bottom-4 z-0" src="/image/kemitraan/sparkle.webp" alt=""/>
           <div class="justify-center items-center text-2xl text-red-main-1 font-bold gap-5 instagram-wrapper flex z-5">
             <VLazyImage class="w-4 lg:w-8" src="/image/icons/instagram2.webp" alt=""/>
@@ -191,6 +193,7 @@ function sendMail() {
           <svg class="absolute -bottom-5 -right-7 w-20" viewBox="0 0 79 74" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M48.3791 0C48.3791 0 -5.95735 61 0.539388 53.5C7.03613 46 79 74 79 74C79 74 62.7229 63.4841 56.0115 53.5C44.2394 35.9874 48.3791 0 48.3791 0Z" fill="white"/>
           </svg>
+        </div>
         </div>
       <div class="flex items-center lg:gap-15 justify-center w-full">
         <div class="bg-white w-3/4 lg:w-150 h-fit p-5 px-10 rounded-4xl relative flex flex-col gap-2">
